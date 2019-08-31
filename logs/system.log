@@ -1,0 +1,96 @@
+2019-07-30 15:36:10 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(14) [8] Undefined variable: facebook
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:36:10 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(17) [8] Undefined variable: twitter
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:36:10 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(20) [8] Undefined variable: instagram
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:36:10 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(23) [8] Undefined variable: youtube
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:36:10 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\util\PHPMailer\PHPMailer.php(992) [2] trim() expects parameter 1 to be string, array given
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:37:41 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(14) [8] Undefined variable: facebook
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:37:41 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(17) [8] Undefined variable: twitter
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:37:41 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(20) [8] Undefined variable: instagram
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:37:41 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(23) [8] Undefined variable: youtube
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:37:41 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\util\PHPMailer\PHPMailer.php(992) [2] trim() expects parameter 1 to be string, array given
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:38:44 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(14) [8] Undefined variable: facebook
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:38:44 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(17) [8] Undefined variable: twitter
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:38:44 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(20) [8] Undefined variable: instagram
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:38:44 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(23) [8] Undefined variable: youtube
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:57:10 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(14) [8] Undefined variable: facebook
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:57:10 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(17) [8] Undefined variable: twitter
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:57:10 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(20) [8] Undefined variable: instagram
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 15:57:10 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(23) [8] Undefined variable: youtube
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 16:13:33 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(14) [8] Undefined variable: facebook
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 16:13:33 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(17) [8] Undefined variable: twitter
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 16:13:33 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(20) [8] Undefined variable: instagram
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 16:13:33 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\templates\email\bottom.php(23) [8] Undefined variable: youtube
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 16:26:34 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\util\PHPMailer\PHPMailer.php(992) [2] trim() expects parameter 1 to be string, array given
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 16:46:50 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\logger_init.php (10) ] [MESSAGE LOG START]
+C:\Users\Sistemas-Icarus\Proyectos\nipf\util\token\TokenHelper.php(46) [8] Undefined offset: 1
+[URL] /login/recover_password?token=3/yrf/Hhvh4ESeFNn6JXtyPy/6KxMPJK [URL]
+[MESSAGE LOG END]

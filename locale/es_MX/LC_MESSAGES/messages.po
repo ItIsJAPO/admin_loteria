@@ -1,0 +1,5329 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-30 11:43-0500\n"
+"PO-Revision-Date: 2018-06-30 14:35-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: util\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+
+#: error_pages/400.php:21 error_pages/400.php:48
+msgid "Peticion invalida"
+msgstr "Petición inválida"
+
+#: error_pages/400.php:55 error_pages/401.php:55 error_pages/403.php:55
+#: error_pages/404.php:57 error_pages/500.php:64 templates/error_view.php:44
+#: templates/error_view_login.php:27
+msgid "Regresar"
+msgstr "Regresar"
+
+#: error_pages/400.php:61 error_pages/401.php:61 error_pages/403.php:61
+#: error_pages/404.php:63 error_pages/500.php:70
+#: modulos/pagos/view/generate_payment.php:48
+#: modulos/pagos/view/payment_done.php:43
+#: modulos/pagos/view/subscription_done.php:47
+msgid "Pagina principal"
+msgstr "Página principal"
+
+#: error_pages/400.php:66 error_pages/401.php:66 error_pages/403.php:66
+#: error_pages/404.php:68 error_pages/500.php:75
+#: modulos/login/Controller.php:35 templates/email/welcome.php:13
+#: templates/email/welcome_password.php:17
+msgid "Iniciar sesion"
+msgstr "Iniciar sesión"
+
+#: error_pages/401.php:21 error_pages/401.php:48
+msgid "Acceso no autorizado"
+msgstr "Acceso no autorizado"
+
+#: error_pages/403.php:21 error_pages/403.php:48
+msgid "Acceso prohibido"
+msgstr "Acceso prohibido"
+
+#: error_pages/404.php:21 error_pages/404.php:48
+msgid "Pagina no encontrada"
+msgstr "Página no encontrada"
+
+#: error_pages/404.php:51
+msgid "La pagina a la que intenta acceder no existe o fue eliminada."
+msgstr "La pagina a la que intenta acceder no existe o fue eliminada."
+
+#: error_pages/500.php:21 plataforma/exception/IntentionalException.php:133
+msgid "Error interno"
+msgstr "Error interno"
+
+#: error_pages/500.php:48
+msgid "Error Interno"
+msgstr "Error interno"
+
+#: error_pages/500.php:56
+msgid "Error interno de Tocajazz"
+msgstr "Error interno de Tocajazz"
+
+#: error_pages/maintenance_mode.php:15 error_pages/maintenance_mode.php:37
+msgid "En mantenimiento"
+msgstr "En mantenimiento"
+
+#: error_pages/maintenance_mode.php:40
+msgid ""
+"Actualmente Tocajazz se encuentra en mantenimiento, por favor vuelva a "
+"intentar acceder mas tarde."
+msgstr ""
+"Actualmente TocaJazz se encuentra en mantenimiento, por favor vuelva a "
+"intentar acceder mas tarde."
+
+#: error_pages/maintenance_mode.php:41
+msgid "Lamentamos las molestias."
+msgstr "Lamentamos las molestias."
+
+#: modulos/bitacora/view/perform.php:4 templates/incl/side-bar.php:176
+msgid "Bitácora"
+msgstr ""
+
+#: modulos/bitacora/view/perform.php:11 modulos/ipn/view/perform.php:11
+#: modulos/payments/view/perform.php:28
+#: modulos/puntuacion_lecciones/view/perform.php:16
+msgid "Filtros de busqueda"
+msgstr "Filtros de búsqueda"
+
+#: modulos/bitacora/view/perform.php:18
+#: modulos/dashboard/view/curso/tab-welcome.php:76
+#: modulos/dashboard/view/home/principal.php:108
+#: modulos/ipn/view/perform.php:18 modulos/membresia/view/membresias.php:148
+#: modulos/puntuacion_lecciones/view/perform.php:23
+#: templates/email/agreement_failed.php:62
+#: templates/email/agreement_payment.php:62
+msgid "Fecha inicio"
+msgstr "Fecha inicio"
+
+#: modulos/bitacora/view/perform.php:28
+#: modulos/dashboard/view/curso/tab-welcome.php:86
+#: modulos/dashboard/view/home/principal.php:118
+#: modulos/ipn/view/perform.php:28 modulos/membresia/view/membresias.php:149
+#: modulos/puntuacion_lecciones/view/perform.php:33
+#: templates/email/agreement_failed.php:63
+#: templates/email/agreement_payment.php:63
+msgid "Fecha fin"
+msgstr "Fecha fin"
+
+#: modulos/bitacora/view/perform.php:39 modulos/bitacora/view/perform.php:75
+#: modulos/curso/view/perform.php:47
+#: modulos/dashboard/view/curso/tab-welcome.php:198
+#: modulos/dashboard/view/curso/tab-welcome.php:287
+#: modulos/dashboard/view/home/principal.php:182
+#: modulos/dashboard/view/leccion/leccion_user.php:200
+#: modulos/evaluaciones/view/evaluaciones.php:24
+#: modulos/evaluaciones/view/perform.php:26 modulos/ipn/view/perform.php:79
+#: modulos/leccion/view/lessons.php:62
+#: modulos/leccion/view/lessons_order.php:42
+#: modulos/leccion/view/material.php:51 modulos/medallas/view/medallas.php:1
+#: modulos/medallas/view/medallas_ordenar.php:21
+#: modulos/membresia/view/membresias.php:151
+#: modulos/membresia/view/perform.php:36 modulos/payments/view/perform.php:110
+#: modulos/puntuacion_lecciones/view/perform.php:79
+#: modulos/serie/view/series.php:49 modulos/serie/view/series_order.php:21
+#: modulos/usuario/view/administradores.php:32
+#: modulos/usuario/view/alumnos.php:27 modulos/usuario/view/instructores.php:32
+msgid "Acciones"
+msgstr "Acciones"
+
+#: modulos/bitacora/view/perform.php:41
+msgid "Todos las acciones"
+msgstr "Todos las acciones"
+
+#: modulos/bitacora/view/perform.php:57 modulos/ipn/view/perform.php:61
+#: modulos/payments/view/perform.php:89
+#: modulos/puntuacion_lecciones/view/perform.php:62
+msgid "Buscar"
+msgstr "Buscar"
+
+#: modulos/bitacora/view/perform.php:62 modulos/ipn/view/perform.php:66
+#: modulos/payments/view/perform.php:94
+#: modulos/puntuacion_lecciones/view/perform.php:67
+msgid "Resultados de busqueda"
+msgstr "Resultados de búsqueda"
+
+#: modulos/bitacora/view/perform.php:70
+#: modulos/dashboard/view/curso/tab-welcome.php:108
+#: modulos/dashboard/view/curso/tab-welcome.php:284
+#: modulos/dashboard/view/home/principal.php:140
+#: modulos/dashboard/view/home/principal.php:178
+#: modulos/ipn/view/perform.php:74
+msgid "Fecha"
+msgstr ""
+
+#: modulos/bitacora/view/perform.php:71 modulos/bitacora/view/perform.php:119
+#: modulos/dashboard/view/home/principal.php:254
+#: modulos/puntuacion_lecciones/view/before.php:1
+msgid "Usuario"
+msgstr ""
+
+#: modulos/bitacora/view/perform.php:72 modulos/bitacora/view/perform.php:126
+msgid "Acción"
+msgstr "Acción"
+
+#: modulos/bitacora/view/perform.php:74
+msgid "URL"
+msgstr ""
+
+#: modulos/bitacora/view/perform.php:95
+msgid "Par&aacute;metros"
+msgstr ""
+
+#: modulos/bitacora/view/perform.php:158 modulos/payments/view/perform.php:236
+msgid "Aceptar"
+msgstr ""
+
+#: modulos/configuration/logic/Logic.php:48
+msgid "El sistema ha entrado a modo mantenimiento correctamente"
+msgstr "El sistema ha entrado a modo mantenimiento correctamente"
+
+#: modulos/configuration/logic/Logic.php:52
+msgid "El sistema ha salido del modo mantenimiento correctamente"
+msgstr "El sistema ha salido del modo mantenimiento correctamente"
+
+#: modulos/configuration/logic/Logic.php:68
+#: modulos/configuration/logic/Logic.php:87
+#, fuzzy
+#| msgid "Informacion_actualizada_correctamente"
+msgid "Información actualizada correctamente"
+msgstr "Información actualizada correctamente"
+
+#: modulos/configuration/logic/Logic.php:70
+#: modulos/configuration/logic/Logic.php:89
+#, fuzzy
+#| msgid "Informacion_guardada_corectamente"
+msgid "Información guardada correctamente"
+msgstr "Información guardada correctamente"
+
+#: modulos/configuration/view/perform.php:25 templates/incl/side-bar.php:215
+msgid "Configuracion"
+msgstr "Configuración"
+
+#: modulos/configuration/view/perform.php:37
+msgid "Poner el sistema en modo mantenimiento"
+msgstr "Poner el sistema en modo mantenimiento"
+
+#: modulos/configuration/view/perform.php:41
+#: modulos/leccion/view/lessons.php:105 modulos/medallas/view/medallas.php:1
+#: templates/incl/scripts/default.php:124
+#: templates/incl/scripts/default.php:158
+msgid "Si"
+msgstr "Sí"
+
+#: modulos/configuration/view/perform.php:42
+#: modulos/leccion/view/lessons.php:106 modulos/medallas/view/medallas.php:1
+#: templates/incl/scripts/default.php:120
+#: templates/incl/scripts/default.php:139
+msgid "No"
+msgstr "No"
+
+#: modulos/configuration/view/perform.php:51
+msgid "Twitter compartir"
+msgstr ""
+
+#: modulos/configuration/view/perform.php:57
+msgid "Texto de compartir"
+msgstr ""
+
+#: modulos/configuration/view/perform.php:61
+#: modulos/configuration/view/perform.php:81
+msgid "Url"
+msgstr "URL"
+
+#: modulos/configuration/view/perform.php:64
+#: modulos/configuration/view/perform.php:84 modulos/curso/view/perform.php:190
+#: modulos/dashboard/view/leccion/contenido_notas.php:15
+#: modulos/dashboard/view/leccion/modal_edit_note.php:23
+#: modulos/editar_perfil/view/edit_user.php:83
+#: modulos/evaluaciones/view/calificar.php:184
+#: modulos/evaluaciones/view/evaluacion.php:117
+#: modulos/leccion/view/lessons.php:144
+#: modulos/leccion/view/lessons_order.php:53
+#: modulos/leccion/view/material.php:92 modulos/medallas/view/medallas.php:1
+#: modulos/medallas/view/medallas_ordenar.php:47
+#: modulos/medallas/view/usuarios.php:100
+#: modulos/membresia/view/membresias.php:370
+#: modulos/membresia/view/perform.php:123 modulos/serie/view/series.php:115
+#: modulos/serie/view/series_order.php:47
+#: modulos/usuario/view/administradores.php:96
+#: modulos/usuario/view/alumnos.php:94 modulos/usuario/view/instructores.php:96
+#: templates/incl/footer.php:152
+msgid "Save"
+msgstr "Guardar"
+
+#: modulos/configuration/view/perform.php:72
+msgid "Facebook compartir"
+msgstr "Compartir en Facebook"
+
+#: modulos/configuration/view/perform.php:78
+#, fuzzy
+#| msgid "Titulo"
+msgid "Título"
+msgstr "Título"
+
+#: modulos/curso/Controller.php:208
+msgid "Goteo vinculado correctamente"
+msgstr "Curso actualizado correctamente"
+
+#: modulos/curso/logic/Logic.php:150 modulos/curso/logic/Logic.php:154
+#: modulos/leccion/logic/Logic.php:146 modulos/leccion/logic/Logic.php:150
+#: modulos/medallas/logic/Logic.php:1 modulos/migration/logic/Logic.php:349
+#: modulos/migration/logic/Logic.php:353 modulos/serie/logic/Logic.php:293
+#: modulos/serie/logic/Logic.php:297 modulos/serie/logic/Logic.php:333
+#: modulos/serie/logic/Logic.php:337
+msgid "El archivo que intenta subir es invalido"
+msgstr "El archivo que intenta subir no es válido"
+
+#: modulos/curso/logic/Logic.php:165 modulos/serie/logic/Logic.php:308
+#: modulos/serie/logic/Logic.php:348
+msgid "Solo se permiten archivos con extension: .png, .jpg y .jpeg"
+msgstr "Solo se permiten archivos con extensión: .PNG, .JPG  y .JPEG"
+
+#: modulos/curso/logic/Logic.php:182
+msgid "Ha ocurrido un error al subir imagen"
+msgstr "Ha ocurrido un error al subir imagen"
+
+#: modulos/curso/logic/Logic.php:235
+#, php-format
+msgid "Ya cuenta con goteo vinculado al curso: %s"
+msgstr ""
+
+#: modulos/curso/logic/Logic.php:252
+#, php-format
+msgid "El goteo: %s del curso: %s ha sido vinculado al usuario: %s"
+msgstr "El goteo %s del curso %s ha sido vinculado al usuario %s"
+
+#: modulos/curso/logic/Logic.php:297
+msgid "El goteo ha sido desactivado correctamente"
+msgstr ""
+
+#: modulos/curso/logic/Logic.php:300
+#, php-format
+msgid "El goteo: %s del curso: %s ha sido desactivado"
+msgstr "El goteo %s del curso %s ha sido desactivado"
+
+#: modulos/curso/logic/Logic.php:315 modulos/curso/logic/Logic.php:327
+msgid ""
+"No puede activar goteo hasta configurar todas las lecciones correspondientes"
+msgstr ""
+
+#: modulos/curso/logic/Logic.php:335
+msgid "El goteo ha sido activado correctamente"
+msgstr ""
+
+#: modulos/curso/logic/Logic.php:338
+#, php-format
+msgid "El goteo: %s del curso: %s ha sido activado"
+msgstr "El goteo %s del curso %s ha sido activado"
+
+#: modulos/curso/logic/Logic.php:384
+msgid "Registro al curso deshabilitado correctamente"
+msgstr "Registro al curso deshabilitado correctamente"
+
+#: modulos/curso/logic/Logic.php:387
+#, php-format
+msgid "El registro al curso: %s ha sido deshabilitado"
+msgstr "El registro al curso: %s ha sido deshabilitado"
+
+#: modulos/curso/logic/Logic.php:401
+msgid "No puede habilitar el registro al curso porque se encuentra vacio"
+msgstr ""
+"No se puede habilitar el registro al curso porque no cuenta con lecciones"
+
+#: modulos/curso/logic/Logic.php:407
+msgid "Registro al curso habilitado correctamente"
+msgstr "Registro al curso habilitado correctamente"
+
+#: modulos/curso/logic/Logic.php:410
+#, php-format
+msgid "El registro al curso: %s ha sido habilitado"
+msgstr "El registro al curso: %s ha sido habilitado"
+
+#: modulos/curso/logic/Logic.php:445
+msgid "No se pudo establecer instructor"
+msgstr "No se pudo establecer instructor"
+
+#: modulos/curso/logic/Logic.php:469
+#, php-format
+msgid "Se ha creado el curso: %s y requiere de su validacion"
+msgstr "Se ha creado el curso: %s y requiere de su validación"
+
+#: modulos/curso/logic/Logic.php:487
+#, php-format
+msgid "Se ha creado el curso: %s y ha sido vinculado a usted"
+msgstr "Se ha creado el curso %s y ha sido vinculado a usted"
+
+#: modulos/curso/logic/Logic.php:501
+msgid "Curso guardado correctamente"
+msgstr "Curso guardado correctamente"
+
+#: modulos/curso/logic/Logic.php:517
+msgid "Curso actualizado correctamente"
+msgstr "Curso actualizado correctamente"
+
+#: modulos/curso/view/perform.php:22
+#: modulos/evaluaciones/view/evaluacion.php:32
+#: modulos/evaluaciones/view/evaluaciones.php:4
+#: modulos/leccion/view/lessons.php:12 modulos/leccion/view/lessons_order.php:8
+#: modulos/leccion/view/material.php:24 modulos/medallas/view/medallas.php:1
+#: modulos/medallas/view/medallas_ordenar.php:7
+#: modulos/medallas/view/usuarios.php:13 modulos/serie/view/series.php:24
+#: modulos/serie/view/series_order.php:7 templates/incl/side-bar.php:144
+msgid "Cursos"
+msgstr "Cursos"
+
+#: modulos/curso/view/perform.php:30 modulos/curso/view/perform.php:166
+#: modulos/curso/view/perform.php:527 modulos/curso/view/perform.php:607
+#: modulos/curso/view/perform.php:659
+#: modulos/evaluaciones/view/evaluacion.php:100
+#: modulos/evaluaciones/view/evaluaciones.php:14
+#: modulos/leccion/view/lessons.php:24 modulos/leccion/view/material.php:40
+#: modulos/membresia/view/perform.php:22 modulos/serie/view/series.php:34
+#: modulos/usuario/view/administradores.php:19
+#: modulos/usuario/view/instructores.php:19
+msgid "Add"
+msgstr "Agregar"
+
+#: modulos/curso/view/perform.php:40 modulos/curso/view/perform.php:96
+msgid "Instructor"
+msgstr ""
+
+#: modulos/curso/view/perform.php:43
+#: modulos/dashboard/view/home/principal.php:180
+#: modulos/dashboard/view/home/principal.php:253
+#: modulos/evaluaciones/view/perform.php:20
+#: modulos/membresia/view/membresias.php:76
+#: modulos/membresia/view/membresias.php:203
+#: modulos/membresia/view/perform.php:30 modulos/membresia/view/perform.php:65
+#: modulos/payments/view/perform.php:138
+#: templates/email/agreement_failed.php:32
+#: templates/email/agreement_payment.php:32
+#: templates/email/payment_lesson.php:18
+msgid "Curso"
+msgstr "Curso"
+
+#: modulos/curso/view/perform.php:44 modulos/curso/view/perform.php:143
+#: modulos/membresia/view/membresias.php:210
+msgid "Version"
+msgstr "Versión"
+
+#: modulos/curso/view/perform.php:45
+msgid "Registro"
+msgstr "Registro"
+
+#: modulos/curso/view/perform.php:46 modulos/curso/view/perform.php:148
+#: modulos/dashboard/view/curso/tab-welcome.php:194
+#: modulos/dashboard/view/evaluacion/evaluacion.php:156
+#: modulos/dashboard/view/home/principal.php:257
+#: modulos/medallas/view/medallas.php:1
+#: modulos/membresia/view/membresias.php:147
+#: modulos/membresia/view/perform.php:35 modulos/payments/view/perform.php:109
+#: modulos/payments/view/perform.php:193
+#: modulos/usuario/view/administradores.php:31
+#: modulos/usuario/view/alumnos.php:26 modulos/usuario/view/instructores.php:31
+msgid "Estado"
+msgstr "Estado"
+
+#: modulos/curso/view/perform.php:78
+msgid "Datos del curso"
+msgstr ""
+
+#: modulos/curso/view/perform.php:83
+msgid "Goteos del curso"
+msgstr ""
+
+#: modulos/curso/view/perform.php:100
+msgid "Elegir un instructor"
+msgstr ""
+
+#: modulos/curso/view/perform.php:109
+msgid "No se encontraton instructores en el sistema"
+msgstr "No se encontraron instructores en el sistema"
+
+#: modulos/curso/view/perform.php:120
+#: modulos/evaluaciones/view/evaluacion.php:43
+#: modulos/evaluaciones/view/evaluaciones.php:22
+#: modulos/evaluaciones/view/perform.php:23
+#: modulos/leccion/view/lessons_order.php:40
+#: modulos/leccion/view/material.php:49 modulos/medallas/view/medallas.php:1
+#: modulos/medallas/view/medallas_ordenar.php:20
+#: modulos/membresia/view/membresias.php:196
+#: modulos/membresia/view/perform.php:31 modulos/membresia/view/perform.php:85
+#: modulos/registro/view/principal.php:119 modulos/serie/view/series.php:47
+#: modulos/serie/view/series.php:79 modulos/serie/view/series_order.php:20
+#: modulos/usuario/view/administradores.php:27
+#: modulos/usuario/view/alumnos.php:22 modulos/usuario/view/instructores.php:27
+msgid "Nombre"
+msgstr "Nombre"
+
+#: modulos/curso/view/perform.php:127
+#: modulos/dashboard/view/evaluacion/evaluacion.php:163
+#: modulos/evaluaciones/view/calificar.php:121
+#: modulos/evaluaciones/view/evaluacion.php:85
+#: modulos/evaluaciones/view/evaluacion.php:143
+#: modulos/evaluaciones/view/ver.php:119 modulos/leccion/view/lessons.php:121
+#: modulos/leccion/view/material.php:83 modulos/medallas/view/medallas.php:1
+#: modulos/serie/view/series.php:86
+msgid "Descripcion"
+msgstr "Descripción"
+
+#: modulos/curso/view/perform.php:135
+msgid "Resolucion maxima permitida de 900 x 800 px"
+msgstr "Resolución máxima permitida de 900x800px"
+
+#: modulos/curso/view/perform.php:150 modulos/curso/view/perform.php:566
+#: modulos/medallas/view/medallas.php:1 repository/Courses.php:191
+#: repository/CoursesDAO.php:114 repository/CoursesDAO.php:172
+#: repository/Medals.php:288
+msgid "Activo"
+msgstr "Activo"
+
+#: modulos/curso/view/perform.php:151
+msgid "Descontinuado"
+msgstr "Descontinuado"
+
+#: modulos/curso/view/perform.php:178 modulos/curso/view/perform.php:599
+#: modulos/curso/view/perform.php:664
+msgid "No se encontraron goteos en el curso"
+msgstr ""
+
+#: modulos/curso/view/perform.php:189
+#: modulos/dashboard/view/curso/nueva_membresia_modal.php:57
+#: modulos/dashboard/view/evaluacion/evaluacion.php:248
+#: modulos/dashboard/view/leccion/modal_edit_note.php:22
+#: modulos/dashboard/view/leccion/modal_edit_note.php:69
+#: modulos/editar_perfil/view/edit_user.php:82
+#: modulos/evaluaciones/view/calificar.php:183
+#: modulos/evaluaciones/view/evaluacion.php:116
+#: modulos/leccion/view/lessons.php:143
+#: modulos/leccion/view/lessons_order.php:52
+#: modulos/leccion/view/material.php:91 modulos/medallas/view/medallas.php:1
+#: modulos/medallas/view/medallas_ordenar.php:46
+#: modulos/medallas/view/usuarios.php:99
+#: modulos/membresia/view/membresias.php:294
+#: modulos/membresia/view/membresias.php:369
+#: modulos/membresia/view/perform.php:122 modulos/serie/view/series.php:114
+#: modulos/serie/view/series_order.php:46
+#: modulos/usuario/view/administradores.php:95
+#: modulos/usuario/view/alumnos.php:93 modulos/usuario/view/instructores.php:95
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: modulos/curso/view/perform.php:207
+msgid "Editar goteo"
+msgstr ""
+
+#: modulos/curso/view/perform.php:236 modulos/curso/view/perform.php:634
+msgid "Editar curso"
+msgstr "Editar curso"
+
+#: modulos/curso/view/perform.php:251
+msgid "Establecer precio a las lecciones"
+msgstr ""
+
+#: modulos/curso/view/perform.php:271
+msgid "Deshabilitar registro al curso"
+msgstr "Deshabilitar registro al curso"
+
+#: modulos/curso/view/perform.php:275
+msgid "Habilitar registro al curso"
+msgstr "Habilitar registro al curso"
+
+#: modulos/curso/view/perform.php:298
+msgid "Administrar series"
+msgstr ""
+
+#: modulos/curso/view/perform.php:310
+msgid "Administrar evaluaciones"
+msgstr ""
+
+#: modulos/curso/view/perform.php:324
+#: modulos/dashboard/view/medallas/medallas.php:1
+#: modulos/medallas/view/medallas.php:1
+#: modulos/medallas/view/medallas_ordenar.php:9
+#: modulos/medallas/view/usuarios.php:15
+msgid "Medallas y logros"
+msgstr ""
+
+#: modulos/curso/view/perform.php:426
+msgid "Seleccionar imagen"
+msgstr "Seleccionar imagen"
+
+#: modulos/curso/view/perform.php:493 modulos/medallas/view/medallas.php:1
+#: modulos/membresia/view/membresias.php:953
+#: modulos/usuario/view/administradores.php:264
+#: modulos/usuario/view/alumnos.php:352
+#: modulos/usuario/view/instructores.php:264
+msgid "Especificar el nombre"
+msgstr "Especificar el nombre"
+
+#: modulos/curso/view/perform.php:494 modulos/curso/view/perform.php:740
+#: modulos/evaluaciones/view/evaluaciones.php:98
+#: modulos/leccion/view/material.php:296 modulos/medallas/view/medallas.php:1
+#: modulos/serie/view/series.php:393
+msgid "Especificar una descripcion"
+msgstr "Especificar una descripción"
+
+#: modulos/curso/view/perform.php:510 modulos/curso/view/perform.php:574
+#: modulos/medallas/view/medallas.php:1 repository/CoursesDAO.php:114
+#: repository/CoursesDAO.php:172 repository/Medals.php:290
+msgid "Inactivo"
+msgstr ""
+
+#: modulos/curso/view/perform.php:540
+msgid "Actualizar"
+msgstr ""
+
+#: modulos/curso/view/perform.php:569 modulos/curso/view/perform.php:684
+msgid "Desactivar goteo"
+msgstr ""
+
+#: modulos/curso/view/perform.php:576 modulos/curso/view/perform.php:690
+msgid "Activar goteo"
+msgstr ""
+
+#: modulos/curso/view/perform.php:591
+msgid "Nuevo curso"
+msgstr "Nuevo curso"
+
+#: modulos/curso/view/perform.php:628
+msgid "No se pudo editar el curso"
+msgstr "No se pudo editar el curso"
+
+#: modulos/curso/view/perform.php:726
+msgid "Especificar un instructor del curso"
+msgstr ""
+
+#: modulos/curso/view/perform.php:732
+msgid "Especificar el nombre del curso"
+msgstr "Especificar el nombre del curso"
+
+#: modulos/curso/view/perform.php:736
+msgid "Especificar la version del curso"
+msgstr "Especificar la versión del curso"
+
+#: modulos/curso/view/perform.php:752
+msgid "Debe seleccionar una imagen"
+msgstr "Debe seleccionar una imagen"
+
+#: modulos/curso/view/perform.php:801
+msgid "Indique el precio a establecer"
+msgstr ""
+
+#: modulos/curso/view/perform.php:805
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:30
+#: modulos/editar_perfil/view/js/edit_user_js.php:1
+#: modulos/leccion/view/lessons_order.php:83 modulos/login/view/password.php:59
+#: modulos/membresia/view/membresias.php:117
+#: modulos/membresia/view/membresias.php:588
+#: modulos/pagos/view/cancel_payment_paypal.php:50
+#: modulos/usuario/view/alumnos.php:271
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#: modulos/curso/view/perform.php:809
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:34
+#: modulos/membresia/view/membresias.php:592
+#: modulos/registro/view/principal.php:164
+msgid "Continuar"
+msgstr "Continuar"
+
+#: modulos/dashboard/Controller.php:335 modulos/dashboard/Controller.php:355
+#: modulos/dashboard/Controller.php:372 modulos/dashboard/Controller.php:409
+#: modulos/dashboard/Controller.php:428 modulos/dashboard/Controller.php:447
+#: modulos/dashboard/Controller.php:467 modulos/dashboard/Controller.php:493
+#: modulos/dashboard/Controller.php:514 modulos/dashboard/Controller.php:552
+#: modulos/dashboard/Controller.php:570 modulos/dashboard/Controller.php:591
+#: modulos/editar_perfil/Controller.php:165
+msgid "Algo salio mal error "
+msgstr "Ocurrió un error inesperado "
+
+#: modulos/dashboard/Controller.php:611
+msgid "Permiso guardado correctamente"
+msgstr "Permiso guardado correctamente"
+
+#: modulos/dashboard/logic/Logic.php:111 modulos/dashboard/logic/Logic.php:117
+#: modulos/evaluaciones/logic/Logic.php:444
+msgid "Evaluacion no disponible"
+msgstr "Evaluación no disponible"
+
+#: modulos/dashboard/logic/Logic.php:286
+msgid "Membresia con pago recurrente"
+msgstr "Membresía con pago recurrente"
+
+#: modulos/dashboard/logic/Logic.php:286
+msgid "Tiempo indefinido"
+msgstr ""
+
+#: modulos/dashboard/logic/Logic.php:481
+msgid ""
+"Por el momento el curso se encuentra suspendido, lamentamos las molestias"
+msgstr ""
+"Por el momento el curso se encuentra suspendido, lamentamos las molestias "
+"que esto le ocasione"
+
+#: modulos/dashboard/logic/Logic.php:498
+msgid ""
+"Por el momento no cuenta con acceso a este curso, lamentamos las molestias"
+msgstr ""
+"Por el momento no cuenta con acceso a este curso, lamentamos las molestias "
+"que esto le ocasione"
+
+#: modulos/dashboard/logic/Logic.php:561 templates/incl/side-bar.php:69
+msgid "Ir al curso"
+msgstr ""
+
+#: modulos/dashboard/logic/Logic.php:567 templates/incl/side-bar.php:82
+msgid "Membresia inactiva"
+msgstr "Membresía inactiva"
+
+#: modulos/dashboard/logic/Logic.php:572
+msgid "Pagar curso"
+msgstr "Pagar curso"
+
+#: modulos/dashboard/logic/Logic.php:577
+msgid "Renovar curso"
+msgstr "Renovar membresía"
+
+#: modulos/dashboard/logic/Logic.php:582 modulos/dashboard/logic/Logic.php:592
+msgid "Disponible pronto"
+msgstr ""
+
+#: modulos/dashboard/logic/Logic.php:589
+msgid "Comprar curso"
+msgstr "Comprar curso"
+
+#: modulos/dashboard/logic/Logic.php:704
+#, php-format
+msgid "La leccion: %s estara disponible hasta el dia: %s"
+msgstr "La lección %s estará disponible hasta el día %s"
+
+#: modulos/dashboard/logic/Logic.php:731
+msgid ""
+"Consentimiento para el uso de comentarios para  mejorar la experencia de "
+"TocaJazz."
+msgstr ""
+
+#: modulos/dashboard/logic/Logic.php:882
+msgid "Tu calificación nos importa"
+msgstr "Tu calificación nos importa"
+
+#: modulos/dashboard/logic/Logic.php:1051
+msgid "Nota guardada corectamente"
+msgstr ""
+
+#: modulos/dashboard/logic/Logic.php:1080
+msgid "Error al actualizar posición de una o mas notas"
+msgstr "Error al actualizar posición de una o mas notas"
+
+#: modulos/dashboard/logic/Logic.php:1088
+msgid "Error al actualizar posición"
+msgstr "Error al actualizar posición"
+
+#: modulos/dashboard/logic/Logic.php:1096
+msgid "Cambios guardados corectamente"
+msgstr "Cambios guardados corectamente"
+
+#: modulos/dashboard/logic/Logic.php:1129
+msgid "Nota actualizada corectamente"
+msgstr ""
+
+#: modulos/dashboard/logic/Logic.php:1145
+msgid "Nota eliminada corectamente"
+msgstr "Nota eliminada correctamente"
+
+#: modulos/dashboard/logic/Logic.php:1181
+msgid "Abierto"
+msgstr ""
+
+#: modulos/dashboard/logic/Logic.php:1183
+msgid "Resuelto"
+msgstr ""
+
+#: modulos/dashboard/logic/Logic.php:1185
+msgid "Cerrado"
+msgstr ""
+
+#: modulos/dashboard/logic/Logic.php:1187
+msgid "Archivado"
+msgstr ""
+
+#: modulos/dashboard/logic/Logic.php:1189
+msgid "Eliminado"
+msgstr ""
+
+#: modulos/dashboard/logic/Logic.php:1197
+msgid "Seguimiento"
+msgstr ""
+
+#: modulos/dashboard/logic/Logic.php:1198
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:109
+#: modulos/ipn/view/perform.php:101
+msgid "Ver"
+msgstr "Ver"
+
+#: modulos/dashboard/logic/Logic.php:1264
+msgid "Te responderemos lo antes posible"
+msgstr ""
+
+#: modulos/dashboard/logic/Logic.php:1269
+msgid "Error al crear publicación"
+msgstr ""
+
+#: modulos/dashboard/logic/LogicConfiguration.php:1
+msgid "Error el archivo no se genero corectamente"
+msgstr "Error: el archivo no se generó correctamente"
+
+#: modulos/dashboard/logic/LogicMedals.php:1
+msgid "No se encontraron medallas y logros en el actual curso"
+msgstr "No se encontraron medallas y logros en el curso actual"
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+#, fuzzy
+#| msgid "Notificatios"
+msgid "Notificaciones"
+msgstr "Notificaciones"
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+#: templates/incl/footer.php:310
+msgid ""
+"Consentimiento para recibir notificaciones de la plataforma tales como "
+"pagos, suscripciones y cancelaciones"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Inhabilitado"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Publicidad"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid ""
+"Consentimiento para ingresar en lista de distribución para enviarle ofertas "
+"vía correo electronico"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Consentimiento para usarse para mejorar la experiencia de TocaJazz"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Tickets"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid ""
+"Consentimiento para usar su correo electrónico y nombre de usuario, para "
+"generar un ticket para resolver su problema"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Consentimiento para generar estadísticas de uso de la plataforma"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Información"
+msgstr "Información"
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Descargar"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Descarga tu información"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid ""
+"Puedes descargar tu información de TocaJazz cuando quieras en formato .csv "
+"o .json, que facilite la importación de tus datos cuando este listo la "
+"importación, podrás descargarlo. El archivo generado lo podras descargar "
+"cuado quieras, la disponiblilidad del archivo tendra una duración de cinco "
+"dias pasado de la fecha el archivo sera eliminado"
+msgstr ""
+"Puedes descargar tu información de TocaJazz cuando quieras en formato .CSV "
+"o .JSON, que facilite la importación de tus datos. El archivo generado lo "
+"podrás descargar cuando quieras, el archivo tendrá una duración de cinco "
+"días pasado de la fecha el archivo será eliminado y tendrás que volver a "
+"generarlo."
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Información de usuario"
+msgstr "Información de usuario"
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Comentarios de videos"
+msgstr "Comentarios de videos"
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Notas y apuntes"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+#: modulos/dashboard/view/curso/tab-welcome.php:66
+#: modulos/dashboard/view/home/principal.php:98
+msgid "Historial de pagos"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+#, fuzzy
+#| msgid "Lecciones disponibles"
+msgid "lecciones dominadas"
+msgstr "Lecciones disponibles"
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Valoraciones por lección"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Formato"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Preparar descarga"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "lista de archivos generados"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Archivo"
+msgstr "Archivo"
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+#, fuzzy
+#| msgid "Fecha de creacion"
+msgid "Fecha de creación"
+msgstr "Fecha de creación"
+
+#: modulos/dashboard/view/configuracion_y_privacidad/configuracion.php:1
+msgid "Accion"
+msgstr "Acción"
+
+#: modulos/dashboard/view/configuracion_y_privacidad/js/configuration_js.php:1
+#: templates/incl/side-bar.php:118
+msgid "Privacidad"
+msgstr ""
+
+#: modulos/dashboard/view/configuracion_y_privacidad/js/configuration_js.php:1
+msgid "Activado"
+msgstr "Activado"
+
+#: modulos/dashboard/view/configuracion_y_privacidad/js/configuration_js.php:1
+msgid "Desactivado"
+msgstr "Desactivado"
+
+#: modulos/dashboard/view/curso/Estadisticas_curso.php:11
+#: modulos/dashboard/view/curso/cursos_tocajazz.php:1
+#: modulos/dashboard/view/curso/membresia_curso.php:1
+#: modulos/dashboard/view/leccion/leccion_user.php:11
+#: modulos/dashboard/view/medallas/medallas.php:1
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:6
+#: modulos/dashboard/view/serie/serie.php:3
+#: modulos/dashboard/view/start/dashborad.php:8
+#: modulos/editar_perfil/view/edit_user.php:4
+msgid "My account"
+msgstr "Mi cuenta"
+
+#: modulos/dashboard/view/curso/Estadisticas_curso.php:13
+#: templates/incl/side-bar.php:105
+msgid "Avance general"
+msgstr "Avance general"
+
+#: modulos/dashboard/view/curso/Estadisticas_curso.php:18
+msgid "Información de la membresia del curso"
+msgstr "Información de la membresía del curso"
+
+#: modulos/dashboard/view/curso/Estadisticas_curso.php:22
+#, php-format
+msgid "Membresia: %s"
+msgstr "Membresía: %s"
+
+#: modulos/dashboard/view/curso/Estadisticas_curso.php:23
+msgid "Mienbro desde"
+msgstr "Miembro desde"
+
+#: modulos/dashboard/view/curso/Estadisticas_curso.php:30
+msgid "Cancel membership"
+msgstr "Cancelar membresía"
+
+#: modulos/dashboard/view/curso/Estadisticas_curso.php:36
+msgid "Grafica del progreso del curso"
+msgstr "Gráfica del progreso del curso"
+
+#: modulos/dashboard/view/curso/Estadisticas_curso.php:40
+msgid ""
+"Progreso de todas las series del curso con el estatus de  Visto, Repasar, "
+"dominada y no visto"
+msgstr ""
+"Progreso de todas las series del curso con el estado de visto, repasar, "
+"dominada y no visto"
+
+#: modulos/dashboard/view/curso/cursos_tocajazz.php:1
+#: modulos/dashboard/view/curso/membresia_curso.php:1
+msgid "Courses"
+msgstr "Cursos"
+
+#: modulos/dashboard/view/curso/cursos_tocajazz.php:1
+msgid "Todos los cursos de TocaJazz"
+msgstr ""
+
+#: modulos/dashboard/view/curso/cursos_tocajazz.php:1
+msgid ""
+"Cursos para impartir, selecciona una de las membresias y empiece desde ahora."
+msgstr ""
+"Cursos para impartir, selecciona una de las membresías y empiece desde ahora."
+
+#: modulos/dashboard/view/curso/cursos_tocajazz.php:1
+msgid "Nuevo"
+msgstr ""
+
+#: modulos/dashboard/view/curso/cursos_tocajazz.php:1
+msgid "TODOS LOS CURSOS TOCAJAZZ"
+msgstr "Todos los cursos"
+
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:25
+#: modulos/membresia/view/membresias.php:607
+msgid "Indique el motivo de la cancelacion"
+msgstr "Por favor indique el motivo de la cancelación"
+
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:45
+msgid "Mensaje_modal_cancelar_membresia"
+msgstr ""
+"Lamentamos mucho que cierre su cuenta en TocaJazz. Si le es posible, nos "
+"gustaría nos de unos minutos de su tiempo para ayudarnos a mejorar."
+
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:100
+msgid "AVANCE GENERAL"
+msgstr ""
+
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:122
+#: modulos/dashboard/view/start/dashborad.php:184
+#: modulos/leccion/view/lessons.php:17
+#: modulos/leccion/view/lessons_order.php:13
+#: modulos/leccion/view/material.php:29
+#: modulos/puntuacion_lecciones/view/perform.php:44
+msgid "Lecciones"
+msgstr "Lecciones"
+
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:125
+msgid "Total del curso"
+msgstr ""
+
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:126
+msgid "Tu avance"
+msgstr ""
+
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:144
+msgid "AVANCES DEL CURSO"
+msgstr ""
+
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:158
+msgid "Estado de las lecciones"
+msgstr ""
+
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:170
+#: modulos/dashboard/view/leccion/leccion_user.php:55
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:33
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:95
+msgid "Dominado"
+msgstr "Dominado"
+
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:171
+msgid "Repasar"
+msgstr ""
+
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:172
+#: modulos/dashboard/view/leccion/leccion_user.php:43
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:31
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:89
+msgid "Visto"
+msgstr "Visto"
+
+#: modulos/dashboard/view/curso/js/Esstadisticas_curso_js.php:173
+msgid "No visto"
+msgstr "No visto"
+
+#: modulos/dashboard/view/curso/membresia_curso.php:1
+#: templates/incl/side-bar.php:149
+msgid "Membresias"
+msgstr "Membresías"
+
+#: modulos/dashboard/view/curso/membresia_curso.php:1
+#, php-format
+msgid "Planes de suscripción al curso: %s"
+msgstr "Planes de suscripción al curso %s"
+
+#: modulos/dashboard/view/curso/membresia_curso.php:1
+#: templates/incl/footer.php:62
+msgid "IMPORTANTE"
+msgstr ""
+
+#: modulos/dashboard/view/curso/membresia_curso.php:1
+msgid ""
+"Usted solo puede comprar una membresia por curso, una vez seleccionada no "
+"podra cambiar a una diferente"
+msgstr ""
+"Usted solo puede comprar una membresía por curso, una vez seleccionada no "
+"podrá cambiar a una diferente"
+
+#: modulos/dashboard/view/curso/membresia_curso.php:1
+msgid ""
+"Todos nuestros planes están en dólares estadounidenses y son membresías con "
+"pago recurrente según el tipo de pago seleccionado"
+msgstr ""
+
+#: modulos/dashboard/view/curso/membresia_curso.php:1
+#: modulos/pagos/logic/ConektaLogic.php:599 modulos/pagos/logic/Logic.php:211
+#: modulos/pagos/logic/PaypalLogic.php:275
+#: modulos/pagos/logic/PaypalLogic.php:317 modulos/registro/logic/Logic.php:286
+#, php-format
+msgid "cada %s meses"
+msgstr "cada %s meses"
+
+#: modulos/dashboard/view/curso/membresia_curso.php:1
+msgid "mensuales"
+msgstr ""
+
+#: modulos/dashboard/view/curso/membresia_curso.php:1
+msgid ""
+"Selecciona cualquiera de nuestras membresias y hazte acredor de un cursos."
+msgstr ""
+"Selecciona cualquiera de nuestras membresías y hazte acreedor de un curso."
+
+#: modulos/dashboard/view/curso/membresia_curso.php:1
+msgid ""
+"Botón comprar redirecciona a una nueva página para el proceso de pago de la "
+"membresia."
+msgstr ""
+"El botón Comprar redirecciona a una nueva página para el proceso de pago de "
+"la membresía."
+
+#: modulos/dashboard/view/curso/membresia_curso.php:1
+#: modulos/dashboard/view/leccion/js/leccion_js.php:451
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:112
+msgid "Comprar"
+msgstr "Comprar"
+
+#: modulos/dashboard/view/curso/membresia_curso.php:1
+msgid "Lo sentimos, actualmente no existen membresias activas para este curso"
+msgstr "Lo sentimos, actualmente no existen membresías activas para este curso"
+
+#: modulos/dashboard/view/curso/nueva_membresia_modal.php:5
+msgid "Change_membership"
+msgstr "Cambiar membresía"
+
+#: modulos/dashboard/view/curso/nueva_membresia_modal.php:14
+msgid "Memberships"
+msgstr "Membresías"
+
+#: modulos/dashboard/view/curso/nueva_membresia_modal.php:16
+msgid "select_an_option"
+msgstr "Seleccione una opción"
+
+#: modulos/dashboard/view/curso/nueva_membresia_modal.php:28
+msgid "Membership"
+msgstr "Membresía"
+
+#: modulos/dashboard/view/curso/nueva_membresia_modal.php:29
+#: modulos/dashboard/view/leccion/leccion_user.php:90
+#: modulos/dashboard/view/leccion/leccion_user.php:135
+#: modulos/dashboard/view/leccion/leccion_user.php:159
+#: modulos/dashboard/view/leccion/modal_edit_note.php:97
+msgid "Description"
+msgstr "Descripción"
+
+#: modulos/dashboard/view/curso/nueva_membresia_modal.php:34
+#: modulos/editar_perfil/view/edit_user.php:34
+msgid "Name"
+msgstr "Nombre"
+
+#: modulos/dashboard/view/curso/nueva_membresia_modal.php:38
+msgid "Type"
+msgstr "Tipo"
+
+#: modulos/dashboard/view/curso/nueva_membresia_modal.php:42
+msgid "Duration"
+msgstr "Duración"
+
+#: modulos/dashboard/view/curso/nueva_membresia_modal.php:46
+msgid "Price"
+msgstr "Precio"
+
+#: modulos/dashboard/view/curso/nueva_membresia_modal.php:51
+msgid "To_choose"
+msgstr "Elegir"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:47
+msgid "Historial de pagos realizados durante su estadia en tocajazz"
+msgstr "Historial de pagos realizados durante su estadía en TocaJazz"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:47
+#: modulos/dashboard/view/home/principal.php:78
+#: modulos/payments/view/perform.php:21 templates/incl/side-bar.php:169
+msgid "Pagos"
+msgstr "Pagos"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:48
+msgid "Listado de lecciones comprados por adelantado"
+msgstr "Listado de lecciones compradas por adelantado"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:48
+msgid "Purchases"
+msgstr "Compras"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:49
+msgid "Evaluaciones disponibles del curso"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:49
+msgid "Evaluations"
+msgstr "Evaluaciones"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:52
+#: modulos/dashboard/view/home/principal.php:86
+msgid "Notificatios"
+msgstr "Notificaciones"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:53
+msgid "Indicador de notificaciones pendientes por leer"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:71
+#: modulos/dashboard/view/home/principal.php:103
+msgid "Filtrar por rango de fechas"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:99
+#: modulos/dashboard/view/home/principal.php:131
+msgid "Filtrar"
+msgstr "Filtrar"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:109
+#: modulos/dashboard/view/home/principal.php:141
+msgid "Medio de pago"
+msgstr "Medio de pago"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:110
+#: modulos/dashboard/view/home/principal.php:142
+msgid "Tipo de pago"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:111
+#: modulos/dashboard/view/home/principal.php:143
+#: modulos/payments/view/perform.php:47 modulos/payments/view/perform.php:104
+#: modulos/payments/view/perform.php:147
+msgid "Articulo"
+msgstr "Artículo"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:112
+#: modulos/dashboard/view/home/principal.php:144
+#: modulos/payments/view/perform.php:105
+msgid "Concepto"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:113
+#: modulos/dashboard/view/home/principal.php:145
+#: modulos/dashboard/view/home/principal.php:256
+#: modulos/leccion/view/lessons.php:60 modulos/leccion/view/lessons.php:112
+#: modulos/membresia/view/membresias.php:92
+#: modulos/membresia/view/perform.php:33 modulos/payments/view/perform.php:209
+#: templates/email/agreement_failed.php:64
+#: templates/email/agreement_payment.php:64
+#: templates/email/payment_lesson.php:20
+msgid "Precio"
+msgstr "Precio"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:129
+msgid "Compras del curso"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:187
+msgid "Evaluaciones del curso"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:195
+msgid "Número de intentos"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:196
+#: modulos/dashboard/view/leccion/js/leccion_js.php:448
+msgid "Disponible"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:197
+msgid "Calificación"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:210
+msgid "No aprobada"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:213
+msgid "Aprobada"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:217
+msgid "No calificada"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:235
+msgid "Realizar evaluacion"
+msgstr "Realizar evaluación"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:241
+msgid "No disponible"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:244
+msgid "Ir a la evaluacion"
+msgstr "Ir a la evaluación"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:267
+#: modulos/dashboard/view/home/principal.php:161
+msgid "Notificaciones sin leer"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:275
+#: modulos/dashboard/view/home/principal.php:169
+msgid "Marcar todo como leido"
+msgstr "Marcar todo como leído"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:285
+#: modulos/dashboard/view/home/principal.php:179
+msgid "Hora"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:286
+#: modulos/dashboard/view/home/principal.php:181
+msgid "Mensaje"
+msgstr ""
+
+#: modulos/dashboard/view/curso/tab-welcome.php:301
+#: modulos/dashboard/view/home/principal.php:197
+msgid "Marcar como leido"
+msgstr "Marcar como leído"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:309
+#: modulos/dashboard/view/evaluacion/evaluacion.php:178
+#: modulos/dashboard/view/home/principal.php:205
+msgid "Enlace"
+msgstr "Enlace"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:351
+#: modulos/dashboard/view/home/principal.php:468
+#: modulos/payments/view/perform.php:294 modulos/payments/view/perform.php:365
+msgid "No registrada aun"
+msgstr "No registrada aún"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:419
+#: modulos/dashboard/view/leccion/js/leccion_js.php:675
+msgid "Muy_malo"
+msgstr "Muy malo"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:420
+#: modulos/dashboard/view/leccion/js/leccion_js.php:676
+msgid "Malo"
+msgstr "Malo"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:421
+#: modulos/dashboard/view/leccion/js/leccion_js.php:677
+msgid "Regular"
+msgstr "Regular"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:422
+#: modulos/dashboard/view/leccion/js/leccion_js.php:678
+msgid "Bueno"
+msgstr "Bueno"
+
+#: modulos/dashboard/view/curso/tab-welcome.php:423
+#: modulos/dashboard/view/leccion/js/leccion_js.php:679
+msgid "Muy_Bueno"
+msgstr "Muy bueno"
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:70
+#: modulos/evaluaciones/view/evaluacion.php:34
+#: modulos/evaluaciones/view/evaluaciones.php:6 templates/incl/side-bar.php:126
+msgid "Evaluaciones"
+msgstr ""
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:86
+#: modulos/evaluaciones/view/calificar.php:57
+#: modulos/evaluaciones/view/ver.php:57
+msgid "Nombre de la evaluacion"
+msgstr "Nombre de la evaluación"
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:94
+#: modulos/evaluaciones/view/calificar.php:64
+#: modulos/evaluaciones/view/evaluacion.php:49
+#: modulos/evaluaciones/view/ver.php:64
+msgid "Numero de evaluacion"
+msgstr "Número de evaluación"
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:101
+#: modulos/evaluaciones/view/calificar.php:78
+#: modulos/evaluaciones/view/ver.php:78
+msgid "Numero de intentos"
+msgstr "Número de  intentos"
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:110
+#: modulos/evaluaciones/view/calificar.php:87
+msgid "Promedio general"
+msgstr "Promedio general"
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:121
+#: modulos/evaluaciones/view/calificar.php:96
+#: modulos/evaluaciones/view/evaluacion.php:58
+#: modulos/evaluaciones/view/evaluaciones.php:23
+#: modulos/evaluaciones/view/perform.php:25
+#: modulos/evaluaciones/view/ver.php:94
+msgid "Enlaces"
+msgstr ""
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:143
+#: modulos/evaluaciones/view/calificar.php:163
+#: modulos/evaluaciones/view/ver.php:166
+msgid "Aprobado"
+msgstr ""
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:147
+#: modulos/evaluaciones/view/calificar.php:163
+#: modulos/evaluaciones/view/ver.php:169
+msgid "No aprobado"
+msgstr ""
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:151
+msgid "No calificado"
+msgstr ""
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:170
+#: modulos/evaluaciones/view/calificar.php:127
+#: modulos/evaluaciones/view/ver.php:126
+msgid "Observaciones"
+msgstr ""
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:171
+msgid "Sin observaciones"
+msgstr ""
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:193
+#: modulos/evaluaciones/view/calificar.php:138
+#: modulos/evaluaciones/view/ver.php:138
+msgid "Ritmica"
+msgstr "Rítmica"
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:200
+#: modulos/evaluaciones/view/calificar.php:144
+#: modulos/evaluaciones/view/ver.php:144
+msgid "Digitacion"
+msgstr "Digitación"
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:207
+#: modulos/evaluaciones/view/calificar.php:132
+#: modulos/evaluaciones/view/ver.php:132
+msgid "Afinacion"
+msgstr "Afinación"
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:214
+#: modulos/evaluaciones/view/calificar.php:150
+#: modulos/evaluaciones/view/ver.php:150
+msgid "Soltura general"
+msgstr ""
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:221
+#: modulos/evaluaciones/view/calificar.php:156
+#: modulos/evaluaciones/view/ver.php:156
+msgid "Dominio teorico"
+msgstr "Dominio teórico"
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:250
+#: modulos/dashboard/view/leccion/modal_edit_note.php:70
+#: modulos/dashboard/view/leccion/modal_edit_note.php:102
+#: modulos/login/view/password.php:65
+msgid "Enviar"
+msgstr "Enviar"
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:261
+#, php-format
+msgid "Reintento disponible a partir del: %s"
+msgstr "Reintento disponible a partir del %s"
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:275
+#: modulos/evaluaciones/view/perform.php:11
+#, php-format
+msgid "Evaluaciones %s"
+msgstr ""
+
+#: modulos/dashboard/view/evaluacion/evaluacion.php:322
+msgid "El enlace no puede estar vacio"
+msgstr "El enlace no puede estar vacío"
+
+#: modulos/dashboard/view/home/principal.php:57 templates/incl/side-bar.php:47
+#: templates/incl/side-bar.php:51
+msgid "Inicio"
+msgstr ""
+
+#: modulos/dashboard/view/home/principal.php:81
+msgid "Suscripciones"
+msgstr ""
+
+#: modulos/dashboard/view/home/principal.php:227
+msgid "Filtrar por curso"
+msgstr "Filtrar por curso"
+
+#: modulos/dashboard/view/home/principal.php:235
+msgid "Seleccione un curso"
+msgstr "Seleccione un curso"
+
+#: modulos/dashboard/view/home/principal.php:242
+msgid "No se encontraron cursos"
+msgstr "No se encontraron cursos"
+
+#: modulos/dashboard/view/home/principal.php:252
+#: modulos/leccion/view/lessons.php:59
+msgid "Creada"
+msgstr "Creada"
+
+#: modulos/dashboard/view/home/principal.php:255
+#: modulos/membresia/view/membresias.php:182
+#: modulos/payments/view/perform.php:50 repository/PaymentsDAO.php:233
+#: repository/PaymentsDAO.php:391
+msgid "Membresia"
+msgstr "Membresía"
+
+#: modulos/dashboard/view/home/principal.php:288
+msgid "ALUMNOS POR CURSO"
+msgstr ""
+
+#: modulos/dashboard/view/home/principal.php:305
+#: modulos/dashboard/view/home/principal.php:311
+#: modulos/usuario/view/perform.php:51 templates/incl/side-bar.php:193
+msgid "Alumnos"
+msgstr "Alumnos"
+
+#: modulos/dashboard/view/home/principal.php:341
+msgid "INGRESOS POR CURSO"
+msgstr ""
+
+#: modulos/dashboard/view/home/principal.php:364
+#: modulos/dashboard/view/home/principal.php:417
+msgid "Ingreso"
+msgstr ""
+
+#: modulos/dashboard/view/home/principal.php:394
+msgid "INGRESOS POR PASARELA"
+msgstr ""
+
+#: modulos/dashboard/view/home/principal.php:517
+#: modulos/membresia/view/membresias.php:536
+#: modulos/usuario/view/administradores.php:85
+#: modulos/usuario/view/alumnos.php:81 modulos/usuario/view/instructores.php:85
+#: repository/Login.php:255 repository/MembershipsDAO.php:121
+#: repository/MembershipsDAO.php:157 repository/UsersDAO.php:166
+msgid "Activa"
+msgstr "Activa"
+
+#: modulos/dashboard/view/home/principal.php:520
+#: modulos/usuario/view/administradores.php:86
+#: modulos/usuario/view/alumnos.php:82 modulos/usuario/view/instructores.php:86
+#: repository/Login.php:257 repository/UsersDAO.php:166
+msgid "Cancelada"
+msgstr "Cancelada"
+
+#: modulos/dashboard/view/home/principal.php:523
+#: modulos/usuario/view/administradores.php:87
+#: modulos/usuario/view/alumnos.php:83 modulos/usuario/view/instructores.php:87
+#: repository/Login.php:261 repository/UsersDAO.php:167
+msgid "Suspendida"
+msgstr "Suspendida"
+
+#: modulos/dashboard/view/leccion/contenido_notas.php:4
+msgid "Save_your_notes"
+msgstr "Guardar tus notas"
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:222
+#: modulos/pagos/view/method_payments_list.php:248
+#: modulos/pagos/view/method_payments_list.php:290
+msgid "Entendido"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:225
+msgid ""
+"Terminaste el primer video selecciona un estatus para guardar tus avances "
+"como alumno de TocaJazz"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:393
+#: modulos/dashboard/view/leccion/js/leccion_js.php:394
+#: modulos/dashboard/view/leccion/js/leccion_js.php:408
+#: modulos/dashboard/view/leccion/js/leccion_js.php:424
+msgid "Sin archivos por el momento"
+msgstr "Sin archivos por el momento"
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:401
+#: modulos/dashboard/view/leccion/js/leccion_js.php:418
+msgid "Download"
+msgstr "Descargar"
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:450
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:100
+msgid "Gratis hasta"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:463
+#: modulos/dashboard/view/start/dashborad.php:84
+msgid "Mostrar más"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:479
+msgid "El campo nota"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:619
+msgid "Realmente_deseas_eliminar_tu_nota"
+msgstr "Realmente deseas eliminar tu nota"
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:645
+msgid "Arrastra y suelta tus notas"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:646
+msgid "Eliminar_nota"
+msgstr "Eliminar nota"
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:647
+msgid "Edit"
+msgstr "Editar"
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:690
+msgid "Puntua lección"
+msgstr "Calificar la lección"
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:830
+#: modulos/dashboard/view/leccion/js/leccion_js.php:833
+msgid "Este campo es requerido"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:855
+msgid ""
+"Consentimiento para usar su correo electrónico y nombre de usuario, para "
+"generar un ticket para resolver su problema."
+msgstr ""
+
+#: modulos/dashboard/view/leccion/js/leccion_js.php:861
+msgid ""
+"Desea conceder permisos para generar estadisticas con su información de su "
+"reporte."
+msgstr ""
+
+#: modulos/dashboard/view/leccion/leccion_user.php:39
+msgid "Estatus de la lección, puedes cambiar el estatus dado en tu experiencia"
+msgstr ""
+"Estado de la lección, puedes cambiar el estado basado en tu experiencia"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:49
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:92
+msgid "Me causó problemas"
+msgstr "Necesito repasarlo"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:70
+#: modulos/dashboard/view/leccion/leccion_user.php:185
+#: modulos/editar_perfil/view/edit_user.php:11 templates/incl/footer.php:353
+msgid "Atención"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/leccion_user.php:70
+msgid ""
+"Actualmente tiene desactivado el usó de comentarios para  mejorar la "
+"experencia de TocaJazz, puede\n"
+"                                        cambiar su preferencia de uso de "
+"datos en,"
+msgstr ""
+"Actualmente tiene desactivado el uso de comentarios para  mejorar la "
+"experencia de TocaJazz, puede\n"
+"                                        cambiar su preferencia de uso de "
+"datos en,"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:71
+#: modulos/dashboard/view/leccion/leccion_user.php:186
+msgid "privacidad"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/leccion_user.php:92
+#: modulos/leccion/view/material.php:32
+msgid "Material"
+msgstr "Material"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:93
+#, fuzzy
+msgid "Indicador de pestaña si contiene alguna información de su interes"
+msgstr "Indicador de pestaña si contiene alguna información de su interés"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:98
+msgid "My_notes"
+msgstr "Mis notas"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:103
+msgid "Need_help"
+msgstr "Necesitas ayuda"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:114
+#, fuzzy
+#| msgid "Descripcion"
+msgid "Descripción"
+msgstr "Descripción"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:115
+#: modulos/leccion/view/lessons.php:128
+#, fuzzy
+#| msgid "inicio"
+msgid "Beneficio"
+msgstr "inicio"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:116
+#: modulos/leccion/view/lessons.php:135
+msgid "Recomendaciones"
+msgstr "Recomendaciones"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:127
+msgid "Recursos archivos en formato PDF"
+msgstr "Recursos archivos en formato PDF"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:136
+#: modulos/dashboard/view/leccion/leccion_user.php:160
+msgid "Size"
+msgstr "Tamaño"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:137
+#: modulos/dashboard/view/leccion/leccion_user.php:161
+msgid "Actions"
+msgstr "Acciones"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:151
+msgid "Recursos de audio MP3"
+msgstr "Recursos de audio MP3"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:185
+msgid ""
+"Actualmente tiene desactivado el uso de tickets, puede \n"
+"                        cambiar su preferencia, de uso de datos en"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/leccion_user.php:191
+msgid "Nuevo reporte"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/leccion_user.php:196
+msgid "Ticket"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/leccion_user.php:197
+msgid "Asunto"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/leccion_user.php:198
+#: modulos/usuario/view/administradores.php:83
+#: modulos/usuario/view/alumnos.php:79 modulos/usuario/view/instructores.php:83
+msgid "Estatus"
+msgstr "Estado"
+
+#: modulos/dashboard/view/leccion/leccion_user.php:199
+msgid "Creación"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/leccion_user.php:214
+msgid "Lista de lecciones disponibles de la serie por visualizar."
+msgstr "Lista de lecciones disponibles."
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:10
+msgid "Edit_note"
+msgstr "Editar nota"
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:35
+msgid "Deja un cometario"
+msgstr "Deja un comentario"
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:38
+msgid "Indique los aspectos que consideras que se deben mejorar"
+msgstr "Indique los aspectos que consideras se deben mejorar"
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:43
+msgid "Calidad del video"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:48
+msgid "Calidad del audio"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:55
+msgid "Calidad de la didactica"
+msgstr "Calidad de la didáctica"
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:60
+msgid "Calidad del material"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:65
+msgid "Deja un comentario"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:86
+msgid "Generar un nuevo tickets"
+msgstr "Generar un nuevo ticket"
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:90
+msgid "Motivo_de_reporte"
+msgstr "Motivo de reporte"
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:92
+#, fuzzy
+#| msgid "Seleccione una opcion"
+msgid "Seleccione una opción"
+msgstr "Seleccione una opción"
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:93
+msgid "Dudas o sugerencias sobre la lección"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:94
+msgid "Falla tecnica"
+msgstr "Falla técnica"
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:94
+msgid "audio, video, otros"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:95
+msgid "Problemas con el material"
+msgstr ""
+
+#: modulos/dashboard/view/leccion/modal_edit_note.php:101
+msgid "Cerrar"
+msgstr ""
+
+#: modulos/dashboard/view/medallas/medallas.php:1
+msgid "Medallas"
+msgstr ""
+
+#: modulos/dashboard/view/medallas/medallas.php:1
+msgid "Botones para compartir en redes sociales"
+msgstr ""
+
+#: modulos/dashboard/view/medallas/medallas.php:1
+msgid "Compartir"
+msgstr "Compartir"
+
+#: modulos/dashboard/view/medallas/medallas.php:1
+msgid ""
+"Medallas Tocajazz esfuérzate cada día y tu persistencia será bien "
+"recompensada"
+msgstr ""
+
+#: modulos/dashboard/view/medallas/medallas.php:1
+msgid "Tipos de medallas Tocajazz"
+msgstr ""
+
+#: modulos/dashboard/view/medallas/medallas.php:1
+msgid "TODAS LAS MEDALLAS"
+msgstr ""
+
+#: modulos/dashboard/view/medallas/medallas.php:1
+msgid "Logros Tocajazz  ponte metas y obten todos los logros"
+msgstr "Logros Tocajazz  ponte metas y obtén todos los logros"
+
+#: modulos/dashboard/view/medallas/medallas.php:1
+msgid "Logros tocajazz"
+msgstr "Logros TocaJazz"
+
+#: modulos/dashboard/view/serie/js/seccion_lista_de_videos_js.php:1
+msgid "Valor de entrada no valido"
+msgstr "Valor de entrada no válido"
+
+#: modulos/dashboard/view/serie/js/seccion_lista_de_videos_js.php:1
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:15
+msgid "Progreso de la serie"
+msgstr ""
+
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:14
+msgid "Progreso de la serie actualmente crusando."
+msgstr "Progreso de la serie que está cursando actualmente."
+
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:29
+msgid "Filtra tus lecciones por los diferentes estatus de las lecciónes."
+msgstr "Filtra tus lecciones por los diferentes estados de las lecciones."
+
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:30
+msgid "Filtra tu busqueda"
+msgstr "Filtra tu búsqueda"
+
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:32
+msgid "Repaso"
+msgstr ""
+
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:36
+msgid "Buscar lección"
+msgstr "Buscar lección"
+
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:49
+msgid "Lecciones disponibles"
+msgstr "Lecciones disponibles"
+
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:59
+msgid "Sin lecciones disponibles por el momento"
+msgstr "No hay lecciones disponibles por el momento"
+
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:82
+msgid "Serie"
+msgstr ""
+
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:83
+msgid "lección"
+msgstr ""
+
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:88
+msgid "Estatus de la lección según tu dominio del curso."
+msgstr "Estado de la lección según tu dominio del curso."
+
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:108
+msgid "Botón de ver la lección actual."
+msgstr "Botón para ver la lección actual."
+
+#: modulos/dashboard/view/serie/seccion_lista_de_videos.php:121
+msgid "Sin resultados de la búsqueda"
+msgstr "Sin resultados de la búsqueda"
+
+#: modulos/dashboard/view/serie/serie.php:5 modulos/leccion/view/lessons.php:14
+#: modulos/leccion/view/lessons_order.php:10
+#: modulos/leccion/view/material.php:26 modulos/serie/view/series.php:26
+#: modulos/serie/view/series_order.php:9
+msgid "Series"
+msgstr "Series"
+
+#: modulos/dashboard/view/serie/serie.php:13
+msgid "Serie de un curso click para acceder a la lista de lecciones"
+msgstr "Serie de un curso, click para acceder a la lista de lecciones"
+
+#: modulos/dashboard/view/serie/serie.php:19
+msgid "Progreso de la serie esta avanza según el avance que tengas en la serie"
+msgstr ""
+"Progreso de la serie, esta avanza según el avance que tengas en la serie"
+
+#: modulos/dashboard/view/serie/serie.php:26
+msgid "completado"
+msgstr ""
+
+#: modulos/dashboard/view/start/dashborad.php:9
+#: modulos/puntuacion_lecciones/view/before.php:1
+#: modulos/puntuacion_lecciones/view/perform.php:3
+msgid "Start"
+msgstr "Inicio"
+
+#: modulos/dashboard/view/start/dashborad.php:18
+msgid "En el siguiente panel se muestra la información del curso."
+msgstr ""
+
+#: modulos/dashboard/view/start/dashborad.php:22
+#: modulos/dashboard/view/start/dashborad.php:161
+msgid "Membresía inactiva"
+msgstr "Membresía inactiva"
+
+#: modulos/dashboard/view/start/dashborad.php:26
+#: modulos/usuario/view/alumnos.php:84 repository/Login.php:263
+#: repository/UsersDAO.php:167
+msgid "Pago pendiente"
+msgstr "Pago pendiente"
+
+#: modulos/dashboard/view/start/dashborad.php:30
+msgid "Expiro membresia"
+msgstr "La membresía ha expirado"
+
+#: modulos/dashboard/view/start/dashborad.php:45
+msgid "Progreso del curso"
+msgstr ""
+
+#: modulos/dashboard/view/start/dashborad.php:70
+msgid "Todos tus logros"
+msgstr "Todos tus logros"
+
+#: modulos/dashboard/view/start/dashborad.php:90
+msgid "Inicio de sesión"
+msgstr ""
+
+#: modulos/dashboard/view/start/dashborad.php:92
+msgid "Vencimiento de membresia"
+msgstr "Vencimiento de membresía"
+
+#: modulos/dashboard/view/start/dashborad.php:93
+msgid "Todas las lecciones que tu domines en este curso"
+msgstr "Todas las lecciones que domines en este curso"
+
+#: modulos/dashboard/view/start/dashborad.php:94
+#: modulos/medallas/view/medallas.php:1
+msgid "Lecciones dominadas"
+msgstr ""
+
+#: modulos/dashboard/view/start/dashborad.php:96
+msgid "Última lección vista"
+msgstr ""
+
+#: modulos/dashboard/view/start/dashborad.php:98
+msgid "Ninguna reproducción reciente"
+msgstr ""
+
+#: modulos/dashboard/view/start/dashborad.php:119
+msgid "Curso inactivo actualmente"
+msgstr "Curso inactivo actualmente"
+
+#: modulos/dashboard/view/start/dashborad.php:124
+msgid "Tú membresía al curso esta inactiva"
+msgstr "Tú membresía al curso esta inactiva"
+
+#: modulos/dashboard/view/start/dashborad.php:128
+msgid "Recupera el avance del curso y disfruta tú membresía"
+msgstr "Recupera el avance del curso y disfruta tu membresía"
+
+#: modulos/dashboard/view/start/dashborad.php:132
+msgid "Renueva tu membresía"
+msgstr "Renueva tu membresía"
+
+#: modulos/dashboard/view/start/dashborad.php:150
+msgid "Ir a curso"
+msgstr "Ir al curso"
+
+#: modulos/dashboard/view/start/dashborad.php:155
+#: templates/incl/side-bar.php:75
+msgid "Curso inactivo"
+msgstr ""
+
+#: modulos/dashboard/view/start/dashborad.php:166
+#, fuzzy
+#| msgid "Pagar membresia"
+msgid "Pagar membresía "
+msgstr "Pago de la membresía"
+
+#: modulos/dashboard/view/start/dashborad.php:171
+#, fuzzy
+#| msgid "Renovar membresia"
+msgid "Renovar membresía"
+msgstr "Renovar membresía"
+
+#: modulos/dashboard/view/start/dashborad.php:180
+msgid "Presentar evaluación"
+msgstr ""
+
+#: modulos/dashboard/view/start/dashborad.php:183
+#: modulos/dashboard/view/start/dashborad.php:184
+msgid "Estatus de lecciones"
+msgstr "Estado de las lecciones"
+
+#: modulos/dashboard/view/start/dashborad.php:183
+#: modulos/dashboard/view/start/dashborad.php:184
+msgid "Todas las lecciones"
+msgstr ""
+
+#: modulos/dashboard/view/start/dashborad.php:183
+msgid "Total de lecciones"
+msgstr ""
+
+#: modulos/dashboard/view/start/dashborad.php:197
+msgid "Síguenos en redes sociales"
+msgstr ""
+
+#: modulos/dashboard/view/start/dashborad.php:214
+msgid "INICIO"
+msgstr ""
+
+#: modulos/editar_perfil/Controller.php:91
+msgid "No_se_Actulizo_tu_informacion"
+msgstr "No se actualizo tu información"
+
+#: modulos/editar_perfil/Controller.php:99
+msgid "Informacion_actualizada_correctamente"
+msgstr "Información actualizada correctamente"
+
+#: modulos/editar_perfil/Controller.php:140
+#, fuzzy
+msgid "Algo salio mal"
+msgstr "Ocurrió un error inesperado"
+
+#: modulos/editar_perfil/logic/Logic.php:28
+msgid "Lo_sentimos"
+msgstr "Lo sentimos"
+
+#: modulos/editar_perfil/logic/Logic.php:70
+msgid "Imagen_actulizada_correctamente"
+msgstr "Imagen actualizada correctamente"
+
+#: modulos/editar_perfil/logic/Logic.php:75
+#, fuzzy
+#| msgid "Ha ocurrido un error al subir el archivo"
+msgid "Error al subir archivo"
+msgstr "Ha ocurrido un error al subir el archivo"
+
+#: modulos/editar_perfil/logic/Logic.php:84
+msgid "El_archivo_no_es_un_formato_valido"
+msgstr "El archivo no es un formato válido"
+
+#: modulos/editar_perfil/logic/Logic.php:91
+msgid "El_archivo_es_demasiado_grande"
+msgstr "El archivo es demasiado grande"
+
+#: modulos/editar_perfil/logic/Logic.php:120
+#, fuzzy
+#| msgid "Tu_contraseña_no_es_segura"
+msgid "Tu contraseña no es segura"
+msgstr "Tu contraseña no es segura"
+
+#: modulos/editar_perfil/logic/Logic.php:125
+#: plataforma/exception/IntentionalException.php:87
+msgid "Las contraseñas no coinciden"
+msgstr ""
+
+#: modulos/editar_perfil/logic/Logic.php:135
+#, fuzzy
+#| msgid "Informacion_guardada_corectamente"
+msgid "Información guardada corectamente"
+msgstr "Información guardada correctamente"
+
+#: modulos/editar_perfil/logic/Logic.php:142
+msgid "Contraseña actual es incorrecta"
+msgstr "Contraseña actual es incorrecta"
+
+#: modulos/editar_perfil/view/edit_user.php:5
+msgid "Edit_profile"
+msgstr "Editar perfil"
+
+#: modulos/editar_perfil/view/edit_user.php:11
+msgid "Los campos marcados con un asterisco rojo son campos requeridos"
+msgstr ""
+
+#: modulos/editar_perfil/view/edit_user.php:15
+msgid ""
+"Tu imagen de perfil, para cambiar de imagen dar click dentro de la imagen "
+"para buscar dentro de tus documentos"
+msgstr ""
+
+#: modulos/editar_perfil/view/edit_user.php:33
+msgid "Tu infromación como usuario de TocaJazz"
+msgstr ""
+
+#: modulos/editar_perfil/view/edit_user.php:36
+msgid "Names"
+msgstr "Nombres"
+
+#: modulos/editar_perfil/view/edit_user.php:38
+#: modulos/membresia/view/membresias.php:277
+#: modulos/registro/view/principal.php:128
+#: modulos/usuario/view/administradores.php:28
+#: modulos/usuario/view/administradores.php:68
+#: modulos/usuario/view/alumnos.php:23 modulos/usuario/view/alumnos.php:63
+#: modulos/usuario/view/instructores.php:28
+#: modulos/usuario/view/instructores.php:68
+msgid "Apellidos"
+msgstr "Apellidos"
+
+#: modulos/editar_perfil/view/edit_user.php:40
+msgid "last names"
+msgstr "Apellidos"
+
+#: modulos/editar_perfil/view/edit_user.php:42
+#: modulos/editar_perfil/view/edit_user.php:44
+msgid "Email"
+msgstr "Correo"
+
+#: modulos/editar_perfil/view/edit_user.php:58
+msgid "Change password"
+msgstr "Cambiar contraseña"
+
+#: modulos/editar_perfil/view/edit_user.php:63
+#, fuzzy
+msgid ""
+"Información para cambio de contraseña, no uses números de telefonos ó fechas "
+"de nacimiento usa contraseña seguras."
+msgstr ""
+"Información para cambio de contraseña, no uses números de teléfonos ó fechas "
+"de nacimiento, usa contraseña seguras."
+
+#: modulos/editar_perfil/view/edit_user.php:64
+msgid "Actual contraseña"
+msgstr "Contraseña actual"
+
+#: modulos/editar_perfil/view/edit_user.php:67
+msgid "Current_password"
+msgstr "Contraseña actual"
+
+#: modulos/editar_perfil/view/edit_user.php:69
+msgid "New"
+msgstr "Nueva"
+
+#: modulos/editar_perfil/view/edit_user.php:71
+msgid "New_password"
+msgstr "Nueva contraseña"
+
+#: modulos/editar_perfil/view/edit_user.php:73
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: modulos/editar_perfil/view/edit_user.php:75
+msgid "Confirm_password"
+msgstr "Confirmar contraseña"
+
+#: modulos/editar_perfil/view/js/edit_user_js.php:1
+msgid "Guardar imagen de perfil"
+msgstr ""
+
+#: modulos/editar_perfil/view/js/edit_user_js.php:1
+msgid "Editar imagen de perfil"
+msgstr ""
+
+#: modulos/evaluaciones/Controller.php:23
+msgid "pendientes"
+msgstr ""
+
+#: modulos/evaluaciones/Controller.php:30
+msgid "calificadas"
+msgstr ""
+
+#: modulos/evaluaciones/Controller.php:188
+msgid "Evaluacion guardada correctamente"
+msgstr "Evaluación guardada correctamente"
+
+#: modulos/evaluaciones/Controller.php:223
+msgid "Evaluacion calificada correctamente"
+msgstr "Evaluación calificada correctamente"
+
+#: modulos/evaluaciones/Controller.php:257
+msgid "Evaluacion enviada correctamente"
+msgstr "Evaluación enviada correctamente"
+
+#: modulos/evaluaciones/logic/Logic.php:267
+msgid "Una o mas observaciones vacias"
+msgstr "Una o más observaciones vacías"
+
+#: modulos/evaluaciones/logic/Logic.php:287
+#, php-format
+msgid "%s calificada"
+msgstr ""
+
+#: modulos/evaluaciones/logic/Logic.php:361
+msgid "Uno o mas titulos vacios"
+msgstr "Uno o más títulos vacíos"
+
+#: modulos/evaluaciones/logic/Logic.php:367
+msgid "Una o mas descripciones vacias"
+msgstr "Una o más descripciones vacías"
+
+#: modulos/evaluaciones/logic/Logic.php:530
+#: templates/email/request_evaluation.php:6
+#, php-format
+msgid "Nueva solicitud de la evaluacion: %s"
+msgstr "Nueva solicitud de la evaluación: %s"
+
+#: modulos/evaluaciones/view/calificar.php:42
+msgid "Evaluaciones pendientes"
+msgstr ""
+
+#: modulos/evaluaciones/view/calificar.php:71
+#: modulos/evaluaciones/view/ver.php:71
+msgid "Nombre del alumno"
+msgstr ""
+
+#: modulos/evaluaciones/view/calificar.php:298
+msgid "Asignar estrellas"
+msgstr ""
+
+#: modulos/evaluaciones/view/calificar.php:305
+msgid "La observacion no puede estar vacia"
+msgstr "La observación no puede estar vacía"
+
+#: modulos/evaluaciones/view/evaluacion.php:35
+msgid "Nueva evaluacion"
+msgstr "Nueva evaluación"
+
+#: modulos/evaluaciones/view/evaluacion.php:80
+#: modulos/evaluaciones/view/evaluacion.php:138
+#: modulos/leccion/view/lessons.php:58 modulos/leccion/view/lessons.php:89
+msgid "Titulo"
+msgstr "Título"
+
+#: modulos/evaluaciones/view/evaluacion.php:205
+#: modulos/evaluaciones/view/evaluaciones.php:94
+msgid "Especificar el nombre de la evaluacion"
+msgstr "Especificar el nombre de la evaluación"
+
+#: modulos/evaluaciones/view/evaluacion.php:211
+msgid "El titulo del enlace no puede estar vacia"
+msgstr "El título del enlace no puede estar vacío"
+
+#: modulos/evaluaciones/view/evaluacion.php:218
+msgid "La descripcion no puede estar vacia"
+msgstr "La descripción no puede estar vacía"
+
+#: modulos/evaluaciones/view/evaluaciones.php:21
+#: modulos/evaluaciones/view/perform.php:24 modulos/leccion/view/lessons.php:57
+#: modulos/serie/view/series.php:46
+msgid "Numero"
+msgstr "Número"
+
+#: modulos/evaluaciones/view/evaluaciones.php:43
+msgid "Editar evaluacion"
+msgstr "Editar evaluación"
+
+#: modulos/evaluaciones/view/perform.php:21
+msgid "Alumno"
+msgstr ""
+
+#: modulos/evaluaciones/view/perform.php:22
+msgid "Intentos"
+msgstr ""
+
+#: modulos/evaluaciones/view/perform.php:48
+#: templates/email/request_evaluation.php:18
+msgid "Calificar evaluacion"
+msgstr "Calificar evaluación"
+
+#: modulos/evaluaciones/view/perform.php:59
+msgid "Ver evaluacion"
+msgstr "Ver evaluación"
+
+#: modulos/evaluaciones/view/ver.php:42
+msgid "Evaluaciones calificadas"
+msgstr ""
+
+#: modulos/ipn/logic/Logic.php:38
+msgid "El archivo que intenta visualizar no existe o fue borrado"
+msgstr "El archivo que intenta visualizar no existe o fue borrado"
+
+#: modulos/ipn/logic/Logic.php:51
+#, php-format
+msgid "IPN no encontrado: %s"
+msgstr "IPN no encontrado: %s"
+
+#: modulos/ipn/view/perform.php:4
+msgid "Historial de IPN"
+msgstr ""
+
+#: modulos/ipn/view/perform.php:41 modulos/payments/view/perform.php:36
+msgid "Pasarela de pago"
+msgstr ""
+
+#: modulos/ipn/view/perform.php:43 modulos/payments/view/perform.php:38
+msgid "Todas las pasarelas de pago"
+msgstr ""
+
+#: modulos/ipn/view/perform.php:44 modulos/payments/view/perform.php:39
+msgid "Paypal"
+msgstr "PayPal"
+
+#: modulos/ipn/view/perform.php:45 modulos/payments/view/perform.php:40
+msgid "Conekta"
+msgstr ""
+
+#: modulos/ipn/view/perform.php:52 modulos/ipn/view/perform.php:75
+#: modulos/payments/view/perform.php:80 modulos/payments/view/perform.php:103
+msgid "Identificador de subscripcion"
+msgstr "Identificador de suscripción"
+
+#: modulos/ipn/view/perform.php:76 modulos/payments/view/perform.php:106
+#: modulos/payments/view/perform.php:202
+msgid "Identificador"
+msgstr ""
+
+#: modulos/ipn/view/perform.php:77 modulos/payments/view/perform.php:107
+msgid "Pasarela"
+msgstr ""
+
+#: modulos/ipn/view/perform.php:78 modulos/leccion/view/material.php:48
+#: modulos/medallas/view/medallas.php:1
+#: modulos/membresia/view/membresias.php:219
+#: modulos/membresia/view/perform.php:32 modulos/membresia/view/perform.php:94
+#: modulos/usuario/view/alumnos.php:21
+msgid "Tipo"
+msgstr "Tipo"
+
+#: modulos/ipn/view/perform.php:114
+msgid "Descargar JSON"
+msgstr ""
+
+#: modulos/leccion/Controller.php:159
+msgid "Precio establecido correctamente"
+msgstr ""
+
+#: modulos/leccion/Controller.php:217
+msgid "Archivo eliminado correctamente"
+msgstr "Archivo eliminado correctamentee"
+
+#: modulos/leccion/Controller.php:245
+msgid "Orden de las lecciones guardado correctamente"
+msgstr "Orden de las lecciones guardado correctamente"
+
+#: modulos/leccion/logic/Logic.php:167
+msgid "Solo se permiten archivos pdf y mp3"
+msgstr "Solo se permiten archivos PDF y MP3"
+
+#: modulos/leccion/logic/Logic.php:182 modulos/migration/logic/Logic.php:369
+msgid "Ha ocurrido un error al subir el archivo"
+msgstr "Ha ocurrido un error al subir el archivo"
+
+#: modulos/leccion/logic/Logic.php:217
+msgid "Archivo actualizado correctamente"
+msgstr "Archivo actualizado correctamente"
+
+#: modulos/leccion/logic/Logic.php:228
+msgid "Archivo guardado correctamente"
+msgstr "Archivo guardado correctamente"
+
+#: modulos/leccion/logic/Logic.php:250
+msgid "No tiene permiso para realizar la accion"
+msgstr "No tiene permiso para realizar la acción"
+
+#: modulos/leccion/logic/Logic.php:269
+msgid "El curso no tiene lecciones"
+msgstr ""
+
+#: modulos/leccion/logic/Logic.php:278
+#, php-format
+msgid "Los precios de las lecciones del curso: %s han sido modificados a: %s"
+msgstr "Los precios de las lecciones del curso %s han sido modificados a %s"
+
+#: modulos/leccion/logic/Logic.php:371
+msgid "Leccion actualizada correctamente"
+msgstr "Lección actualizada correctamente"
+
+#: modulos/leccion/logic/Logic.php:421
+#, php-format
+msgid "Nueva leccion agregada: %s"
+msgstr "Nueva lección agregada: %s"
+
+#: modulos/leccion/logic/Logic.php:430
+msgid "Leccion guardada correctamente"
+msgstr "Lección guardada correctamente"
+
+#: modulos/leccion/view/lessons.php:28
+#: modulos/leccion/view/lessons_order.php:14
+#: modulos/medallas/view/medallas.php:1
+#: modulos/medallas/view/medallas_ordenar.php:10
+#: modulos/serie/view/series.php:38 modulos/serie/view/series_order.php:10
+msgid "Reordenar"
+msgstr ""
+
+#: modulos/leccion/view/lessons.php:35
+msgid "Seleccione un tipo de goteo"
+msgstr "Seleccione un tipo de goteo"
+
+#: modulos/leccion/view/lessons.php:37
+#: modulos/leccion/view/lessons_order.php:22 repository/LessonsDAO.php:89
+msgid "Sin goteo"
+msgstr ""
+
+#: modulos/leccion/view/lessons.php:45
+#: modulos/leccion/view/lessons_order.php:30
+msgid "No se encontraron goteos en este curso"
+msgstr ""
+
+#: modulos/leccion/view/lessons.php:61
+#: modulos/leccion/view/lessons_order.php:41
+msgid "Disponible en"
+msgstr "Disponible en"
+
+#: modulos/leccion/view/lessons.php:96
+msgid "Enlace al video"
+msgstr "Enlace al video"
+
+#: modulos/leccion/view/lessons.php:103
+msgid "Leccion sinopsis"
+msgstr "Es una sinopsis"
+
+#: modulos/leccion/view/lessons.php:163 modulos/leccion/view/lessons.php:319
+msgid "Editar leccion"
+msgstr "Editar lección"
+
+#: modulos/leccion/view/lessons.php:176
+msgid "Material de la leccion"
+msgstr "Material de la lección"
+
+#: modulos/leccion/view/lessons.php:188
+msgid "Vista previa"
+msgstr ""
+
+#: modulos/leccion/view/lessons.php:279
+msgid "Nueva leccion"
+msgstr "Nueva lección"
+
+#: modulos/leccion/view/lessons.php:298
+msgid "No se pudo editar la leccion"
+msgstr "No se pudo editar la sección"
+
+#: modulos/leccion/view/lessons.php:326
+msgid "Especificar el titulo de la leccion"
+msgstr "Especificar el título de la sección"
+
+#: modulos/leccion/view/lessons.php:327
+msgid "Especificar enlace al video"
+msgstr "Especificar enlace al video"
+
+#: modulos/leccion/view/lessons.php:328
+msgid "Especificar la descripcion"
+msgstr "Especificar la descripción"
+
+#: modulos/leccion/view/lessons.php:339 modulos/membresia/view/perform.php:400
+msgid "Especificar el precio es obligatorio"
+msgstr "Especificar el precio es obligatorio"
+
+#: modulos/leccion/view/lessons_order.php:79
+msgid "Indique el numero de incrementos a ajustar"
+msgstr "Indique el número de incrementos a ajustar"
+
+#: modulos/leccion/view/lessons_order.php:87
+msgid "Ajustar"
+msgstr "Ajustar"
+
+#: modulos/leccion/view/lessons_order.php:100
+#: modulos/medallas/view/medallas_ordenar.php:31
+#: modulos/serie/view/series_order.php:31
+msgid "Mover"
+msgstr "Mover"
+
+#: modulos/leccion/view/lessons_order.php:111
+msgid "Ajustar disponibilidad"
+msgstr "Ajustar disponibilidad"
+
+#: modulos/leccion/view/material.php:30
+msgid "Sinopsis"
+msgstr ""
+
+#: modulos/leccion/view/material.php:30
+#, php-format
+msgid "Leccion - %s"
+msgstr "Lección - %s"
+
+#: modulos/leccion/view/material.php:50
+msgid "Tamaño"
+msgstr "Tamaño"
+
+#: modulos/leccion/view/material.php:109 modulos/leccion/view/material.php:287
+msgid "Editar archivo"
+msgstr "Editar usuario"
+
+#: modulos/leccion/view/material.php:122
+msgid "Eliminar archivo"
+msgstr "Eliminar archivo"
+
+#: modulos/leccion/view/material.php:196 modulos/leccion/view/material.php:205
+#: modulos/leccion/view/material.php:226
+msgid "Seleccionar archivo"
+msgstr "Seleccionar archivo"
+
+#: modulos/leccion/view/material.php:239
+msgid "Nuevo archivo"
+msgstr "Nuevo archivo"
+
+#: modulos/leccion/view/material.php:251
+msgid "¿Esta seguro que desea eliminar el archivo?"
+msgstr "¿Está seguro que desea eliminar el archivo?"
+
+#: modulos/leccion/view/material.php:282
+msgid "No se pudo editar el archivo"
+msgstr "No se pudo editar el archivo"
+
+#: modulos/leccion/view/material.php:308
+msgid "Debe seleccionar un archivo pdf o mp3"
+msgstr "Debe seleccionar un archivo PDF o MP3"
+
+#: modulos/login/Controller.php:85 modulos/login/logic/Logic.php:59
+msgid "Recuperar contraseña"
+msgstr ""
+
+#: modulos/login/Controller.php:132
+msgid "Contrasena_reestablecida_correctamente"
+msgstr "Contraseña restablecida correctamente"
+
+#: modulos/login/Controller.php:163
+msgid "Se_ha_enviado_un_correo_para_reestablecer_su_contrasena"
+msgstr "Se ha enviado un correo para restablecer su contraseña"
+
+#: modulos/login/logic/Logic.php:122 plataforma/session/SessionLoader.php:53
+#, php-format
+msgid "Lo sentimos, su cuenta ha sido: %s"
+msgstr "Lo sentimos, su cuenta ha sido %s"
+
+#: modulos/login/view/login.php:152 modulos/registro/view/principal.php:109
+msgid "O"
+msgstr "Ó"
+
+#: modulos/login/view/login.php:160 modulos/login/view/password.php:51
+#: modulos/login/view/recover.php:55 modulos/medallas/view/usuarios.php:36
+#: modulos/membresia/view/membresias.php:285
+#: modulos/payments/view/perform.php:170
+#: modulos/registro/view/principal.php:137
+#: modulos/usuario/view/administradores.php:30
+#: modulos/usuario/view/administradores.php:76
+#: modulos/usuario/view/alumnos.php:25 modulos/usuario/view/alumnos.php:71
+#: modulos/usuario/view/instructores.php:30
+#: modulos/usuario/view/instructores.php:76
+msgid "Correo"
+msgstr "Correo"
+
+#: modulos/login/view/login.php:167 modulos/login/view/recover.php:66
+#: modulos/registro/view/principal.php:150
+msgid "Contrasena"
+msgstr "Contraseña"
+
+#: modulos/login/view/login.php:172
+msgid "olvide_mi_contrasena"
+msgstr "No recuerdo mi contraseña"
+
+#: modulos/login/view/login.php:180
+msgid "Recuerdame"
+msgstr "Recuérdame"
+
+#: modulos/login/view/login.php:186 modulos/pagos/view/subscription_done.php:52
+msgid "Iniciar_sesion"
+msgstr "Iniciar sesión"
+
+#: modulos/login/view/login.php:197 modulos/pagos/view/generate_payment.php:41
+#: modulos/pagos/view/method_payments_list.php:407
+#: modulos/pagos/view/process_payment_paypal.php:48 templates/error_view.php:32
+#: templates/error_view_login.php:19 templates/incl/scripts/notification.php:44
+#: templates/incl/scripts/notification_for_login.php:44
+msgid "ERROR"
+msgstr "ERROR"
+
+#: modulos/login/view/password.php:41
+msgid "Enviar_correo_de_recuperacion_de_contrasena"
+msgstr "Enviar correo de recuperación de contraseña"
+
+#: modulos/login/view/recover.php:41
+msgid "Recuperacion_de_contrasena"
+msgstr "Recuperación de contraseña"
+
+#: modulos/login/view/recover.php:44
+msgid "Por_favor_indiquenos_su_correo_y_escriba_su_nueva_contrasena"
+msgstr "Por favor, indique su correo y escriba su nueva contraseña"
+
+#: modulos/login/view/recover.php:59 modulos/registro/view/principal.php:143
+msgid "Ver_contrasena"
+msgstr "Ver contraseña"
+
+#: modulos/login/view/recover.php:71 modulos/registro/view/principal.php:155
+msgid ""
+"Minimo_8_caracteres,_al_menos_un_numero_o_caracter_especial,"
+"_una_letra_mayuscula_y_una_letra_minuscula"
+msgstr ""
+"Mínimo 8 caracteres, al menos un número o carácter especial, una letra "
+"mayúscula y una letra minúscula"
+
+#: modulos/login/view/recover.php:79 templates/incl/footer.php:320
+msgid "Guardar"
+msgstr "Guardar"
+
+#: modulos/login/view/recover.php:88
+msgid "Estimado_usuario_su_contrasena_no_es_segura"
+msgstr "Estimado usuario su contraseña no es segura"
+
+#: modulos/login/view/recover.php:91 modulos/registro/view/principal.php:185
+msgid "Por_seguridad_se_recomienda_generar_contrasenas_seguras"
+msgstr "Por seguridad se recomienda generar contraseñas seguras"
+
+#: modulos/login/view/recover.php:93 modulos/registro/view/principal.php:187
+msgid "¿Esta_seguro_de_que_desea_continuar_con_una_contrasena_no_segura?"
+msgstr "¿Está seguro de que desea continuar con una contraseña insegura?"
+
+#: modulos/medallas/Controller.php:1
+msgid "Orden de los logros guardado correctamente"
+msgstr "Orden de los logros guardado correctamente"
+
+#: modulos/medallas/logic/Logic.php:1
+msgid "Medalla no encontrada"
+msgstr "Medalla no encontrada"
+
+#: modulos/medallas/logic/Logic.php:1
+msgid "la medalla"
+msgstr ""
+
+#: modulos/medallas/logic/Logic.php:1
+msgid "el logro"
+msgstr ""
+
+#: modulos/medallas/logic/Logic.php:1
+#, php-format
+msgid ""
+"El miembro no cuenta con el curso: %s o %s ya ha sido vinculada anteriormente"
+msgstr ""
+"El miembro no cuenta con el curso %s o %s ya ha sido vinculada anteriormente"
+
+#: modulos/medallas/logic/Logic.php:1
+#, php-format
+msgid "Felicidades! Se ha ganado %s: %s del curso: %s"
+msgstr "¡Felicidades! Se ha ganado %s %s del curso %s"
+
+#: modulos/medallas/logic/Logic.php:1
+msgid "El archivo no puede exceder los 2 MB"
+msgstr ""
+
+#: modulos/medallas/logic/Logic.php:1
+msgid "Solo se permiten archivos con extension: .png y .bmp"
+msgstr "Solo se permiten archivos con extensión: .PNG  y .BMP"
+
+#: modulos/medallas/logic/Logic.php:1
+msgid "Ha ocurrido un error al subir icono"
+msgstr "Ha ocurrido un error al subir icono"
+
+#: modulos/medallas/logic/Logic.php:1
+#, fuzzy
+#| msgid "Curso guardado correctamente"
+msgid "Logro guardado correctamente"
+msgstr "Curso guardado correctamente"
+
+#: modulos/medallas/logic/Logic.php:1
+#, fuzzy
+#| msgid "Membresia cancelada correctamente"
+msgid "Medalla creada correctamente"
+msgstr "Membresía cancelada correctamente"
+
+#: modulos/medallas/logic/Logic.php:1
+#, fuzzy
+#| msgid "Curso actualizado correctamente"
+msgid "Logro actualizado correctamente"
+msgstr "Curso actualizado correctamente"
+
+#: modulos/medallas/logic/Logic.php:1
+#, fuzzy
+#| msgid "Membresia actualizada correctamente"
+msgid "Medalla actualizada correctamente"
+msgstr "Membresía actualizada correctamente"
+
+#: modulos/medallas/logic/Logic.php:1
+msgid "Error al actualizar posicion de uno o mas logros"
+msgstr "Error al actualizar posición de uno o mas logros"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Agregar medalla"
+msgstr "Agregar medalla"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Agregar logro"
+msgstr "Agregar logro"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Icono"
+msgstr ""
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Resolucion maxima permitida de 40 x 40 px"
+msgstr "Resolución máxima permitida de 40x40px"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Descripcion antes de obtener"
+msgstr "Descripción antes de obtener"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Descripcion despues de obtener"
+msgstr "Descripción después de obtener"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Formula"
+msgstr "Fórmula"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Lecciones compradas"
+msgstr "Lecciones compradas"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Notas creadas"
+msgstr ""
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Pagos atrasados"
+msgstr ""
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Lecciones vistas"
+msgstr "Lecciones vistas"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Evaluaciones aprovadas"
+msgstr "Evaluaciones aprobadas"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Evaluaciones aprovadas al primer intento"
+msgstr "Evaluaciones aprobadas al primer intento"
+
+#: modulos/medallas/view/medallas.php:1
+#, fuzzy, php-format
+#| msgid "Lista de lecciones disponibles de la serie por visualizar."
+msgid "Total de lecciones de la serie %s"
+msgstr "Lista de lecciones disponibles."
+
+#: modulos/medallas/view/medallas.php:1
+#, fuzzy, php-format
+#| msgid "Lista de lecciones disponibles de la serie por visualizar."
+msgid "Total de lecciones vistas de la serie %s"
+msgstr "Lista de lecciones disponibles."
+
+#: modulos/medallas/view/medallas.php:1
+msgid "="
+msgstr ""
+
+#: modulos/medallas/view/medallas.php:1
+msgid ">"
+msgstr ""
+
+#: modulos/medallas/view/medallas.php:1
+msgid "<"
+msgstr ""
+
+#: modulos/medallas/view/medallas.php:1
+msgid ">="
+msgstr ""
+
+#: modulos/medallas/view/medallas.php:1
+msgid "<="
+msgstr ""
+
+#: modulos/medallas/view/medallas.php:1
+msgid "!="
+msgstr ""
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Asignar automaticamente"
+msgstr "Asignar automáticamente"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Editar medalla"
+msgstr "Editar medalla"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Usuarios vinculados"
+msgstr ""
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Nueva medalla"
+msgstr "Nueva medalla"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Nuevo logro"
+msgstr "Nuevo logro"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "No se pudo editar el logro"
+msgstr "No se pudo editar el logro"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Editar logro"
+msgstr ""
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Especificar una descripcion antes de obtener"
+msgstr "Especificar una descripción antes de obtener"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Especificar una descripcion despues de obtener"
+msgstr "Especificar una descripción después de obtener"
+
+#: modulos/medallas/view/medallas.php:1
+msgid "Debe seleccionar un icono"
+msgstr "Debe seleccionar un icono"
+
+#: modulos/medallas/view/usuarios.php:9
+msgid "logro"
+msgstr ""
+
+#: modulos/medallas/view/usuarios.php:9
+msgid "medalla"
+msgstr ""
+
+#: modulos/medallas/view/usuarios.php:17 modulos/medallas/view/usuarios.php:22
+#, php-format
+msgid "Vincular %s: %s"
+msgstr "Vincular %s %s"
+
+#: modulos/medallas/view/usuarios.php:27
+#, php-format
+msgid "Vincular %s"
+msgstr "Vincular %s"
+
+#: modulos/medallas/view/usuarios.php:35
+msgid "Fecha vinculacion"
+msgstr "Fecha vinculación"
+
+#: modulos/medallas/view/usuarios.php:37
+#: modulos/membresia/view/membresias.php:247
+#: modulos/payments/view/perform.php:60 modulos/payments/view/perform.php:102
+#: modulos/payments/view/perform.php:163
+msgid "Miembro"
+msgstr "Miembro"
+
+#: modulos/medallas/view/usuarios.php:69
+msgid "Vincular medalla"
+msgstr "Vincular medalla"
+
+#: modulos/medallas/view/usuarios.php:79
+#, php-format
+msgid "Miembros del curso: %s"
+msgstr "Miembros del curso %s"
+
+#: modulos/medallas/view/usuarios.php:107
+#, fuzzy, php-format
+#| msgid "¿Esta seguro que desea eliminar el archivo?"
+msgid "Esta seguro de que desea vincular la medalla %s al usuario"
+msgstr "¿Está seguro que desea eliminar el archivo?"
+
+#: modulos/membresia/Controller.php:170
+msgid "Tiempo extra guardado correctamente"
+msgstr "Tiempo extra guardado correctamente"
+
+#: modulos/membresia/Controller.php:198
+msgid "Membresia vinculada al usuario correctamente"
+msgstr "Membresía vinculada al usuario correctamente"
+
+#: modulos/membresia/Controller.php:230
+msgid "Membresia cancelada correctamente"
+msgstr "Membresía cancelada correctamente"
+
+#: modulos/membresia/Controller.php:259
+msgid "Membresia suspendida correctamente"
+msgstr "Membresia suspendida correctamente"
+
+#: modulos/membresia/Controller.php:288
+msgid "Membresia reactivada correctamente"
+msgstr "Membresía reactivada correctamente"
+
+#: modulos/membresia/logic/Logic.php:124
+msgid "El usuario no cuenta con subscripcion activa"
+msgstr "El usuario no cuenta con suscripción activa"
+
+#: modulos/membresia/logic/Logic.php:285
+msgid "La subscripcion no se encuentra suspendida"
+msgstr "La suscripción no se encuentra suspendida"
+
+#: modulos/membresia/logic/Logic.php:505
+msgid "Debe existir al menos un tipo de goteo activo"
+msgstr ""
+
+#: modulos/membresia/logic/Logic.php:513
+msgid "Membresia desactivada correctamente"
+msgstr "Membresía desactivada correctamente"
+
+#: modulos/membresia/logic/Logic.php:516
+#, php-format
+msgid "La membresia: %s del curso: %s ha sido desactivada"
+msgstr "La membresía: %s del curso: %s ha sido desactivada"
+
+#: modulos/membresia/logic/Logic.php:523
+msgid "No puede activar membresia con precio en cero"
+msgstr "No puede activar membresía con precio en cero"
+
+#: modulos/membresia/logic/Logic.php:529
+msgid "Membresia activada correctamente"
+msgstr "Membresía activada correctamente"
+
+#: modulos/membresia/logic/Logic.php:532
+#, php-format
+msgid "La membresia: %s del curso: %s ha sido activada"
+msgstr "La membresía: %s del curso: %s ha sido activada"
+
+#: modulos/membresia/logic/Logic.php:587
+#, php-format
+msgid "Se ha actualizado la membresia: %s del curso: %s"
+msgstr "Se ha actualizado la membresía: %s del curso: %s"
+
+#: modulos/membresia/logic/Logic.php:601
+msgid "Membresia actualizada correctamente"
+msgstr "Membresía actualizada correctamente"
+
+#: modulos/membresia/logic/Logic.php:619
+#, php-format
+msgid "Se ha generado una nueva membresia llamada: %s para el curso: %s"
+msgstr "Se ha generado una nueva membresía llamada: %s para el curso: %s"
+
+#: modulos/membresia/logic/Logic.php:633
+msgid "Membresia guardada correctamente"
+msgstr "Membresía guardada correctamente"
+
+#: modulos/membresia/view/membresias.php:24 templates/incl/side-bar.php:162
+msgid "Miembros"
+msgstr "Miembros"
+
+#: modulos/membresia/view/membresias.php:32
+msgid "Vincular membresia"
+msgstr "Vincular membresía"
+
+#: modulos/membresia/view/membresias.php:42
+msgid "Elegir un miembro"
+msgstr "Elegir un miembro"
+
+#: modulos/membresia/view/membresias.php:49
+#: modulos/payments/view/perform.php:71 modulos/payments/view/perform.php:407
+msgid "No se encontraron miembros en el sistema"
+msgstr "No se encontraron miembros en el sistema"
+
+#: modulos/membresia/view/membresias.php:69
+msgid "Nombre de la membresia"
+msgstr "Nombre de la membresia"
+
+#: modulos/membresia/view/membresias.php:83
+#: modulos/pagos/view/method_payments_list.php:487
+#: repository/PaymentsDAO.php:390
+msgid "Subscripcion"
+msgstr "Suscripción"
+
+#: modulos/membresia/view/membresias.php:99
+#: modulos/membresia/view/perform.php:34
+#: templates/email/agreement_failed.php:34
+#: templates/email/agreement_payment.php:34
+msgid "Frecuencia"
+msgstr "Frecuencia"
+
+#: modulos/membresia/view/membresias.php:107
+#, fuzzy
+#| msgid "Motivo de la cancelacion especificada por el usuario:"
+msgid "Motivo de cancelacion/suspension/activacion"
+msgstr "Motivo de la cancelación especificada por el usuario:"
+
+#: modulos/membresia/view/membresias.php:121
+msgid "Suspender"
+msgstr "Suspender"
+
+#: modulos/membresia/view/membresias.php:125
+msgid "Reactivar"
+msgstr "Reactivar"
+
+#: modulos/membresia/view/membresias.php:132
+msgid "Historial de la membresia"
+msgstr "Historial de la membresía"
+
+#: modulos/membresia/view/membresias.php:150
+#: modulos/membresia/view/membresias.php:319
+#: modulos/membresia/view/membresias.php:431
+msgid "Tiempo extra"
+msgstr "Tiempo extra"
+
+#: modulos/membresia/view/membresias.php:175
+msgid "Vincular membresia a un usuario"
+msgstr "Vincular membresía a un usuario"
+
+#: modulos/membresia/view/membresias.php:226
+#: modulos/membresia/view/perform.php:112
+msgid "Precio (dolares)"
+msgstr "Precio (dólares)"
+
+#: modulos/membresia/view/membresias.php:233
+msgid "Duracion (meses)"
+msgstr "Duración (meses)"
+
+#: modulos/membresia/view/membresias.php:249
+msgid "Nuevo miembro"
+msgstr "Nuevo miembro"
+
+#: modulos/membresia/view/membresias.php:270
+#: modulos/usuario/view/administradores.php:61
+#: modulos/usuario/view/alumnos.php:56 modulos/usuario/view/instructores.php:61
+msgid "Nombres"
+msgstr "Nombres"
+
+#: modulos/membresia/view/membresias.php:295
+msgid "Vincular"
+msgstr "Vincular"
+
+#: modulos/membresia/view/membresias.php:311
+msgid "Administrar tiempo extra"
+msgstr "Administrar tiempo extra"
+
+#: modulos/membresia/view/membresias.php:343
+msgid "Sumar duracion"
+msgstr "Sumar duración"
+
+#: modulos/membresia/view/membresias.php:344
+msgid "Restar duracion"
+msgstr "Restar duración"
+
+#: modulos/membresia/view/membresias.php:350
+msgid "Fecha normal"
+msgstr "Fecha normal"
+
+#: modulos/membresia/view/membresias.php:355
+msgid "Fecha con tiempo extra"
+msgstr "Fecha con tiempo extra"
+
+#: modulos/membresia/view/membresias.php:362
+msgid "Motivo del tiempo extra"
+msgstr "Motivo del tiempo extra"
+
+#: modulos/membresia/view/membresias.php:390
+msgid "No hay membresias disponibles a vincular"
+msgstr "No hay membresías disponibles a vincular"
+
+#: modulos/membresia/view/membresias.php:394
+msgid "Elegir membresia a vincular"
+msgstr "Elegir membresía a vincular"
+
+#: modulos/membresia/view/membresias.php:462
+#: modulos/membresia/view/perform.php:244
+msgid "meses"
+msgstr "meses"
+
+#: modulos/membresia/view/membresias.php:464
+#: modulos/membresia/view/perform.php:246
+msgid "mes"
+msgstr "mes"
+
+#: modulos/membresia/view/membresias.php:478
+#: modulos/membresia/view/membresias.php:711
+msgid "Membresia activa"
+msgstr "Membresía activa"
+
+#: modulos/membresia/view/membresias.php:491
+#: modulos/membresia/view/membresias.php:625
+msgid "Membresia cancelada"
+msgstr "Membresía cancelada"
+
+#: modulos/membresia/view/membresias.php:495
+#: modulos/membresia/view/membresias.php:668
+msgid "Membresia suspendida"
+msgstr "Membresía suspendida"
+
+#: modulos/membresia/view/membresias.php:509
+msgid "Sin subscripcion"
+msgstr "Sin suscripción"
+
+#: modulos/membresia/view/membresias.php:525
+#: modulos/membresia/view/membresias.php:529
+#: modulos/membresia/view/membresias.php:532
+#: modulos/membresia/view/membresias.php:831
+#: modulos/membresia/view/membresias.php:834
+#: modulos/membresia/view/membresias.php:838 repository/LessonsDAO.php:68
+msgid "dias"
+msgstr "días"
+
+#: modulos/membresia/view/membresias.php:538
+msgid "Expirada"
+msgstr "Expirada"
+
+#: modulos/membresia/view/membresias.php:651
+msgid "Indique el motivo de la suspension"
+msgstr "Indique el motivo de la suspensión"
+
+#: modulos/membresia/view/membresias.php:694
+msgid "Indique el motivo de la reactivacion"
+msgstr "Indique el motivo de la reactivación"
+
+#: modulos/membresia/view/membresias.php:980
+msgid "Debe seleccionar una membresia"
+msgstr "Debe seleccionar una membresía"
+
+#: modulos/membresia/view/perform.php:14
+msgid "Catalogo de membresias"
+msgstr "Catálogo de membresías"
+
+#: modulos/membresia/view/perform.php:67
+msgid "Elegir curso"
+msgstr "Elegir Curso"
+
+#: modulos/membresia/view/perform.php:96 repository/MembershipsDAO.php:56
+#: repository/MembershipsDAO.php:86
+msgid "GOTEO"
+msgstr "GOTEO"
+
+#: modulos/membresia/view/perform.php:97 repository/MembershipsDAO.php:56
+#: repository/MembershipsDAO.php:86
+msgid "COMPLETA"
+msgstr "COMPLETA"
+
+#: modulos/membresia/view/perform.php:104
+msgid "Frecuencia (meses)"
+msgstr ""
+
+#: modulos/membresia/view/perform.php:138
+msgid "Copiar"
+msgstr ""
+
+#: modulos/membresia/view/perform.php:159
+#: modulos/membresia/view/perform.php:380
+msgid "Editar membresia"
+msgstr "Editar membresía"
+
+#: modulos/membresia/view/perform.php:173
+msgid "Ver enlace de registro"
+msgstr "Ver enlace de registro"
+
+#: modulos/membresia/view/perform.php:187
+msgid "Desactivar membresia"
+msgstr "Desactivar membresía"
+
+#: modulos/membresia/view/perform.php:191
+msgid "Activar membresia"
+msgstr "Activar membresía"
+
+#: modulos/membresia/view/perform.php:307
+msgid "Nueva membresia"
+msgstr "Nueva membresía"
+
+#: modulos/membresia/view/perform.php:322
+msgid "Enlace de registro"
+msgstr "Enlace de registro"
+
+#: modulos/membresia/view/perform.php:367
+msgid "No se pudo editar la membresia"
+msgstr "No se pudo editar la membresía"
+
+#: modulos/membresia/view/perform.php:387
+msgid "Elegir el curso"
+msgstr "Elegir curso"
+
+#: modulos/membresia/view/perform.php:388
+msgid "Especificar el nombre de la membresia"
+msgstr "Especificar el nombre de la membresía"
+
+#: modulos/membresia/view/perform.php:389
+msgid "Especificar la duracion"
+msgstr "Especificar la duración"
+
+#: modulos/migration/logic/Logic.php:359
+msgid "Solo se permite csv"
+msgstr "Solo se permite formato .CSV"
+
+#: modulos/migration/view/perform.php:84 modulos/migration/view/perform.php:93
+msgid "Seleccionar csv"
+msgstr "Seleccionar CSV"
+
+#: modulos/notificacion/Controller.php:62
+msgid "Notifcaciones marcadas como leidas correctamente"
+msgstr "Notifcaciones marcadas como leídas correctamente"
+
+#: modulos/notificacion/Controller.php:91
+msgid "Notifcacion marcada como leida correctamente"
+msgstr "Notificación marcada como leída correctamente"
+
+#: modulos/pagos/logic/ConektaLogic.php:202
+#, php-format
+msgid "Nuevo registro de pago por conekta de la leccion: %s"
+msgstr "Nuevo registro de pago por Conekta de la lección: %s"
+
+#: modulos/pagos/logic/ConektaLogic.php:235
+msgid "Nuevo registro de pago de membresia por conekta"
+msgstr "Nuevo registro de pago de membresía por Conekta"
+
+#: modulos/pagos/logic/ConektaLogic.php:353
+#, php-format
+msgid "Nuevo registro de pago de membresia por conekta suscripcion: %s"
+msgstr "Nuevo registro de pago de membresía por Conekta suscripción: %s"
+
+#: modulos/pagos/logic/ConektaLogic.php:599
+msgid "cada mes"
+msgstr "cada mes"
+
+#: modulos/pagos/logic/ConektaLogic.php:601
+#, php-format
+msgid "%s version %s %s"
+msgstr "%s versión %s %s"
+
+#: modulos/pagos/logic/Logic.php:61
+msgid "membresia"
+msgstr "membresía"
+
+#: modulos/pagos/logic/Logic.php:76
+msgid "leccion"
+msgstr "lección"
+
+#: modulos/pagos/logic/Logic.php:180
+msgid "Periodo de membresia pagado"
+msgstr "El período actual de la membresía ya ha sido pagado"
+
+#: modulos/pagos/logic/Logic.php:190
+#, php-format
+msgid "Notificacion de deposito en OXXO pendiente.<br>Numero de referencia: %s"
+msgstr ""
+"Notificación de depósito en OXXO pendiente.<br>Número de referencia: %s"
+
+#: modulos/pagos/logic/Logic.php:198
+#, php-format
+msgid ""
+"Notificacion de transferencia SPEI pendiente.<br>Numero de referencia: %s"
+msgstr ""
+"Notificación de transferencia SPEI pendiente.<br>Número de referencia: %s"
+
+#: modulos/pagos/logic/Logic.php:211 modulos/pagos/logic/PaypalLogic.php:275
+#: modulos/pagos/logic/PaypalLogic.php:317 modulos/registro/logic/Logic.php:286
+msgid "al mes"
+msgstr "al mes"
+
+#: modulos/pagos/logic/Logic.php:213
+#, php-format
+msgid "Realizar el pago de la membresia por $ %s dolares"
+msgstr "Realizar el pago de la membresía por $ %s dólares"
+
+#: modulos/pagos/logic/Logic.php:246
+#, php-format
+msgid "Realizar el pago de la leccion por $ %s dolares"
+msgstr "Realizar el pago de la lección por $ %s dólares"
+
+#: modulos/pagos/logic/PaypalLogic.php:90
+#, php-format
+msgid "Pago de la leccion: %s por $ %s dolares"
+msgstr "Pago de la lección: %s por $ %s dólares"
+
+#: modulos/pagos/logic/PaypalLogic.php:278
+#, php-format
+msgid "Pago de la membresia: %s por $ %s dolares %s"
+msgstr "Pago de la membresía: %s por $ %s dólares %s"
+
+#: modulos/pagos/logic/PaypalLogic.php:320
+#, php-format
+msgid "Membresia: %s por $ %s dolares %s"
+msgstr "Membresía: %s por $ %s dólares %s"
+
+#: modulos/pagos/logic/PaypalLogic.php:620
+#, php-format
+msgid ""
+"Nuevo registro de primer pago de membresia por suscripcion de paypal: %s"
+msgstr ""
+"Nuevo registro de primer pago de membresía por suscripción de PayPal %s"
+
+#: modulos/pagos/logic/PaypalLogic.php:770
+#, php-format
+msgid "Nuevo registro de pago de membresia por suscripcion de paypal: %s"
+msgstr "Nuevo registro de pago de membresía por suscripción de PayPal %s"
+
+#: modulos/pagos/logic/PaypalLogic.php:888
+#, php-format
+msgid ""
+"Registro de pago fallido o reembolso de membresia por suscripcion de paypal: "
+"%s"
+msgstr ""
+"Registro de pago fallido o reembolso de membresía por suscripción de PayPal "
+"%s"
+
+#: modulos/pagos/logic/PaypalLogic.php:991
+#, php-format
+msgid "Nuevo registro de pago por paypal de la leccion: %s"
+msgstr "Nuevo registro de pago por PayPal de la lección: %s"
+
+#: modulos/pagos/logic/PaypalLogic.php:1056
+#, php-format
+msgid "Membresia: %s de la suscripcion: %s cancelada"
+msgstr "Membresía %s de la suscripción %s cancelada"
+
+#: modulos/pagos/view/cancel_payment_paypal.php:27
+#, php-format
+msgid ""
+"Estimado usuario ha cancelado el pago de su %s. Le pedimos que por favor nos "
+"indique el motivo de su cancelacion. Esta accion no es obligatoria."
+msgstr ""
+"Estimado usuario ha cancelado el pago de su %s. Le pedimos que por favor nos "
+"indique el motivo de su cancelación. Esta acción no es obligatoria."
+
+#: modulos/pagos/view/cancel_payment_paypal.php:54
+#: templates/incl/scripts/default.php:298
+msgid "Finalizar"
+msgstr "Finalizar"
+
+#: modulos/pagos/view/ficha_oxxo.php:16 modulos/pagos/view/ficha_spei.php:16
+#, php-format
+msgid "Pagar antes del %s"
+msgstr ""
+
+#: modulos/pagos/view/ficha_oxxo.php:26 modulos/payments/view/perform.php:223
+msgid "Referencia"
+msgstr "Referencia"
+
+#: modulos/pagos/view/ficha_oxxo.php:28
+msgid "Monto a pagar"
+msgstr ""
+
+#: modulos/pagos/view/ficha_oxxo.php:30
+msgid "OXXO cobrara una comision adicional al realizar el pago"
+msgstr "OXXO cobrará una comisión adicional al realizar el pago"
+
+#: modulos/pagos/view/ficha_oxxo.php:45 modulos/pagos/view/ficha_spei.php:44
+msgid "Instrucciones"
+msgstr "Instrucciones"
+
+#: modulos/pagos/view/ficha_oxxo.php:52
+msgid "Acude a la tienda OXXO mas cercana"
+msgstr "Acude a la tienda OXXO más cercana"
+
+#: modulos/pagos/view/ficha_oxxo.php:53
+msgid "Encuentrala aqui"
+msgstr "Encuéntrala aquí"
+
+#: modulos/pagos/view/ficha_oxxo.php:56
+msgid "Indica en caja que quieres ralizar un pago de"
+msgstr "Indica en caja que quieres realizar un pago de"
+
+#: modulos/pagos/view/ficha_oxxo.php:59
+msgid "Dicta al cajero el numero de referencia en esta ficha"
+msgstr "Dicta al cajero el número de referencia en esta ficha"
+
+#: modulos/pagos/view/ficha_oxxo.php:62
+msgid "Realiza el pago correspondiente con dinero en efectivo"
+msgstr "Realiza el pago correspondiente con dinero en efectivo"
+
+#: modulos/pagos/view/ficha_oxxo.php:65
+msgid "Al confirmar tu pago, el cajero te entregara un comprobante impreso"
+msgstr "Al confirmar tu pago, el cajero te entregará un comprobante impreso"
+
+#: modulos/pagos/view/ficha_spei.php:26
+msgid "CLABE"
+msgstr ""
+
+#: modulos/pagos/view/ficha_spei.php:28
+msgid "Monto a transferir"
+msgstr "Monto a transferir"
+
+#: modulos/pagos/view/ficha_spei.php:51
+msgid "Accede a tu banca en linea"
+msgstr "Accede a tu banca en línea"
+
+#: modulos/pagos/view/ficha_spei.php:54
+msgid "Da de alta la CLABE en esta ficha"
+msgstr "Da de alta la CLABE en esta ficha"
+
+#: modulos/pagos/view/ficha_spei.php:57
+msgid ""
+"Realiza la transferencia correspondiente por la cantidad exacta en esta "
+"ficha, de lo contrario se rechazara el cargo"
+msgstr ""
+"Realiza la transferencia correspondiente por la cantidad exacta en esta "
+"ficha, de lo contrario se rechazará el cargo"
+
+#: modulos/pagos/view/ficha_spei.php:60
+msgid ""
+"Al confirmar tu pago, el portal de tu banco generara un comprobante digital"
+msgstr ""
+"Al confirmar tu pago, el portal de tu banco generará un comprobante digital"
+
+#: modulos/pagos/view/generate_payment.php:27
+#: modulos/pagos/view/method_payments_list.php:393
+#: modulos/pagos/view/process_payment_paypal.php:34
+#: templates/incl/bottomLogin.php:24 templates/incl/footer.php:49
+msgid "Cargando,_por_favor_espere."
+msgstr "Cargando, por favor espere."
+
+#: modulos/pagos/view/method_payments_list.php:114
+msgid "Seleccione_el_metodo_de_pago"
+msgstr "Seleccione el método de pago"
+
+#: modulos/pagos/view/method_payments_list.php:129
+msgid "Recomendado"
+msgstr "Recomendado"
+
+#: modulos/pagos/view/method_payments_list.php:130
+msgid "Pago con Paypal"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:130
+msgid "Pago recurrente con PayPal"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:137
+msgid "Haga click para realizar pago"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:162
+msgid "Haga click para desplegar las opciones"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:162
+msgid "Otros medios de pago"
+msgstr "Otros medios de pago"
+
+#: modulos/pagos/view/method_payments_list.php:173
+msgid "Pagar"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:173
+msgid "Suscribirme"
+msgstr "Suscribirme"
+
+#: modulos/pagos/view/method_payments_list.php:200
+msgid "Terminos y condiciones"
+msgstr "Términos y Condiciones"
+
+#: modulos/pagos/view/method_payments_list.php:224
+msgid "BANCOMER"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:225
+#: templates/email/bottom.php:32 templates/notifications/bottom.php:17
+msgid "SOLIT, INTELIGENCIA E INNOVACIÓN TECNOLÓGICA SAPI DE CV"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:226
+msgid "CTA. CHEQUES: 0110053554"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:227
+msgid "CLABE: 012050001100535548"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:229
+msgid "Después de realizado el depósito enviar un ticket con un foto de éste."
+msgstr "Después de realizado el depósito enviar un escaneo o foto del ticket."
+
+#: modulos/pagos/view/method_payments_list.php:235
+#: modulos/pagos/view/method_payments_list.php:277
+msgid "Consideraciones generales"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:238
+#: modulos/pagos/view/method_payments_list.php:280
+msgid ""
+"Los precios de las membresías son en dólares, por lo que necesitará "
+"convertir a pesos mexicanos para hacer su pago, multiplicando el costo de la "
+"membresía por la cotización en pesos mexicanos del dólar (use http://www."
+"banxico.org.mx) EL MISMO DÍA DEL DEPÓSITO."
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:239
+#: modulos/pagos/view/method_payments_list.php:281
+msgid ""
+"Hacer el pago en cualquiera de estas opciones nos implica llevar un control "
+"manual de su suscripción, por ello si desea renovar el siguiente mes le "
+"pedimos por favor que al menos con 3 días de anticipación realice el "
+"siguiente pago y nos notifique para mantener activa su cuenta."
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:240
+#: modulos/pagos/view/method_payments_list.php:282
+msgid ""
+"Después de cubrir el pago es importante que nos envíe el comprobante a "
+"través de nuestro sistema Help Desk ubicado en http://soporte.tocajazz.com/ "
+"(indica “Pagos” como tema de ayuda)."
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:241
+#: modulos/pagos/view/method_payments_list.php:283
+msgid ""
+"En TocaJazz te sugerimos intentar pagar con PayPal para evitar todo lo que "
+"hay que hacer con pagos por depósito."
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:271
+msgid ""
+"El pago sería a nombre de Alberto Jesús Madero Ramírez, en la ciudad de "
+"Campeche, Campeche, México. El número de identificación personal es "
+"0071057778267"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:315
+msgid "Cambiar tarjeta"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:323
+msgid "Numero de tarjeta"
+msgstr "Número de tarjeta"
+
+#: modulos/pagos/view/method_payments_list.php:330
+msgid "Nombre completo"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:338
+#: modulos/payments/view/perform.php:228
+msgid "Fecha de expiracion"
+msgstr "Fecha de expiración"
+
+#: modulos/pagos/view/method_payments_list.php:350
+msgid "Codigo (CVC)"
+msgstr "Código (CVC)"
+
+#: modulos/pagos/view/method_payments_list.php:414
+msgid "Reiniciar pago"
+msgstr "Reiniciar pago"
+
+#: modulos/pagos/view/method_payments_list.php:418
+msgid "Pagina_principal"
+msgstr "Página principal"
+
+#: modulos/pagos/view/method_payments_list.php:439
+msgid "Solicitud_invalida"
+msgstr "Solicitud inválida"
+
+#: modulos/pagos/view/method_payments_list.php:487
+msgid "Pago"
+msgstr "Pago"
+
+#: modulos/pagos/view/method_payments_list.php:631
+msgid "Tipo de tarjeta desconocida"
+msgstr ""
+
+#: modulos/pagos/view/method_payments_list.php:662
+msgid "Cancelar cambio"
+msgstr "Cancelar cambio"
+
+#: modulos/pagos/view/method_payments_list.php:713
+msgid "Especificar el numero de tarjeta"
+msgstr "Especificar el número de tarjeta"
+
+#: modulos/pagos/view/method_payments_list.php:714
+msgid "Especificar su nombre completo"
+msgstr "Especificar su nombre completo"
+
+#: modulos/pagos/view/method_payments_list.php:715
+msgid "Especificar el codigo de la tarjeta"
+msgstr "Especificar el código de la tarjeta"
+
+#: modulos/pagos/view/method_payments_list.php:716
+msgid "Especificar la fecha de expiracion"
+msgstr "Especificar la fecha de expiración"
+
+#: modulos/pagos/view/method_payments_list.php:722
+msgid "Debe ingresar un numero de tarjeta valido"
+msgstr "Debe ingresar un número de tarjeta válido"
+
+#: modulos/pagos/view/method_payments_list.php:732
+#: modulos/pagos/view/method_payments_list.php:738
+msgid "Debe ingresar una fecha de expiracion valida"
+msgstr "Debe ingresar una fecha de expiración válida"
+
+#: modulos/pagos/view/method_payments_list.php:744
+msgid "Debe ingresar un codigo de tarjeta valido"
+msgstr "Debe ingresar un código de tarjeta válido"
+
+#: modulos/pagos/view/payment_done.php:24
+msgid "PAGO EXITOSO"
+msgstr "PAGO EXITOSO"
+
+#: modulos/pagos/view/payment_done.php:28
+msgid ""
+"Su pago ha sido realizado con exito. Ahora solo debe esperar que sea "
+"reflejado en nuestro sistema, una vez se registre el pago, se le notificara "
+"a su correo electronico. Esto no impide que pueda acceder al sistema."
+msgstr ""
+"Su pago ha sido realizado con éxito. Ahora solo debe esperar que sea "
+"reflejado en nuestro sistema, una vez se registre el pago, se le notificará "
+"a su correo electrónico. Esto no impide que pueda acceder al sistema."
+
+#: modulos/pagos/view/subscription_done.php:26
+msgid "SUSCRIPCION EXITOSA"
+msgstr "SUSCRIPCIÓN EXITOSA"
+
+#: modulos/pagos/view/subscription_done.php:30
+msgid ""
+"Su subscripcion ha sido realizada con exito. Ahora puede acceder a las "
+"lecciones del curso que Tocajazz tiene para usted."
+msgstr ""
+"Su suscripción ha sido realizada con éxito. Ahora puede acceder a las "
+"lecciones del curso que TocaJazz tiene para usted."
+
+#: modulos/payments/logic/Logic.php:93
+msgid "No registrado aun"
+msgstr "No registrado aún"
+
+#: modulos/payments/logic/Logic.php:94 repository/IpnDAO.php:32
+#: repository/MembershipsUserDAO.php:58
+msgid "No aplica"
+msgstr ""
+
+#: modulos/payments/view/perform.php:49
+msgid "Todos los articulos"
+msgstr "Todos los artículos"
+
+#: modulos/payments/view/perform.php:51 repository/PaymentsDAO.php:232
+#: repository/PaymentsDAO.php:391 templates/email/payment_lesson.php:19
+msgid "Leccion"
+msgstr "Lección"
+
+#: modulos/payments/view/perform.php:64
+msgid "Todos los miembros"
+msgstr ""
+
+#: modulos/payments/view/perform.php:108 modulos/payments/view/perform.php:186
+msgid "Fecha de pago"
+msgstr ""
+
+#: modulos/payments/view/perform.php:154
+msgid "Nombre del articulo"
+msgstr "Nombre del artículo"
+
+#: modulos/payments/view/perform.php:179
+msgid "Metodo de pago"
+msgstr "Método de pago"
+
+#: modulos/payments/view/perform.php:218
+msgid "Tipo de cargo"
+msgstr ""
+
+#: modulos/payments/view/perform.php:276
+msgid "Ver pago detallado"
+msgstr ""
+
+#: modulos/payments/view/perform.php:358
+msgid "No se pudo listar detalles del pago"
+msgstr ""
+
+#: modulos/payments/view/perform.php:390
+msgid "No registrada"
+msgstr "No registrada"
+
+#: modulos/payments/view/perform.php:417
+msgid "Debe proporcionar por lo menos un filtro"
+msgstr ""
+
+#: modulos/puntuacion_lecciones/logic/Logic.php:28
+#: modulos/puntuacion_lecciones/view/before.php:1
+msgid "Sin comentarios"
+msgstr "Sin comentarios"
+
+#: modulos/puntuacion_lecciones/logic/Logic.php:53
+#: modulos/puntuacion_lecciones/logic/Logic.php:54
+#: modulos/puntuacion_lecciones/logic/Logic.php:55
+#: modulos/puntuacion_lecciones/logic/Logic.php:56
+msgid "Mejorar"
+msgstr ""
+
+#: modulos/puntuacion_lecciones/logic/Logic.php:53
+#: modulos/puntuacion_lecciones/logic/Logic.php:54
+#: modulos/puntuacion_lecciones/logic/Logic.php:55
+#: modulos/puntuacion_lecciones/logic/Logic.php:56
+msgid "Correcto"
+msgstr "Correcto"
+
+#: modulos/puntuacion_lecciones/view/before.php:1
+#: modulos/puntuacion_lecciones/view/perform.php:4
+msgid "Puntuación lecciones"
+msgstr "Puntuación lecciones"
+
+#: modulos/puntuacion_lecciones/view/before.php:1
+msgid "Comentarios y valoraciones"
+msgstr "Comentarios y valoraciones"
+
+#: modulos/puntuacion_lecciones/view/before.php:1
+#: modulos/puntuacion_lecciones/view/perform.php:75
+#, fuzzy
+#| msgid "Leccion"
+msgid "Lección"
+msgstr "Lección"
+
+#: modulos/puntuacion_lecciones/view/before.php:1
+#: modulos/puntuacion_lecciones/view/perform.php:76
+msgid "Puntuación"
+msgstr ""
+
+#: modulos/puntuacion_lecciones/view/before.php:1
+#: modulos/puntuacion_lecciones/view/perform.php:77
+msgid "Comentarios"
+msgstr ""
+
+#: modulos/puntuacion_lecciones/view/before.php:1
+msgid "Calidad video"
+msgstr ""
+
+#: modulos/puntuacion_lecciones/view/before.php:1
+msgid "Calida audio"
+msgstr "Calidad audio"
+
+#: modulos/puntuacion_lecciones/view/before.php:1
+msgid "Calidad didactica"
+msgstr "Calidad de la didáctica"
+
+#: modulos/puntuacion_lecciones/view/before.php:1
+msgid "Calidad material"
+msgstr "Calidad del material"
+
+#: modulos/puntuacion_lecciones/view/before.php:1
+#: modulos/puntuacion_lecciones/view/perform.php:78
+#, fuzzy
+#| msgid "Creada"
+msgid "Created"
+msgstr "Creada"
+
+#: modulos/puntuacion_lecciones/view/perform.php:46
+msgid "Todos las lecciones"
+msgstr "Todos las lecciones"
+
+#: modulos/puntuacion_lecciones/view/perform.php:150
+msgid "Debe especificar una fecha de inicio"
+msgstr "Debe especificar una fecha de inicio"
+
+#: modulos/puntuacion_lecciones/view/perform.php:156
+#, fuzzy
+#| msgid "Especificar la fecha de expiracion"
+msgid "Debe especificar una fecha de fin"
+msgstr "Especificar la fecha de expiración"
+
+#: modulos/registro/logic/Logic.php:201
+#, php-format
+msgid ""
+"Usted ya cuenta con una suscripcion activa al curso: %s. Los cobros se "
+"realizan automaticamente"
+msgstr ""
+"Usted ya cuenta con una suscripción activa al curso: %s. Los cobros se "
+"realizan automáticamente"
+
+#: modulos/registro/logic/Logic.php:288
+#, php-format
+msgid "Pago de $ %s dolares %s"
+msgstr "Pago de $ %s dólares %s"
+
+#: modulos/registro/view/principal.php:87
+msgid "¿Ya tienes una cuenta con nosotros?"
+msgstr "¿Ya tienes una cuenta con nosotros?"
+
+#: modulos/registro/view/principal.php:87
+msgid "Inicia sesion"
+msgstr "Inicia sesión"
+
+#: modulos/registro/view/principal.php:94
+#: modulos/registro/view/principal.php:102
+msgid "Registrate con"
+msgstr "Regístrate con"
+
+#: modulos/registro/view/principal.php:174
+#, php-format
+msgid ""
+"Al registrarse por medio de su cuenta de %s usted autoriza al sistema "
+"TocaJazz a obtener su informacion de perfil (nombre, foto de perfil y correo "
+"electronico) y automaticamente crearle su cuenta de acceso"
+msgstr ""
+"Al registrarse por medio de su cuenta de %s usted autoriza al sistema "
+"TocaJazz a obtener su información de perfil (nombre, foto de perfil y correo "
+"electrónico) y automáticamente crearle su cuenta de acceso"
+
+#: modulos/registro/view/principal.php:177
+msgid "¿Esta seguro de que desea continuar?"
+msgstr "¿Está seguro de que desea continuar?"
+
+#: modulos/registro/view/principal.php:182
+msgid "Su_contrasena_no_es_segura"
+msgstr "Su contraseña no es segura"
+
+#: modulos/serie/Controller.php:114
+msgid "La serie se ha convertido en curso exitosamente"
+msgstr ""
+
+#: modulos/serie/Controller.php:178
+msgid "Orden de las series guardado correctamente"
+msgstr ""
+
+#: modulos/serie/logic/Logic.php:35
+#, fuzzy
+#| msgid "No tiene permiso para realizar la accion"
+msgid "No tiene permisos para realizar esta accion"
+msgstr "No tiene permiso para realizar la acción"
+
+#: modulos/serie/logic/Logic.php:48
+msgid "No se encontro la serie"
+msgstr "No se encontró la serie"
+
+#: modulos/serie/logic/Logic.php:275
+msgid "Error al actualizar posicion de una o mas series"
+msgstr "Error al actualizar posición de una o más series"
+
+#: modulos/serie/logic/Logic.php:321
+msgid "Ha ocurrido un error al subir imagen pequeña"
+msgstr ""
+
+#: modulos/serie/logic/Logic.php:361
+msgid "Ha ocurrido un error al subir imagen principal"
+msgstr ""
+
+#: modulos/serie/logic/Logic.php:411
+msgid "Serie guardada correctamente"
+msgstr ""
+
+#: modulos/serie/logic/Logic.php:432
+msgid "Serie actualizada correctamente"
+msgstr ""
+
+#: modulos/serie/view/series.php:48
+msgid "Numero de lecciones"
+msgstr "Número de  lecciones"
+
+#: modulos/serie/view/series.php:94
+msgid "Resolucion maxima permitida de 1150 x 600 px"
+msgstr "Resolución máxima permitida de 1150x600px"
+
+#: modulos/serie/view/series.php:102
+msgid "Resolucion maxima permitida de 615 x 338 px"
+msgstr "Resolución máxima permitida de 615x338px"
+
+#: modulos/serie/view/series.php:132 modulos/serie/view/series.php:379
+msgid "Editar serie"
+msgstr "Editar sección"
+
+#: modulos/serie/view/series.php:147
+msgid "Convertir serie en curso"
+msgstr ""
+
+#: modulos/serie/view/series.php:165
+msgid "Administrar lecciones"
+msgstr "Administrar lecciones"
+
+#: modulos/serie/view/series.php:229
+msgid "Seleccionar imagen pequeña"
+msgstr ""
+
+#: modulos/serie/view/series.php:239 modulos/serie/view/series.php:262
+#, fuzzy
+#| msgid "Seleccionar imagen"
+msgid "Seleccionar imagen miniatura"
+msgstr "Seleccionar imagen"
+
+#: modulos/serie/view/series.php:283 modulos/serie/view/series.php:293
+#: modulos/serie/view/series.php:316
+msgid "Seleccionar imagen principal"
+msgstr ""
+
+#: modulos/serie/view/series.php:330
+msgid "Nueva serie"
+msgstr ""
+
+#: modulos/serie/view/series.php:343
+#, php-format
+msgid ""
+"Esta por convertir la serie en un curso. %s ¿Esta seguro que desea continuar?"
+msgstr ""
+"Esta por convertir la serie en un curso. %s ¿Está seguro que desea continuar?"
+
+#: modulos/serie/view/series.php:373
+msgid "No se pudo editar la serie"
+msgstr ""
+
+#: modulos/serie/view/series.php:389
+msgid "Especificar el nombre de la serie"
+msgstr ""
+
+#: modulos/serie/view/series.php:405
+msgid "Debe seleccionar una imagen principal"
+msgstr ""
+
+#: modulos/serie/view/series.php:418
+#, fuzzy
+#| msgid "Debe seleccionar una imagen"
+msgid "Debe seleccionar una imagen miniatura"
+msgstr "Debe seleccionar una imagen"
+
+#: modulos/usuario/logic/Logic.php:55
+msgid "desbloqueada"
+msgstr ""
+
+#: modulos/usuario/logic/Logic.php:56
+msgid "Cuenta desbloqueada correctamente"
+msgstr ""
+
+#: modulos/usuario/logic/Logic.php:70
+msgid "bloqueada"
+msgstr ""
+
+#: modulos/usuario/logic/Logic.php:71
+msgid "Cuenta bloqueada correctamente"
+msgstr ""
+
+#: modulos/usuario/view/administradores.php:10
+#: modulos/usuario/view/alumnos.php:10 modulos/usuario/view/instructores.php:10
+#: modulos/usuario/view/perform.php:18
+msgid "Usuarios"
+msgstr "Usuarios"
+
+#: modulos/usuario/view/administradores.php:11
+#: modulos/usuario/view/alumnos.php:11 modulos/usuario/view/perform.php:29
+#: templates/incl/side-bar.php:183
+msgid "Administradores"
+msgstr "Administradores"
+
+#: modulos/usuario/view/administradores.php:29
+#: modulos/usuario/view/alumnos.php:24 modulos/usuario/view/instructores.php:29
+msgid "Fecha de creacion"
+msgstr "Fecha de creación"
+
+#: modulos/usuario/view/administradores.php:113
+#: modulos/usuario/view/alumnos.php:111
+#: modulos/usuario/view/instructores.php:113
+msgid "Editar usuario"
+msgstr "Editar usuario"
+
+#: modulos/usuario/view/administradores.php:220
+msgid "Nuevo usuario administrador"
+msgstr "Nuevo usuario administrador"
+
+#: modulos/usuario/view/administradores.php:241
+#: modulos/usuario/view/alumnos.php:296
+#: modulos/usuario/view/instructores.php:241
+msgid "No se pudo editar al usuario"
+msgstr "No se pudo editar al usuario"
+
+#: modulos/usuario/view/administradores.php:251
+#: modulos/usuario/view/alumnos.php:306
+msgid "Editar usuario administrador"
+msgstr "Editar usuario administrador"
+
+#: modulos/usuario/view/alumnos.php:125
+msgid "Desbloquear cuenta"
+msgstr ""
+
+#: modulos/usuario/view/alumnos.php:130
+msgid "Bloquear cuenta"
+msgstr ""
+
+#: modulos/usuario/view/alumnos.php:317
+msgid "Bloquear"
+msgstr ""
+
+#: modulos/usuario/view/alumnos.php:319
+msgid "Indique la razon del bloqueo"
+msgstr "Indique la razón del bloqueo"
+
+#: modulos/usuario/view/alumnos.php:322
+msgid "Desbloquear"
+msgstr ""
+
+#: modulos/usuario/view/alumnos.php:323
+msgid "Indique la razon del desbloqueo"
+msgstr "Indique la razón del desbloqueo"
+
+#: modulos/usuario/view/instructores.php:11 modulos/usuario/view/perform.php:40
+#: templates/incl/side-bar.php:188
+msgid "Instructores"
+msgstr "Instructores"
+
+#: modulos/usuario/view/instructores.php:220
+msgid "Nuevo usuario instructor"
+msgstr "Nuevo usuario instructor"
+
+#: modulos/usuario/view/instructores.php:251
+msgid "Editar usuario instructor"
+msgstr "Editar usuario instructor"
+
+#: plataforma/ControllerBase.php:189
+#, php-format
+msgid ""
+"El valor: %s vinculado a: %s ya se encuentra registrado en nuestro sistema"
+msgstr ""
+"El valor %s vinculado a %s ya se encuentra registrado en nuestro sistema"
+
+#: plataforma/RequestParam.php:44 plataforma/RequestParam.php:54
+#: plataforma/RequestParam.php:82
+#, php-format
+msgid "El valor de: %s no puede ser vacio"
+msgstr "El valor de: %s no puede ser vacío"
+
+#: plataforma/RequestParam.php:73 plataforma/RequestParam.php:101
+#, php-format
+msgid "El valor de: %s debe ser un numero"
+msgstr "El valor de: %s debe ser un número"
+
+#: plataforma/exception/IntentionalException.php:65
+msgid "Captcha inválido"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:67
+msgid "Petición inválida"
+msgstr "Petición inválida"
+
+#: plataforma/exception/IntentionalException.php:69
+msgid "La sesión ha expirado"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:71
+msgid "La solicitud ha expirado"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:73
+msgid "Rol de usuario inválido"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:75
+msgid "No se encontró el curso"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:77
+msgid "Su solicitud ha expirado"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:79
+msgid "No se encontró el correo"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:81
+msgid "Los correos no coinciden"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:83
+msgid "No se encontró el usuario"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:85
+msgid "No se encontró controlador"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:89
+msgid "Debe especificar un correo válido"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:91
+msgid "Correo y/o contraseña incorrectos"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:93
+msgid "No se encontró subscripción activa"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:95
+msgid "Error en la configuración de PayPal"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:97
+msgid "No se encontró la lección solicitada"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:99
+msgid "No se encontró la membresía solicitada"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:101
+msgid "No se encontró el archivo de la lección"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:103
+msgid "No se encontró información de usuario de Google"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:105
+msgid "Lo sentimos, de momento su cuenta no está activa"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:107
+msgid "No se encontró registro con la cuenta proporcionada"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:109
+msgid "No se encontraron membresias registradas a su cuenta"
+msgstr "No se encontraron membresías registradas a su cuenta"
+
+#: plataforma/exception/IntentionalException.php:111
+msgid "No se encontró información de configuración de Google"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:113
+msgid "Lo sentimos, de momento el curso se encuentra inactivo"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:115
+msgid "No se encontró información de configuración de Twitter"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:117
+msgid "No se encontró información de configuración de Facebook"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:119
+msgid "Lo sentimos, al parecer hubo un problema al generar la subscripción"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:121
+msgid "La contrase&ntilde;a no cumple con las especificaciones establecidas"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:123
+msgid ""
+"Lo sentimos, de momento el registro a la membresia se encuentra inactiva"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:125
+msgid ""
+"El usuario ya cuenta con subscripción activa a la membresía seleccionada"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:127
+msgid ""
+"El curso que intenta registrar ya se encuentra vinculado a su cuenta con una "
+"membresia diferente"
+msgstr ""
+"El curso que intenta registrar ya se encuentra vinculado a su cuenta con una "
+"membresía diferente"
+
+#: plataforma/exception/IntentionalException.php:129
+msgid ""
+"La membresia a la que intenta acceder ya se encuentra registrada y "
+"actualmente activa a su cuenta"
+msgstr ""
+
+#: plataforma/exception/IntentionalException.php:131
+msgid "El archivo que intenta descargar ya no esta disponible actualmente"
+msgstr "El archivo que intenta descargar ya no está disponible actualmente"
+
+#: repository/Courses.php:193 repository/CoursesDAO.php:114
+#: repository/CoursesDAO.php:172
+msgid "Suspendido"
+msgstr ""
+
+#: repository/Courses.php:200 repository/CoursesDAO.php:114
+#: repository/CoursesDAO.php:172
+msgid "Habilitado"
+msgstr ""
+
+#: repository/Courses.php:202 repository/CoursesDAO.php:114
+#: repository/CoursesDAO.php:172
+msgid "Deshabilitado"
+msgstr ""
+
+#: repository/IpnDAO.php:32
+msgid "Desconocido"
+msgstr ""
+
+#: repository/LessonsDAO.php:68
+msgid "Sin configurar"
+msgstr ""
+
+#: repository/Login.php:259 repository/UsersDAO.php:166
+msgid "Eliminada"
+msgstr "Eliminada"
+
+#: repository/Login.php:265
+msgid "Desconocida"
+msgstr ""
+
+#: repository/Medals.php:297
+msgid "Logro"
+msgstr ""
+
+#: repository/Medals.php:299
+msgid "Medalla"
+msgstr ""
+
+#: repository/Media.php:147
+msgid "audio"
+msgstr ""
+
+#: repository/Media.php:151 repository/Media.php:162
+msgid "desconocido"
+msgstr "desconocido"
+
+#: repository/MembershipsDAO.php:121 repository/MembershipsDAO.php:157
+msgid "Goteo"
+msgstr ""
+
+#: repository/MembershipsDAO.php:121 repository/MembershipsDAO.php:157
+msgid "Completa"
+msgstr ""
+
+#: repository/MembershipsDAO.php:121 repository/MembershipsDAO.php:157
+msgid "Inactiva"
+msgstr ""
+
+#: repository/MembershipsUserDAO.php:58
+msgid "Sin suscripcion"
+msgstr "Sin suscripción"
+
+#: repository/PaymentsDAO.php:231 repository/PaymentsDAO.php:232
+#: repository/PaymentsDAO.php:390
+msgid "Tipo de pago no definido aun"
+msgstr "Tipo de pago no definido aún"
+
+#: repository/PaymentsDAO.php:231 repository/PaymentsDAO.php:232
+#: repository/PaymentsDAO.php:391
+msgid "Pagado"
+msgstr ""
+
+#: repository/PaymentsDAO.php:231 repository/PaymentsDAO.php:232
+#: repository/PaymentsDAO.php:391
+msgid "Reembolsado"
+msgstr ""
+
+#: repository/PaymentsDAO.php:232 repository/PaymentsDAO.php:233
+#: repository/PaymentsDAO.php:391
+msgid "Pendiente de pago"
+msgstr ""
+
+#: repository/PaymentsDAO.php:232 repository/PaymentsDAO.php:233
+msgid "Tarjeta"
+msgstr ""
+
+#: repository/PaymentsDAO.php:390
+msgid "Pago unico"
+msgstr "Pago único"
+
+#: repository/UsersDAO.php:166
+msgid "Bloqueada"
+msgstr ""
+
+#: templates/email/agreement_failed.php:6
+msgid "Pago de suscripcion erroneo"
+msgstr "Pago de suscripción erróneo"
+
+#: templates/email/agreement_failed.php:13
+#, php-format
+msgid "El pago de su suscripcion al curso: %s ha fallado"
+msgstr "El pago de su suscripción al curso %s ha fallado"
+
+#: templates/email/agreement_failed.php:28
+#: templates/email/agreement_payment.php:28
+#, fuzzy
+#| msgid "Subscripcion"
+msgid "Suscripcion"
+msgstr "Suscripción"
+
+#: templates/email/agreement_failed.php:33
+#: templates/email/agreement_payment.php:33
+msgid "Ciclos"
+msgstr ""
+
+#: templates/email/agreement_failed.php:43
+#: templates/email/agreement_payment.php:43
+msgid "Mensuales"
+msgstr ""
+
+#: templates/email/agreement_failed.php:58
+#: templates/email/agreement_payment.php:58
+msgid "Ciclo de tiempo pagado"
+msgstr "Ciclo de tiempo pagado"
+
+#: templates/email/agreement_payment.php:6
+msgid "Pago de suscripcion exitoso"
+msgstr "Pago de suscripción exitoso"
+
+#: templates/email/agreement_payment.php:13
+#, php-format
+msgid "El pago de su suscripcion al curso: %s se ha realizado correctamente"
+msgstr "El pago de su suscripción al curso %s se ha realizado correctamente"
+
+#: templates/email/agreement_payment.php:88
+msgid "Proxima fecha de cobro"
+msgstr "Próxima fecha de cobro"
+
+#: templates/email/blocked_login.php:6
+#, php-format
+msgid "Cuenta %s"
+msgstr ""
+
+#: templates/email/blocked_login.php:10
+#, php-format
+msgid "Su cuenta ha sido %s"
+msgstr ""
+
+#: templates/email/blocked_login.php:14
+msgid "El motivo es el siguiente:"
+msgstr ""
+
+#: templates/email/bottom.php:5 templates/notifications/bottom.php:5
+msgid "mensaje_tocajazz_bottom"
+msgstr ""
+"TocaJazz es un Instituto Virtual de Educación Musical, que ofrece una "
+"formación musical en el lenguaje de Jazz y Música Contemporánea atendiendo "
+"las necesidades reales de aquellas personas interesadas en involucrarse en "
+"el mundo de la música"
+
+#: templates/email/bottom.php:9
+msgid "Siguenos en:"
+msgstr "Síguenos en:"
+
+#: templates/email/membership_canceled.php:6
+msgid "Cancelacion de membresia existosa"
+msgstr "Cancelación de membresía exitosa"
+
+#: templates/email/membership_canceled.php:12
+#, php-format
+msgid ""
+"Se ha realizado la cancelacion de la membresia: %s del usuario: %s al curso: "
+"%s exitosamente"
+msgstr ""
+"Se ha realizado la cancelación de la membresía: %s del usuario: %s al curso: "
+"%s exitosamente"
+
+#: templates/email/payment_cancel.php:6
+#, php-format
+msgid "Cancelacion de %s de %s"
+msgstr "Cancelación de %s de %s"
+
+#: templates/email/payment_cancel.php:10
+#, php-format
+msgid "El usuario registrado con el correo: %s ha cancelado su %s"
+msgstr "El usuario registrado con el correo %s ha cancelado su %s"
+
+#: templates/email/payment_cancel.php:14
+msgid "Motivo de la cancelacion especificada por el usuario:"
+msgstr "Motivo de la cancelación especificada por el usuario:"
+
+#: templates/email/payment_lesson.php:6
+msgid "Pago de leccion exitoso"
+msgstr "Pago de lección exitoso"
+
+#: templates/email/payment_lesson.php:10
+msgid ""
+"Su pago ha sido registrado exitosamente. Ahora puede acceder a su leccion "
+"sin tener que esperar."
+msgstr ""
+"Su pago ha sido registrado exitosamente. Ahora puede acceder a su lección "
+"sin tener que esperar."
+
+#: templates/email/payment_lesson.php:40
+msgid "Ir a lección"
+msgstr "Ir a lección"
+
+#: templates/email/recover.php:6
+msgid "Solicitud de recuperacion de contrasena"
+msgstr "Solicitud de recuperación de contraseña"
+
+#: templates/email/recover.php:10
+msgid "Para reestablecer su contrasena haga click en el enlace mas abajo."
+msgstr "Para restablecer su contraseña haga click en el enlace más abajo."
+
+#: templates/email/recover.php:11
+msgid "La solicitud expirara en una hora."
+msgstr "La solicitud expirará en una hora."
+
+#: templates/email/recover.php:16
+msgid "Reestablecer contrasena"
+msgstr "Reestablecer contraseña"
+
+#: templates/email/recovered.php:6
+msgid "Recuperacion de contrasena exitosa"
+msgstr "Recuperación de contraseña exitosa"
+
+#: templates/email/recovered.php:10
+msgid ""
+"Hemos registrado un cambio de contrasena recientemente, si fue usted quien "
+"lo realizo puede ignorar este correo, en caso contrario comuniquese con "
+"nosotros inmediatamente."
+msgstr ""
+"Hemos registrado un cambio de contraseña recientemente, si fue usted quien "
+"lo realizó puede ignorar este correo, en caso contrario comuníquese con "
+"nosotros inmediatamente."
+
+#: templates/email/request_evaluation.php:12
+#, php-format
+msgid "El usuario: %s ha presentado y enviado la evaluacion: %s del curso: %s"
+msgstr "El usuario: %s ha presentado y enviado la evaluación: %s del curso: %s"
+
+#: templates/email/user_data_modified.php:6
+msgid "Datos de cuenta de usuario modificados"
+msgstr "Datos de cuenta de usuario modificados"
+
+#: templates/email/user_data_modified.php:10
+msgid ""
+"Los datos de su cuenta de acceso han sido modificados por un administrador, "
+"los cambios registrados son los siguientes:"
+msgstr ""
+"Los datos de su cuenta de acceso han sido modificados por un administrador, "
+"los cambios registrados son los siguientes:"
+
+#: templates/email/user_data_modified.php:21
+msgid "Nombre del usuario"
+msgstr ""
+
+#: templates/email/user_data_modified.php:25
+#: templates/email/user_data_modified.php:51
+#: templates/email/user_data_modified.php:77
+msgid "Antes"
+msgstr ""
+
+#: templates/email/user_data_modified.php:26
+#: templates/email/user_data_modified.php:52
+#: templates/email/user_data_modified.php:78
+msgid "Ahora"
+msgstr ""
+
+#: templates/email/user_data_modified.php:47
+msgid "Correo del usuario"
+msgstr ""
+
+#: templates/email/user_data_modified.php:73
+msgid "Estado de la cuenta"
+msgstr ""
+
+#: templates/email/welcome.php:6 templates/email/welcome_password.php:6
+#, php-format
+msgid "Bienvenido a Tocajazz %s"
+msgstr "Bienvenido a TocaJazz %s"
+
+#: templates/email/welcome.php:10 templates/email/welcome_password.php:10
+msgid "Felicidades! Ahora eres miembro de la familia Tocajazz"
+msgstr "¡Felicidades! Ahora eres miembro de la familia TocaJazz"
+
+#: templates/email/welcome_password.php:14
+msgid "Su contrasena de acceso es:"
+msgstr "Su contraseña de acceso es:"
+
+#: templates/error_view.php:36
+msgid "TocaJazz se entristece en informarte que ha ocurrido un error"
+msgstr "Ha ocurrido un error"
+
+#: templates/incl/footer.php:64
+msgid "Goteo_message_for_user"
+msgstr ""
+"Por favor indica como deseas distribuir la entrega de lecciones del curso"
+
+#: templates/incl/footer.php:99 templates/incl/footer.php:107
+msgid ""
+"No se encontro ningun tipo de goteo para este curso, favor de comunicarse "
+"con nosotros para mas detalles"
+msgstr ""
+"No se encontró ningún tipo de goteo para este curso, favor de comunicarse "
+"con nosotros para mas detalles"
+
+#: templates/incl/footer.php:148
+msgid "Selector del tipo de goteo del curso"
+msgstr ""
+
+#: templates/incl/footer.php:156
+msgid "Debe elegir un tipo de goteo"
+msgstr ""
+
+#: templates/incl/footer.php:196
+#, fuzzy
+#| msgid "La solicitud expirara en una hora."
+msgid "La solicitud contiene sintaxis errónea"
+msgstr "La solicitud expirará en una hora."
+
+#: templates/incl/footer.php:199
+msgid "Recurso no encontrado"
+msgstr "Recurso no encontrado"
+
+#: templates/incl/footer.php:202
+msgid "Método de solicitud no soportado"
+msgstr ""
+
+#: templates/incl/footer.php:205
+msgid "El servidor no es capaz de devolver los datos"
+msgstr ""
+
+#: templates/incl/footer.php:208
+msgid "Proxy autenticacion requerida"
+msgstr ""
+
+#: templates/incl/footer.php:211
+msgid "El cliente falló al continuar la petición"
+msgstr ""
+
+#: templates/incl/footer.php:214
+msgid "La solicitud no pudo ser procesada debido a un conflicto"
+msgstr ""
+
+#: templates/incl/footer.php:217
+msgid "El servidor rechazo su petición"
+msgstr ""
+
+#: templates/incl/footer.php:220
+msgid "La petición del navegador es demasiado grande"
+msgstr ""
+
+#: templates/incl/footer.php:223
+msgid "El recurso está bloqueado"
+msgstr ""
+
+#: templates/incl/footer.php:226
+msgid "Hay muchas conexiones desde esta dirección de internet"
+msgstr "Hay muchas conexiones desde esta dirección de Internet"
+
+#: templates/incl/footer.php:229
+msgid "Las cabeceras de la petición es demasiado grande"
+msgstr ""
+
+#: templates/incl/footer.php:306
+msgid "Requiere permisos"
+msgstr ""
+
+#: templates/incl/footer.php:314
+msgid ""
+"Consentimiento para ingresar en lista de distribución para enviarle ofertas "
+"vía correo electrónico"
+msgstr ""
+
+#: templates/incl/footer.php:353
+msgid ""
+"TocaJazz requiere que nos otorgue los siguientes permisos para manejar tu "
+"información; Estos permisos podrán ser ajustado posteriormente en el "
+"apartado de privacidad"
+msgstr ""
+
+#: templates/incl/footer.php:356
+msgid "Advertencia"
+msgstr "Advertencia"
+
+#: templates/incl/footer.php:356
+msgid ""
+"Recuerda seleccionar la primera opción para activar las notificaciones de "
+"TocaJazz"
+msgstr ""
+
+#: templates/incl/nav-bar.php:28
+msgid "Editar perfil"
+msgstr "Editar perfil"
+
+#: templates/incl/nav-bar.php:37
+msgid "Cerrar sesión"
+msgstr ""
+
+#: templates/incl/scripts/default.php:9
+msgid "Espere..."
+msgstr "Espere..."
+
+#: templates/incl/scripts/default.php:10
+msgid "Registros por pagina"
+msgstr "Registros por página"
+
+#: templates/incl/scripts/default.php:11
+msgid "No se encontraron resultados"
+msgstr "No se encontraron resultados"
+
+#: templates/incl/scripts/default.php:12
+msgid "Ningun dato disponible en esta tabla"
+msgstr "Ningún dato disponible en esta tabla"
+
+#: templates/incl/scripts/default.php:13
+#, php-format
+msgid "Mostrando registros del $s al %s de un total de %s registros"
+msgstr "Mostrando registros del $s al %s de un total de %s registros"
+
+#: templates/incl/scripts/default.php:14
+msgid "Mostrando registros del 0 al 0 de un total de 0 registros"
+msgstr "Mostrando registros del 0 al 0 de un total de 0 registros"
+
+#: templates/incl/scripts/default.php:15
+#, php-format
+msgid "filtrado_de_un_total_de %s registros"
+msgstr "filtrado de un total de %s registros"
+
+#: templates/incl/scripts/default.php:17
+msgid "Buscar:"
+msgstr "Buscar:"
+
+#: templates/incl/scripts/default.php:20
+msgid "Cargando..."
+msgstr "Cargando..."
+
+#: templates/incl/scripts/default.php:22
+msgid "Primero"
+msgstr "Primero"
+
+#: templates/incl/scripts/default.php:23
+msgid "Ultimo"
+msgstr "Último"
+
+#: templates/incl/scripts/default.php:24 templates/incl/scripts/default.php:298
+msgid "Siguiente"
+msgstr "Siguiente"
+
+#: templates/incl/scripts/default.php:25 templates/incl/scripts/default.php:298
+msgid "Anterior"
+msgstr "Anterior"
+
+#: templates/incl/scripts/default.php:116
+msgid "Confirmacion"
+msgstr "Confirmación"
+
+#: templates/incl/scripts/default.php:135
+msgid "Requiere permiso"
+msgstr ""
+
+#: templates/incl/scripts/default.php:298
+msgid "Omitir"
+msgstr ""
+
+#: templates/incl/scripts/notification.php:40
+#: templates/incl/scripts/notification_for_login.php:40
+msgid "OPERACION EXITOSA"
+msgstr "OPERACIÓN EXITOSA"
+
+#: templates/incl/scripts/notification.php:48
+#: templates/incl/scripts/notification_for_login.php:48
+msgid "NOTIFICACION"
+msgstr "NOTIFICACIÓN"
+
+#: templates/incl/scripts/notification.php:52
+#: templates/incl/scripts/notification_for_login.php:52
+msgid "ADVERTENCIA"
+msgstr "ADVERTENCIA"
+
+#: templates/incl/scripts/validations.php:11
+msgid "Debe_ingresar_un_correo_valido"
+msgstr "Debe ingresar un correo válido"
+
+#: templates/incl/scripts/validations.php:30
+msgid "es obligatorio"
+msgstr "es obligatorio"
+
+#: templates/incl/scripts/validations.php:42
+msgid "La_contrasena_no_puede_contener_espacios_en_blanco"
+msgstr "La contraseña no puede contener espacios en blanco"
+
+#: templates/incl/scripts/validations.php:87
+msgid "Segura"
+msgstr "Segura"
+
+#: templates/incl/scripts/validations.php:90
+msgid "Media"
+msgstr "Media"
+
+#: templates/incl/scripts/validations.php:94
+msgid "Debil"
+msgstr "Débil"
+
+#: templates/incl/scripts/validations.php:97
+msgid "Muy_debil"
+msgstr "Muy débil"
+
+#: templates/incl/side-bar.php:57
+msgid "Mis_cursos"
+msgstr "Mis cursos"
+
+#: templates/incl/side-bar.php:88
+msgid "Pagar membresia"
+msgstr "Pago de la membresía"
+
+#: templates/incl/side-bar.php:94
+msgid "Renovar membresia"
+msgstr "Renovar membresía"
+
+#: templates/incl/side-bar.php:116
+msgid "Todos los cursos"
+msgstr ""
+
+#: templates/incl/side-bar.php:120
+msgid "Cómo usar TocaJazz"
+msgstr ""
+
+#: templates/incl/side-bar.php:131
+msgid "Pendientes"
+msgstr ""
+
+#: templates/incl/side-bar.php:136
+msgid "Calificadas"
+msgstr ""
+
+#: templates/incl/side-bar.php:146
+msgid "Puntuación en lecciones"
+msgstr "Puntuación en lecciones"
+
+#: templates/incl/side-bar.php:155
+msgid "Catalogo"
+msgstr "Catálogo"
+
+#: templates/incl/side-bar.php:174
+msgid "IPN"
+msgstr ""
+
+#: templates/incl/side-bar.php:178
+msgid "Cuentas de usuario"
+msgstr "Cuentas de usuario"
+
+#: templates/incl/side-bar.php:206
+msgid "Dudas y reportes"
+msgstr ""
+
+#: templates/notifications/conekta_ipn.php:39
+#: templates/notifications/paypal_ipn.php:22
+msgid "Descargar archivo json"
+msgstr "Descargar archivo JSON"
+
+#~ msgid "Desarrollado por"
+#~ msgstr "Desarrollado por"
+
+#~ msgid "Desarrollado_por"
+#~ msgstr "Desarrollado por"
+
+#~ msgid "Guia de estudio guardada correctamente"
+#~ msgstr "Guía de estudio guardada correctamente"
+
+#~ msgid "Guia de estudio"
+#~ msgstr "Guía de usuario"
+
+#~ msgid "Nombre de la guia (visible a los usuarios)"
+#~ msgstr "Nombre de la guía (visible a los usuarios)"
+
+#~ msgid "No se encontraron lecciones listadas en esta guia"
+#~ msgstr "No se encontraron lecciones listadas en esta guía"
+
+#~ msgid ""
+#~ "No se encontraron lecciones en la serie seleccionada o ya se encuentran "
+#~ "listadas en la guia"
+#~ msgstr ""
+#~ "No se encontraron lecciones en la serie seleccionada o ya se encuentran "
+#~ "listadas en la guía"
+
+#~ msgid "Seleccione la posicion"
+#~ msgstr "Seleccione la posición"
+
+#~ msgid "Indique la posicion a la que desea mover la(s) leccion(es)"
+#~ msgstr "Indique la posición a la que desea mover la(s) lección(es)"
+
+#~ msgid "Especificar un nombre a la guia"
+#~ msgstr "Especificar un nombre a la guía"
+
+#~ msgid "notifications_view_message"
+#~ msgstr ""
+#~ "Al acceder a esta pestaña las notificaciones se considerarán como leídas, "
+#~ "lo invitamos a que lea cuidadosamente ya que al recargar esta página las "
+#~ "notificaciones ya no aparecerán"
+
+#~ msgid "Lesson"
+#~ msgstr "Lección"
+
+#~ msgid "Ir a curso "
+#~ msgstr "Ir al curso "
+
+#~ msgid "Las_contraseñas_no_coinciden"
+#~ msgstr "Las contraseñas no coinciden"
+
+#~ msgid "Imagen_de_perfil_no_se_actualizo"
+#~ msgstr "Imagen de perfil no se actualizo"
+
+#, fuzzy
+#~ msgid "Algo salio mal error"
+#~ msgstr "Ocurrió un error inesperado"
+
+#~ msgid "Social option"
+#~ msgstr "Opciones sociales"
+
+#~ msgid "Allow Tocajazz to post updates with your new advance on FaceBook"
+#~ msgstr ""
+#~ "Permitir a Tocajazz publicar actualizaciones con tu nuevo avance en "
+#~ "Facebook"
+
+#~ msgid "Aun no es posible asignar estrellas"
+#~ msgstr "Aún no es posible asignar estrellas"
+
+#~ msgid "Nota_guardada_correctamente"
+#~ msgstr "Nota guardada correctamente"
+
+#~ msgid "Nota_no_se_guardo_correctamente"
+#~ msgstr "Nota no se guardo correctamente"
+
+#~ msgid "Nota_eliminada_correctamente"
+#~ msgstr "Nota eliminada correctamente"
+
+#~ msgid "Notificacion de pago desde Paypal pendiente"
+#~ msgstr "Notificación de pago desde PayPal pendiente"
+
+#~ msgid "Notificacion de pago desde Conekta pendiente"
+#~ msgstr "Notificación de pago desde Conekta pendiente"
+
+#~ msgid "Volver"
+#~ msgstr "Volver"
+
+#~ msgid "Dias para ver"
+#~ msgstr "Días para ver"
+
+#~ msgid "Especificar el numero de dias"
+#~ msgstr "Especificar el número de días"
+
+#~ msgid "Contact"
+#~ msgstr "Contáctanos"
+
+#~ msgid "Current"
+#~ msgstr "Actual"
+
+#~ msgid "Ver todos los datos ipn"
+#~ msgstr "Ver todos los datos IPN"
+
+#, fuzzy
+#~| msgid "Las_contraseñas_no_coinciden"
+#~ msgid "Las contrase&ntilde;.php no coinciden"
+#~ msgstr "Las contraseñas no coinciden"
+
+#~ msgid "cero"
+#~ msgstr "cero"
+
+#~ msgid "uno"
+#~ msgstr "uno"
+
+#~ msgid "dos"
+#~ msgstr "dos"
+
+#~ msgid "tres"
+#~ msgstr "tres"
+
+#~ msgid "cuatro"
+#~ msgstr "cuatro"
+
+#~ msgid "cinco"
+#~ msgstr "cinco"
+
+#~ msgid "seis"
+#~ msgstr "seis"
+
+#~ msgid "siete"
+#~ msgstr "siete"
+
+#~ msgid "ocho"
+#~ msgstr "ocho"
+
+#~ msgid "nueve"
+#~ msgstr "nueve"
+
+#~ msgid "Disponible en (dias)"
+#~ msgstr "Disponible en (días)"
+
+#~ msgid "Especificar la disponibilidad de la leccion"
+#~ msgstr "Especificar la disponibilidad de la lección"
+
+#~ msgid "Disponibilidad en dias"
+#~ msgstr "Disponibilidad en días"
+
+#~ msgid "Mostrando_registros_del"
+#~ msgstr "Mostrando registros del"
+
+#~ msgid "al"
+#~ msgstr "al"
+
+#~ msgid "de_un_total_de"
+#~ msgstr "de un total de"
+
+#~ msgid "registros"
+#~ msgstr "registros"
+
+#~ msgid "Al_registrarse_por_medio_de_su_cuenta_de"
+#~ msgstr "Al registrarse por medio de su cuenta de"
+
+#~ msgid "usted_autoriza_al_sistema"
+#~ msgstr "usted autoriza al sistema"
+
+#~ msgid "Cancelacion de [--method--] de [--pasarela--]"
+#~ msgstr "Cancelación de [--method--] de [--pasarela--]"
+
+#~ msgid "Curso:"
+#~ msgstr "Curso:"
+
+#~ msgid "Leccion:"
+#~ msgstr "Lección:"
+
+#~ msgid "Precio:"
+#~ msgstr "Precio:"
+
+#~ msgid ""
+#~ "TocaJazz es un Instituto Virtual de Educacion Musical, que ofrece una "
+#~ "formacion musical en el lenguaje de Jazz y Musica Contemporanea "
+#~ "atendiendo las necesidades reales de aquellas personas interesadas en "
+#~ "involucrarse en el mundo de la musica"
+#~ msgstr ""
+#~ "TocaJazz es un Instituto Virtual de Educación Musical, que ofrece una "
+#~ "formación musical en el lenguaje de Jazz y Música Contemporánea "
+#~ "atendiendo las necesidades reales de aquellas personas interesadas en "
+#~ "involucrarse en el mundo de la música"
+
+#~ msgid ""
+#~ "TocaJazz_es_un_Instituto_Virtual_de_Educacion_Musical,"
+#~ "_que_ofrece_una_formacion_musical_en_el_lenguaje_de_Jazz_y_Musica_Contemporanea_atendiendo_las_necesidades_reales_de_aquellas_personas_interesadas_en_involucrarse_en_el_mundo_de_la_musica"
+#~ msgstr ""
+#~ "TocaJazz es un Instituto Virtual de Educación Musical, que ofrece una "
+#~ "formación musical en el lenguaje de Jazz y Música Contemporánea "
+#~ "atendiendo las necesidades reales de aquellas personas interesadas en "
+#~ "involucrarse en el mundo de la música"
+
+#~ msgid "Amdin"
+#~ msgstr "Administrador"
+
+#~ msgid "modern_saxophone"
+#~ msgstr "modern_saxophone"
+
+#~ msgid "summary"
+#~ msgstr "resumen"
+
+#~ msgid "Summary"
+#~ msgstr "Resumen"
+
+#~ msgid "Students"
+#~ msgstr "Estudiantes"
+
+#~ msgid "Orders"
+#~ msgstr "Órdenes"
+
+#~ msgid "Reports"
+#~ msgstr "Reportes"
+
+#~ msgid "students"
+#~ msgstr "students"
+
+#~ msgid "new_students"
+#~ msgstr "new_students"
+
+#~ msgid "Delete_picture"
+#~ msgstr "Eliminar imagen"
+
+#~ msgid "insert_imagen"
+#~ msgstr "insert_imagen"
+
+#~ msgid "start_of_membership"
+#~ msgstr "start_of_membership"
+
+#~ msgid "Disable_sign_in"
+#~ msgstr "Deshabilitar inicio de seción"
+
+#~ msgid "insert_day_of_inscription"
+#~ msgstr "insert_day_of_inscription"
+
+#~ msgid "Way_to_pay"
+#~ msgstr "Forma de Pago"
+
+#~ msgid "Internal_notes"
+#~ msgstr "Notas Internas"
+
+#~ msgid "Manual_adjustments"
+#~ msgstr "Ajustes manuales"
+
+#~ msgid "Days"
+#~ msgstr "Días"
+
+#~ msgid "Reason"
+#~ msgstr "Razón"
+
+#~ msgid "Given_by"
+#~ msgstr "Dado por"
+
+#~ msgid "General_options"
+#~ msgstr "Opciones generales"
+
+#~ msgid "insert_name"
+#~ msgstr "insert_name"
+
+#~ msgid "Last_name"
+#~ msgstr "Insertar apellido"
+
+#~ msgid "insert_last_name"
+#~ msgstr "insert_last_name"
+
+#~ msgid "Insert_email"
+#~ msgstr "Inserte correo"
+
+#~ msgid "Social_options"
+#~ msgstr "Opciones de sociales"
+
+#~ msgid "Change_of_password"
+#~ msgstr "Cambiar de contraseña"
+
+#~ msgid "Reset_password"
+#~ msgstr "Restablecer la contraseña"
+
+#~ msgid "Add_user_compensation"
+#~ msgstr "Agregar compensación a editar_perfil"
+
+#~ msgid "Days_compensation"
+#~ msgstr "Días de compensación"
+
+#~ msgid "insert_days_of_compensation"
+#~ msgstr "insert_days_of_compensation"
+
+#~ msgid "Compensation_reason"
+#~ msgstr "Razón de compensación"
+
+#~ msgid "new_ Memberships"
+#~ msgstr "new_ Memberships"
+
+#~ msgid "Choose_an_option"
+#~ msgstr "Elige una opción"
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#~ msgid "User"
+#~ msgstr "Usuario"
+
+#~ msgid "Date"
+#~ msgstr "Fecha"
+
+#~ msgid "CONFIGURATION"
+#~ msgstr "CONFIGURACIÓN"
+
+#~ msgid "Subscription"
+#~ msgstr "Subscription"
+
+#~ msgid "Status"
+#~ msgstr "Estatus"
+
+#~ msgid "New_course"
+#~ msgstr "Nuevo curso"
+
+#~ msgid "Select_image"
+#~ msgstr "Seleccione imagen"
+
+#~ msgid "Name_course"
+#~ msgstr "Nombre del curso"
+
+#~ msgid "Course_version"
+#~ msgstr "Versión del curso"
+
+#~ msgid "Course_status"
+#~ msgstr "Estatus del curso"
+
+#~ msgid "Registration_to_the_course"
+#~ msgstr "Inscripción al curso"
+
+#~ msgid "Profile"
+#~ msgstr "Perfil"
+
+#~ msgid "Payments"
+#~ msgstr "Pagos"
+
+#~ msgid "Failed_collections"
+#~ msgstr "Failed_collections"
+
+#~ msgid "Next_charges"
+#~ msgstr "Next_charges"
+
+#~ msgid "Inscriptions"
+#~ msgstr "Inscriptions"
+
+#~ msgid "Cancellations"
+#~ msgstr "Cancelaciones"
+
+#~ msgid "Welcome"
+#~ msgstr "Bienvenido"
+
+#~ msgid ""
+#~ "TODOS NUESTROS PLANES ESTÁN EN DÓLARES ESTADOUNIDENSES Y SON MEMBRESÍAS "
+#~ "CON PAGO RECURRENTE SEGÚN EL PLAZO QUE ELIJAS"
+#~ msgstr ""
+#~ "TODOS NUESTROS PLANES ESTÁN EN DÓLARES ESTADOUNIDENSES Y SON MEMBRESÍAS "
+#~ "CON PAGO RECURRENTE SEGÚN EL PLAZO QUE ELIJAS"
+
+#~ msgid "por"
+#~ msgstr "por"
+
+#~ msgid "Elegir"
+#~ msgstr "Elegir"
+
+#~ msgid "My payments"
+#~ msgstr "Mis pagos"
+
+#~ msgid "Ayudanos_a_mejorar"
+#~ msgstr "Ayúdanos a mejorar"
+
+#~ msgid "Section"
+#~ msgstr "Sección"
+
+#~ msgid "Disponible dentro"
+#~ msgstr "Disponible en"
+
+#, fuzzy
+#~| msgid "Ultimo"
+#~ msgid "Ultimo acceso:"
+#~ msgstr "Último"
+
+#~ msgid "Secciones"
+#~ msgstr "Secciones"
+
+#~ msgid "Seccion:"
+#~ msgstr "Sección:"
+
+#~ msgid "Eliminar"
+#~ msgstr "Eliminar"
+
+#~ msgid "No agregada a la serie"
+#~ msgstr "No agregada a la serie"
+
+#~ msgid "Elegir curso a vincular"
+#~ msgstr "Elegir curso a vincular"
+
+#~ msgid "Resolución de imagenes"
+#~ msgstr "Resolución de imágenes"
+
+#~ msgid "Especificar el curso de la serie"
+#~ msgstr "Especificar el curso de la sección"
+
+#~ msgid "close_session"
+#~ msgstr "close_session"
+
+#~ msgid "Resumen_general"
+#~ msgstr "Resumen general"
+
+#~ msgid "Course"
+#~ msgstr "Curso"
+
+#~ msgid "Inserte_su_reporte"
+#~ msgstr "Inserte reporte"
+
+#~ msgid "El_curso_no_se_creo_corectamente"
+#~ msgstr "El curso noi se creo correctamente"
+
+#~ msgid "El_curso_se_actulizo_corectamente"
+#~ msgstr "El curso se actualizo correctamente"
+
+#~ msgid "Edit_course"
+#~ msgstr "Editar curso"
+
+#~ msgid "Delete_course"
+#~ msgstr "Eliminar curso"
+
+#~ msgid "Lessons"
+#~ msgstr "Lecciones"
+
+#~ msgid "Ocultar_descripcion"
+#~ msgstr "Ocultar suscripción"
+
+#~ msgid "Mostrar_descripcion"
+#~ msgstr "Mostrar descripción"
+
+#~ msgid "Gracias_por_su_calificacion_de"
+#~ msgstr "Gracias por tu calificación de"
+
+#~ msgid "My course"
+#~ msgstr "Mi curso"
+
+#~ msgid "My_course"
+#~ msgstr "Mi curso"
+
+#~ msgid "cada"
+#~ msgstr "cada"
+
+#~ msgid "dolares"
+#~ msgstr "dólares"
+
+#~ msgid "por $"
+#~ msgstr "por $"
+
+#~ msgid "Pago de $"
+#~ msgstr "Pago de $"
+
+#~ msgid "Admin"
+#~ msgstr "Administrador"
+
+#~ msgid "new_content"
+#~ msgstr "Nuevo contenido"
+
+#~ msgid "Select_course"
+#~ msgstr "Seleccione un curso"
+
+#~ msgid "Select_section"
+#~ msgstr "Seleccionar sección"
+
+#~ msgid "New_video"
+#~ msgstr "Nuevo video"
+
+#~ msgid "Insert_video_URL"
+#~ msgstr "Inserte URL de video"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "insert_title"
+#~ msgstr "Inserte título"
+
+#~ msgid "File_mp3"
+#~ msgstr "Archivo MP3"
+
+#~ msgid "File_title_mp3"
+#~ msgstr "Título del Archivo MP3"
+
+#~ msgid "File_pdf"
+#~ msgstr "Archivo PDF"
+
+#~ msgid "File_title_pdf"
+#~ msgstr "Título del archivo"
+
+#~ msgid "Saxfón_moderno"
+#~ msgstr "Saxofón moderno"
+
+#~ msgid "Change membership"
+#~ msgstr "Cambiar membresía"
+
+#~ msgid "lesson"
+#~ msgstr "Lección"
+
+#~ msgid "File"
+#~ msgstr "Archivo "
+
+#~ msgid "Cursos del mes"
+#~ msgstr "Cursos del mes"
+
+#~ msgid "El usuario no es un alumno"
+#~ msgstr "El usuario no es alumno"
+
+#~ msgid "Nuevo usuario alumno"
+#~ msgstr "Nuevo usuario alumno"
+
+#~ msgid "Editar usuario alumno"
+#~ msgstr "Editar usuario alumno"
+
+#~ msgid "Posibles membresias"
+#~ msgstr "Posibles membresías"
+
+#~ msgid "Solfeo_y_teoría"
+#~ msgstr "Solfeo y teoría"
+
+#~ msgid "Saxofón_góspel"
+#~ msgstr "Saxofón góspel"
+
+#~ msgid "Ewi"
+#~ msgstr "Ewi"
+
+#~ msgid "Piano"
+#~ msgstr "Piano"
+
+#~ msgid "Guitarra"
+#~ msgstr "Guitarra"
+
+#~ msgid "Bajo"
+#~ msgstr "Bajo"
+
+#~ msgid "Bateria"
+#~ msgstr "Batería"
+
+#~ msgid "New_lesson"
+#~ msgstr "Lecciones"
+
+#~ msgid "video"
+#~ msgstr "Video"
+
+#~ msgid "MP3"
+#~ msgstr "MP3"
+
+#~ msgid "PDF"
+#~ msgstr "PDF"
+
+#~ msgid "Previous"
+#~ msgstr "Anterior"
+
+#~ msgid "Previous_password"
+#~ msgstr "Aterior contraseña"
+
+#~ msgid "New password"
+#~ msgstr "Nueva contraseña"
+
+#~ msgid "My_profile"
+#~ msgstr "Mi perfil"
+
+#~ msgid "dato_obligatorio"
+#~ msgstr "dato obligatorio"
+
+#~ msgid "ERROR_500_Error_interno_de_sistema"
+#~ msgstr "ERROR 500 Error interno del sistema"
+
+#~ msgid ""
+#~ "Ha_ocurrido_un_error_interno."
+#~ "_Por_favor_comuniquese_con_el_administrador_del_sistema"
+#~ msgstr ""
+#~ "Ha ocurrido un error interno. Por favor comuníquese con el administrador "
+#~ "del sistema"
+
+#~ msgid "Registrate_para_continuar_con_el_pago"
+#~ msgstr "Regístrate para continuar con el pago"
+
+#~ msgid "Google"
+#~ msgstr "Google"
+
+#~ msgid "Confirmar contrasena"
+#~ msgstr "Confirmar contraseña"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Acceder"
+#~ msgstr "Acceder"
+
+#~ msgid "Birthdate"
+#~ msgstr "Fecha de nacimiento"
+
+#~ msgid "Country"
+#~ msgstr "País"
+
+#~ msgid "Change photo"
+#~ msgstr "Cambiar foto"
+
+#, fuzzy
+#~| msgid "My account"
+#~ msgid "Myy acount"
+#~ msgstr "Mi cuenta"

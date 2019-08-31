@@ -1,0 +1,9 @@
+.settings/
+.buildpath
+.project
+.idea
+.DS_Store
+
+# Code Recommenders
+src/util/dompdf/lib/fonts/
+modulos/use_template/view/use_togles.php

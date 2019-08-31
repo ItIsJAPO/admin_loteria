@@ -1,0 +1,30 @@
+2019-07-30 16:26:34 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\util\PHPMailer\Email.php (86) ] [MESSAGE LOG START]
+Invalid address:  (bcc): 
+[URL] /login/send_recover [URL]
+[MESSAGE LOG END]
+2019-07-30 16:50:02 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\plataforma\ControllerBase.php (149) ] [MESSAGE LOG START]
+42S22
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'l.email' in 'where clause'
+#0 C:\Users\Sistemas-Icarus\Proyectos\nipf\repository\LoginDAO.php(22): PDO->prepare('\r\n            s...')
+#1 C:\Users\Sistemas-Icarus\Proyectos\nipf\modulos\login\logic\Logic.php(70): repository\LoginDAO->findSystemAccountByEmailForLogin('gpolanco@grupoi...')
+#2 C:\Users\Sistemas-Icarus\Proyectos\nipf\modulos\login\Controller.php(100): modulos\login\logic\Logic->verifyDataLoginUser(Object(plataforma\RequestParam))
+#3 [internal function]: modulos\login\Controller->login()
+#4 C:\Users\Sistemas-Icarus\Proyectos\nipf\plataforma\MainController.php(78): ReflectionMethod->invoke(Object(modulos\login\Controller))
+#5 C:\Users\Sistemas-Icarus\Proyectos\nipf\index.php(88): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'login')
+#6 C:\Users\Sistemas-Icarus\Proyectos\nipf\index.php(114): executeRequest('login')
+#7 {main}
+[URL] /login/login [URL]
+[MESSAGE LOG END]
+2019-07-30 16:50:08 [ C:\Users\Sistemas-Icarus\Proyectos\nipf\plataforma\ControllerBase.php (149) ] [MESSAGE LOG START]
+42S22
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'l.email' in 'where clause'
+#0 C:\Users\Sistemas-Icarus\Proyectos\nipf\repository\LoginDAO.php(22): PDO->prepare('\r\n            s...')
+#1 C:\Users\Sistemas-Icarus\Proyectos\nipf\modulos\login\logic\Logic.php(70): repository\LoginDAO->findSystemAccountByEmailForLogin('gpolanco@grupoi...')
+#2 C:\Users\Sistemas-Icarus\Proyectos\nipf\modulos\login\Controller.php(100): modulos\login\logic\Logic->verifyDataLoginUser(Object(plataforma\RequestParam))
+#3 [internal function]: modulos\login\Controller->login()
+#4 C:\Users\Sistemas-Icarus\Proyectos\nipf\plataforma\MainController.php(78): ReflectionMethod->invoke(Object(modulos\login\Controller))
+#5 C:\Users\Sistemas-Icarus\Proyectos\nipf\index.php(88): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'login')
+#6 C:\Users\Sistemas-Icarus\Proyectos\nipf\index.php(114): executeRequest('login')
+#7 {main}
+[URL] /login/login [URL]
+[MESSAGE LOG END]
