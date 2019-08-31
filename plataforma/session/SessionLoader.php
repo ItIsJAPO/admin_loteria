@@ -74,35 +74,11 @@ class SessionLoader {
         $_SESSION[SysConstants::SESS_PARAM_REMEMBER_SESSION] = $remember;
         $_SESSION[SysConstants::SESS_PARAM_SESSION_USER] = date('d/m/Y H:i:s');
         $_SESSION[SysConstants::SESS_PARAM_LOGIN_ID] = intval($login->getId());
-        $_SESSION[SysConstants::SESS_PARAM_USER_THEME] = intval($login->getUserTheme());
-        $_SESSION[SysConstants::SESS_PARAM_USER_ROLE_ID] = intval($login->getRoleId());
+        $_SESSION[SysConstants::SESS_PARAM_USER_ROLE_ID] = intval($login->getRole());
         $_SESSION[SysConstants::SESS_PARAM_LOGIN_ESTATUS] = intval($login->getStatus());
+        $_SESSION[SysConstants::SESS_PARAM_USER_NAME] = $login->getUsername();
+        $_SESSION[SysConstants::SESS_PARAM_USER_ROLE_NAME] = "Administrador";
 
-        $daoRole = new RolesDAO();
-        $daoUser = new UsersDAO();
-
-        $role = $daoRole->findById($login->getRoleId());
-
-        if ( !$role ) {
-            throw new IntentionalException(0);
-        }
-
-        $user = $daoUser->findByField(array(
-            'fieldName' => 'login_id',
-            'fieldValue' => $login->getId()
-        ));
-
-        if ( !$user ) {
-            throw new IntentionalException(0);
-        }
-
-        $_SESSION[SysConstants::SESS_PARAM_USER_ID] = intval($user->getId());
-        $_SESSION[SysConstants::SESS_PARAM_USER_NAME] = $user->getFullName();
-        $_SESSION[SysConstants::SESS_PARAM_USER_ROLE_NAME] = $role->getName();
-
-        if ( !$role ) {
-            throw new IntentionalException(0);
-        }
     }
 
 }

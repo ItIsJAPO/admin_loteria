@@ -1,0 +1,77 @@
+2019-08-31 12:51:17 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(56) [8] Undefined index: dataBaseName
+[MESSAGE LOG END]
+2019-08-31 12:51:17 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(60) [8] Undefined index: Tables_in_
+[MESSAGE LOG END]
+2019-08-31 12:51:17 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(60) [8] Undefined index: Tables_in_
+[MESSAGE LOG END]
+2019-08-31 12:51:17 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(60) [8] Undefined index: Tables_in_
+[MESSAGE LOG END]
+2019-08-31 12:51:17 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(60) [8] Undefined index: Tables_in_
+[MESSAGE LOG END]
+2019-08-31 12:51:17 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(60) [8] Undefined index: Tables_in_
+[MESSAGE LOG END]
+2019-08-31 12:51:17 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(60) [8] Undefined index: Tables_in_
+[MESSAGE LOG END]
+2019-08-31 12:51:17 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(60) [8] Undefined index: Tables_in_
+[MESSAGE LOG END]
+2019-08-31 12:52:18 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-08-31 12:52:18 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-08-31 12:52:18 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-08-31 12:52:18 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-08-31 12:52:18 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-08-31 12:52:18 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-08-31 12:52:18 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-08-31 13:34:04 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/templates/incl/top.php(54) [8] Undefined index: user_theme
+[URL] /dashboard [URL]
+[MESSAGE LOG END]
+2019-08-31 13:35:30 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/templates/incl/nav-bar.php(8) [8] Undefined index: user_theme
+[URL] /dashboard [URL]
+[MESSAGE LOG END]
+2019-08-31 13:36:07 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
+[URL] /editar_perfil/user_photo [URL]
+[MESSAGE LOG END]
+2019-08-31 13:36:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
+[URL] /editar_perfil/user_photo [URL]
+[MESSAGE LOG END]
+2019-08-31 13:36:12 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
+[URL] /editar_perfil/user_photo [URL]
+[MESSAGE LOG END]
+2019-08-31 13:36:16 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
+[URL] /editar_perfil/user_photo [URL]
+[MESSAGE LOG END]
+2019-08-31 13:36:19 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
+[URL] /editar_perfil/user_photo [URL]
+[MESSAGE LOG END]
+2019-08-31 13:36:21 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
+[URL] /editar_perfil/user_photo [URL]
+[MESSAGE LOG END]

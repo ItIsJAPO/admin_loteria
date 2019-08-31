@@ -12,13 +12,13 @@ namespace repository;
 use database\Connections;
 use database\SimpleDAO;
 
-class LogDAO extends SimpleDAO {
+class PersonalDAO extends SimpleDAO {
 
 	/**
-	*LogDAO construct
+	*PersonalDAO construct
 	*/
 	public function __construct(){
-		parent::__construct(new Log());
+		parent::__construct(new Personal());
 	}
 
 }

@@ -1,0 +1,39 @@
+2019-08-31 13:03:59 [ /Users/josepino/Documents/GitHub/nipf/plataforma/ControllerBase.php (149) ] [MESSAGE LOG START]
+23000
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'created' cannot be null
+#0 /Users/josepino/Documents/GitHub/nipf/database/SimpleDAO.php(137): PDOStatement->execute()
+#1 /Users/josepino/Documents/GitHub/nipf/modulos/login/logic/Logic.php(67): database\SimpleDAO->save(Object(repository\Login))
+#2 /Users/josepino/Documents/GitHub/nipf/modulos/login/Controller.php(100): modulos\login\logic\Logic->verifyDataLoginUser(Object(plataforma\RequestParam))
+#3 [internal function]: modulos\login\Controller->login()
+#4 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\login\Controller))
+#5 /Users/josepino/Documents/GitHub/nipf/index.php(88): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'login')
+#6 /Users/josepino/Documents/GitHub/nipf/index.php(114): executeRequest('login')
+#7 {main}
+[URL] /login/login [URL]
+[MESSAGE LOG END]
+2019-08-31 13:04:27 [ /Users/josepino/Documents/GitHub/nipf/plataforma/ControllerBase.php (149) ] [MESSAGE LOG START]
+23000
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'created' cannot be null
+#0 /Users/josepino/Documents/GitHub/nipf/database/SimpleDAO.php(137): PDOStatement->execute()
+#1 /Users/josepino/Documents/GitHub/nipf/modulos/login/logic/Logic.php(67): database\SimpleDAO->save(Object(repository\Login))
+#2 /Users/josepino/Documents/GitHub/nipf/modulos/login/Controller.php(100): modulos\login\logic\Logic->verifyDataLoginUser(Object(plataforma\RequestParam))
+#3 [internal function]: modulos\login\Controller->login()
+#4 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\login\Controller))
+#5 /Users/josepino/Documents/GitHub/nipf/index.php(88): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'login')
+#6 /Users/josepino/Documents/GitHub/nipf/index.php(114): executeRequest('login')
+#7 {main}
+[URL] /login/login [URL]
+[MESSAGE LOG END]
+2019-08-31 13:07:53 [ /Users/josepino/Documents/GitHub/nipf/plataforma/ControllerBase.php (149) ] [MESSAGE LOG START]
+23000
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'japo@grupoicarus.com.mx' for key 'username'
+#0 /Users/josepino/Documents/GitHub/nipf/database/SimpleDAO.php(137): PDOStatement->execute()
+#1 /Users/josepino/Documents/GitHub/nipf/modulos/login/logic/Logic.php(68): database\SimpleDAO->save(Object(repository\Login))
+#2 /Users/josepino/Documents/GitHub/nipf/modulos/login/Controller.php(100): modulos\login\logic\Logic->verifyDataLoginUser(Object(plataforma\RequestParam))
+#3 [internal function]: modulos\login\Controller->login()
+#4 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\login\Controller))
+#5 /Users/josepino/Documents/GitHub/nipf/index.php(88): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'login')
+#6 /Users/josepino/Documents/GitHub/nipf/index.php(114): executeRequest('login')
+#7 {main}
+[URL] /login/login [URL]
+[MESSAGE LOG END]

@@ -49,32 +49,7 @@
         <link rel = "stylesheet" type = "text/css" href="/assets/css/helper.css" />
 
         <!--themes user  -->
-        <?php
-        $style = null;
-        switch ($_SESSION[SysConstants::SESS_PARAM_USER_THEME]) {
-            case Login::DEFAULT_THEME:
-                $style='/assets/css/style.css';
-                break;
-            case Login::THEME_GREEN:
-                $style='/assets/css/themes/green.css';
-                break;
-            case Login::THEME_BLUE:
-                $style='/assets/css/themes/blue.css';
-                break;
-            case Login::THEME_PURPLE:
-                $style='/assets/css/themes/purple.css';
-                break;
-            case Login::THEME_ROSE:
-                $style='/assets/css/themes/rouse.css';
-                break;
-            case Login::THEME_DARK:
-                $style='/assets/css/themes/dark.css';
-                break;
-            default:
-                $style='/assets/css/style.css';
-        }
-        ?>
-        <link rel = "stylesheet" type = "text/css" href="<?=$style?>" />
+        <link rel = "stylesheet" type = "text/css" href="/assets/css/style.css" />
         <link rel = "stylesheet" type = "text/css" href ="/assets/css/widget.css" />
         <link rel = "stylesheet" type = "text/css" href ="/assets/css/default.css" />
 

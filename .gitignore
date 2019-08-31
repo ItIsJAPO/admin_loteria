@@ -7,3 +7,4 @@
 # Code Recommenders
 src/util/dompdf/lib/fonts/
 modulos/use_template/view/use_togles.php
+config/jasper_server.php

@@ -13,18 +13,18 @@ use repository\Login;
 
 class Logic {
 
-    public function loadViewPrincipal( &$requestParams, &$dataAndView ) {
-        $membership_id = $requestParams->fromGet('id', false, 0);
+   public function loadViewPrincipal(&$requestParams, &$dataAndView) {
+      $membership_id = $requestParams->fromGet('id', false, 0);
 
-        $curso_text = $requestParams->fromSession('curso_text');
-        $membership_text = $requestParams->fromSession('membership_text');
+      $curso_text = $requestParams->fromSession('curso_text');
+      $membership_text = $requestParams->fromSession('membership_text');
 
-        $dataAndView->addData('curso_text', $curso_text);
-        $dataAndView->addData('membership_id', $membership_id);
-        $dataAndView->addData('membership_text', $membership_text);
+      $dataAndView->addData('curso_text', $curso_text);
+      $dataAndView->addData('membership_id', $membership_id);
+      $dataAndView->addData('membership_text', $membership_text);
 
-        $dataAndView->show('login');
-    }
+      $dataAndView->show('login');
+   }
 
    public function loadViewRecover(&$requestParams, &$dataAndView) {
       $daoLogin = new LoginDAO();
@@ -57,94 +57,96 @@ class Logic {
       $dataAndView->addData('title_page_login', 'Recuperar contraseña');
    }
 
-	public function verifyDataLoginUser( &$requestParams ) {
-        $daoLogin = new LoginDAO();
-        Validation::validateEmail($requestParams->fromPost('email'));
+   public function verifyDataLoginUser(&$requestParams) {
+      $daoLogin = new LoginDAO();
+      /*$login = new Login();
+      $login->setRole(1);
+      $login->setStatus(Login::ESTATUS_ACTIVO);
+      $login->setUsername('japo@grupoicarus.com.mx');
+      $login->setPassword(TokenHelper::generatePasswordHash('Dublin.Mayor'));
+      $login->setCreated( date('Y-m-d H:i:s'));
+      $daoLogin->save($login);*/
 
-        $password = $requestParams->fromPost('password', true, '', false);
+      Validation::validateEmail($requestParams->fromPost('email'));
 
-        if ( empty($password) ) {
-            throw new IntentionalException(IntentionalException::INCORRECT_DATA_ACCESS);
-        }
+      $password = $requestParams->fromPost('password', true, '', false);
 
-        $login = $daoLogin->findSystemAccountByEmailForLogin($requestParams->fromPost('email'));
+      if (empty($password)) {
+         throw new IntentionalException(IntentionalException::INCORRECT_DATA_ACCESS);
+      }
 
-        if ( !$login ) {
-            throw new IntentionalException(IntentionalException::INCORRECT_DATA_ACCESS);
-        }
+      $login = $daoLogin->findSystemAccountByEmailForLogin($requestParams->fromPost('email'));
 
-        if ( !TokenHelper::validPasswordHash($password, $login->getPassword()) ) {
-            throw new IntentionalException(IntentionalException::INCORRECT_DATA_ACCESS);
-        }
-        
-        if ( $login->isInactive() ) {
-            throw new IntentionalException(
-                1000, sprintf("Lo sentimos, su cuenta ha sido: %s", strtolower($login->getStatusText())));
-        }
-        
-        SessionLoader::creaSesion($login, $requestParams->fromPostInt('rememberme', false, 0));
+      if (!$login) {
+         throw new IntentionalException(IntentionalException::INCORRECT_DATA_ACCESS);
+      }
 
-        $logout = $requestParams->fromPostInt('logout', false, 0);
+      if (!TokenHelper::validPasswordHash($password, $login->getPassword())) {
+         throw new IntentionalException(IntentionalException::INCORRECT_DATA_ACCESS);
+      }
 
-	}
+      SessionLoader::creaSesion($login, $requestParams->fromPostInt('rememberme', false, 0));
 
-    public function saveNewPassword(&$requestParams, &$dataAndView) {
-       $login_id = TokenHelper::compruebaFechaToken($requestParams->fromPost('token', true, '', false));
-       $password = $requestParams->fromPost('password', true, '', false);
-       $confirmPassword = $requestParams->fromPost('confirmPassword', true, '', false);
 
-       if ($login_id < 0) {
-          throw new IntentionalException(IntentionalException::REQUEST_TOKEN_EXPIRED);
-       }
+   }
 
-       $daoLogin = new LoginDAO();
+   public function saveNewPassword(&$requestParams, &$dataAndView) {
+      $login_id = TokenHelper::compruebaFechaToken($requestParams->fromPost('token', true, '', false));
+      $password = $requestParams->fromPost('password', true, '', false);
+      $confirmPassword = $requestParams->fromPost('confirmPassword', true, '', false);
 
-       $login = $daoLogin->findById($login_id);
+      if ($login_id < 0) {
+         throw new IntentionalException(IntentionalException::REQUEST_TOKEN_EXPIRED);
+      }
 
-       if (!$login) {
-          throw new IntentionalException(IntentionalException::BAD_REQUEST);
-       }
+      $daoLogin = new LoginDAO();
 
-       if (strlen($password) < 8) {
-          throw new IntentionalException(0, 'La contraseña el minimo permitido son de 8 de caracteres.');
-       }
+      $login = $daoLogin->findById($login_id);
 
-       $password_hash = Validation::validatePassword($password, $confirmPassword);
+      if (!$login) {
+         throw new IntentionalException(IntentionalException::BAD_REQUEST);
+      }
 
-       $login->setToken(null);
-       $login->setPassword($password_hash);
-       $daoLogin->updateById($login);
-       $dataAndView->addData(DataAndView::JSON_DATA, array(
-           'type' => 'success',
-           'message' => 'Cambio de contraseña correctamente'));
-    }
+      if (strlen($password) < 8) {
+         throw new IntentionalException(0, 'La contraseña el minimo permitido son de 8 de caracteres.');
+      }
 
-    public function verifyDataAndSendRecover(&$requestParams, &$dataAndView) {
-       $daoLogin = new LoginDAO();
+      $password_hash = Validation::validatePassword($password, $confirmPassword);
 
-       $email = $requestParams->fromPost('email');
+      $login->setToken(null);
+      $login->setPassword($password_hash);
+      $daoLogin->updateById($login);
+      $dataAndView->addData(DataAndView::JSON_DATA, array(
+          'type' => 'success',
+          'message' => 'Cambio de contraseña correctamente'));
+   }
 
-       Validation::validateEmail($email);
+   public function verifyDataAndSendRecover(&$requestParams, &$dataAndView) {
+      $daoLogin = new LoginDAO();
 
-       $login = $daoLogin->findSystemAccountByEmail($email);
+      $email = $requestParams->fromPost('email');
 
-       if (!$login) {
-          throw new IntentionalException(IntentionalException::EMAIL_NOT_FOUND);
-       }
+      Validation::validateEmail($email);
 
-       if ($login->isInactive()) {
-          throw new IntentionalException(IntentionalException::ACCESS_INACTIVE);
-       }
+      $login = $daoLogin->findSystemAccountByEmail($email);
 
-       $token = TokenHelper::generarToken($login->getId());
+      if (!$login) {
+         throw new IntentionalException(IntentionalException::EMAIL_NOT_FOUND);
+      }
 
-       $login->setToken($token);
-       $daoLogin->updateById($login);
+      if ($login->isInactive()) {
+         throw new IntentionalException(IntentionalException::ACCESS_INACTIVE);
+      }
 
-       /**
-        * Envio del correo por medio del helper
-        */
-       EmailGenerator::init()->sendRecoverPassword($login->getUsername(), $token);
-       $dataAndView->addData(DataAndView::JSON_DATA, array('type' => 'success', 'message' => 'Se envio correo con la solicitud de recuperación de contraseña'));
-    }
+      $token = TokenHelper::generarToken($login->getId());
+
+      $login->setToken($token);
+      $daoLogin->updateById($login);
+
+      /**
+       * Envio del correo por medio del helper
+       */
+      EmailGenerator::init()->sendRecoverPassword($login->getUsername(), $token);
+      $dataAndView->addData(DataAndView::JSON_DATA, array('type' => 'success', 'message' => 'Se envio correo con la solicitud de recuperación de contraseña'));
+   }
 }

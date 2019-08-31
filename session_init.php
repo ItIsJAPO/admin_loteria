@@ -14,7 +14,7 @@ ini_set('suhosin.cookie.cryptdocroot', 0);
 ini_set('suhosin.session.cryptdocroot', 0);
 ini_set('session.cookie_domain', $session_domain);
 
-session_name("equimar_system");
+session_name("loteria_uacam");
 session_start();
 
 if ( !isset($_SESSION[SysConstants::SESS_PARAM_REMEMBER_SESSION]) || ($_SESSION[SysConstants::SESS_PARAM_REMEMBER_SESSION] === 0) ) {
@@ -23,13 +23,13 @@ if ( !isset($_SESSION[SysConstants::SESS_PARAM_REMEMBER_SESSION]) || ($_SESSION[
 
     ini_set('session.gc_maxlifetime', 3600);
     ini_set('session.cookie_lifetime', 3600);
-    setcookie("cookie_equimar", "PpAx9P9qqSRApSa4uOrtTOR2CPWj0byiV433Gvz1Hl8", time() + 3600, '/', $session_domain, true, true);
+    setcookie("loteria_uacam", "PpAx9P9qqSRApSa4uOrtTOR2CPWj0byiV433Gvz1Hl8", time() + 3600, '/', $session_domain, true, true);
 } else {
     unset($_SESSION['last_activity']);
     $_SESSION['last_session_update'] = time(); // update time stamp
     ini_set('session.gc_maxlifetime', 99999915);
     ini_set('session.cookie_lifetime', 99999915);
-    setcookie("cookie_equimar", "PpAx9P9qqSRApSa4uOrtTOR2CPWj0byiV433Gvz1Hl8", time() + 99999915, '/', $session_domain, true, true);
+    setcookie("loteria_uacam", "PpAx9P9qqSRApSa4uOrtTOR2CPWj0byiV433Gvz1Hl8", time() + 99999915, '/', $session_domain, true, true);
 }
 
 $availableLocales = array("es_MX");

@@ -3,38 +3,13 @@
     use repository\Login;
     use util\roles\RolesPolicy;
 ?>
-<?php
-$imgSrc = null;
-switch ($_SESSION[SysConstants::SESS_PARAM_USER_THEME]) {
-    case Login::DEFAULT_THEME:
-        $imgSrc='/assets/img/logo-icarus-dark.png';
-        break;
-    case Login::THEME_GREEN:
-        $imgSrc='/assets/img/logo-icarus-white.png';
-        break;
-    case Login::THEME_BLUE:
-        $imgSrc='/assets/img/logo-icarus-white.png';
-        break;
-    case Login::THEME_PURPLE:
-        $imgSrc='/assets/img/logo-icarus-white.png';
-        break;
-    case Login::THEME_ROSE:
-        $imgSrc='/assets/img/logo-icarus-white.png';
-        break;
-    case Login::THEME_DARK:
-        $imgSrc='/assets/img/logo-icarus-white.png';
-        break;
-    default:
-        $imgSrc='/assets/img/logo-icarus-dark.png';
-}
-?>
 <div class="header">
     <nav class="navbar top-navbar navbar-expand-md navbar-light">
         <!-- Logo -->
         <div class="navbar-header">
             <a class="navbar-brand" href="/">
                 <!-- Logo icon -->
-                <b><img src="<?=$imgSrc?>" alt="homepage" class="dark-logo" width="200px" /></b>
+                <b><img src="/assets/img/logo-icarus-dark.png" alt="homepage" class="dark-logo" width="200px" /></b>
                 <!--End Logo icon -->
             </a>
         </div>
