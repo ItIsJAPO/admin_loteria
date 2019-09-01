@@ -1983,6 +1983,7 @@ textarea {
   color: #263238;
 }
 .footer {
+  text-align: center;
   background: #ffffff none repeat scroll 0 0;
   color: #67757c;
   left: 0;

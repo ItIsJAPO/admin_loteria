@@ -4,7 +4,9 @@
     use util\roles\RolesPolicy;
 ?>
             <!-- footer -->
-            <footer class="footer">© 2018  <img src="/assets/img/icarus.png" style="vertical-align: baseline;"> Grupo Icarus S.A DE C.V </footer>
+            <footer class="footer">
+                • Universidad Autónoma de Campeche © • <?= date("Y") ?>
+            </footer>
             <!-- End footer -->
         </div>
 <!-- End Page wrapper  -->

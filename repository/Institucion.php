@@ -4,8 +4,8 @@
 *Powered by K-Models-Creator V1.1
 *Author:  Jose Luis
 *Cooperation:  Freddy Chable
-*Date: 31/08/2019
-*Time: 12:52:18
+*Date: 01/09/2019
+*Time: 01:13:10
 */
 
 namespace repository;
@@ -18,7 +18,7 @@ class Institucion {
 	/** db_column */
 	private $tipo_universitario;
 	/** db_column */
-	private $adscrito;
+	private $id_adscripcion;
 
 	/**
 	* @return mixed
@@ -57,16 +57,16 @@ class Institucion {
 	/**
 	* @return mixed
 	*/
-	public function getAdscrito(){
-		return $this->adscrito;
+	public function getIdAdscripcion(){
+		return $this->id_adscripcion;
 	}
 
 	/**
-	* @param mixed $adscrito
+	* @param mixed $id_adscripcion
 	* @return Institucion
 	*/
-	public function setAdscrito($adscrito){
-		$this->adscrito = $adscrito;
+	public function setIdAdscripcion($id_adscripcion){
+		$this->id_adscripcion = $id_adscripcion;
 	   return $this;
 	}
 }

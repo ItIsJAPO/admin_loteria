@@ -75,3 +75,59 @@
 /Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
 [URL] /editar_perfil/user_photo [URL]
 [MESSAGE LOG END]
+2019-08-31 13:36:44 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
+[URL] /editar_perfil/user_photo [URL]
+[MESSAGE LOG END]
+2019-08-31 13:37:17 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
+[URL] /editar_perfil [URL]
+[MESSAGE LOG END]
+2019-08-31 13:37:32 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
+[URL] /editar_perfil/user_photo [URL]
+[MESSAGE LOG END]
+2019-08-31 13:39:08 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
+[URL] /editar_perfil/user_photo [URL]
+[MESSAGE LOG END]
+2019-08-31 13:39:12 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
+[URL] /editar_perfil/user_photo [URL]
+[MESSAGE LOG END]
+2019-08-31 13:40:35 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
+[URL] /editar_perfil/user_photo [URL]
+[MESSAGE LOG END]
+2019-08-31 13:43:50 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(repository/UsersDAO.php): failed to open stream: No such file or directory
+[URL] /editar_perfil/user_photo [URL]
+[MESSAGE LOG END]
+2019-09-01 01:13:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-09-01 01:13:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-09-01 01:13:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-09-01 01:13:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-09-01 01:13:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-09-01 01:13:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-09-01 01:13:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-09-01 01:13:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/cronjobs/k_models_creator.php(123) [8] Undefined index: USERNAME
+[MESSAGE LOG END]
+2019-09-01 01:37:32 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(modulos/adscripciones/Logic.php): failed to open stream: No such file or directory
+[URL] /api/getAdscripciones [URL]
+[MESSAGE LOG END]
