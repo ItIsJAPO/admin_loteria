@@ -2,7 +2,7 @@
 
 namespace modulos\api;
 
-use modulos\adscripciones\Logic\logic as LogicAdscripcion;
+use modulos\adscripciones\logic\Logic as LogicAdscripcion;
 use plataforma\ControllerBase;
 use plataforma\DataAndView;
 use plataforma\exception\IntentionalException;
