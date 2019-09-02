@@ -49,24 +49,39 @@ $uri = $_SERVER['REQUEST_URI'];
                 <li>
                     <a href="/" id="dashboard"><i class="fa fa-home"></i> <span class="hide-menu">Inicio </span></a>
                 </li>
-
-                <li><a class="has-arrow  " href="#" aria-expanded="false">
+                <li>
+                    <a href="/" id="dashboard"><i class="fa fa-home"></i> <span class="hide-menu">Asistencia </span></a>
+                </li>
+                <li>
+                    <a class="has-arrow  " href="#" aria-expanded="false">
                         <i class="fas fa-sliders-h"></i>
-                        <span class="hide-menu">xxx xxx</span></a>
+                        <span class="hide-menu">Inscritos</span>
+                    </a>
                     <ul aria-expanded="false" class="collapse">
-                        <li id="bitacora"><a href="/bitacora"><i class="fas fa-clipboard"></i> Bitácora</a></li>
-                        <li id="configuration"><a href="/configuration"> <i class="fas fa-cogs"></i> Configuración </a>
+                        <li id="bitacora">
+                            <a href="/bitacora">
+                                <i class="fas fa-clipboard"></i> Individual
+                            </a>
                         </li>
-                        <li id="user_theme"><a href="/user_theme"> <i class="fab fa-google-wallet"></i> Cambio de tema
-                            </a></li>
+                        <li id="configuration">
+                            <a href="/configuration">
+                                <i class="fas fa-cogs"></i> Responsables
+                            </a>
+                        </li>
+
                     </ul>
                 </li>
-                <li class="nav-label">Más ajustes</li>
-                <li><a class="has-arrow  " href="#" aria-expanded="false">
+                <li class="nav-label">Ajustes</li>
+                <li>
+                    <a class="has-arrow  " href="#" aria-expanded="false">
                         <i class="fas fa-american-sign-language-interpreting"></i>
-                        <span class="hide-menu">xxx xxx</span></a>
+                        <span class="hide-menu">Catálogos</span>
+                    </a>
                     <ul aria-expanded="false" class="collapse">
-                        <li id="use_template"><a href="/use_template"><i class="fab fa-firstdraft"></i> Botones</a></li>
+                        <li id="use_template">
+                            <a href="/adscripciones">
+                                <i class="fab fa-firstdraft"></i> Adscripciones</a>
+                        </li>
                         <li id="use_template-widget"><a href="/use_template/widget"><i class="fas fa-cubes"></i> Widget</a>
                         </li>
                         <li id="use_template-page_blank"><a href="/use_template/page_blank"><i
