@@ -5,7 +5,9 @@ namespace modulos\api;
 use modulos\adscripciones\Logic\logic as LogicAdscripcion;
 use plataforma\ControllerBase;
 use plataforma\DataAndView;
+use plataforma\exception\IntentionalException;
 use util\logger\Logger;
+use util\token\TokenHelper;
 
 class Controller extends ControllerBase {
 
@@ -28,9 +30,10 @@ class Controller extends ControllerBase {
       $this->dataAndView->setTemplate('json');
       try {
          $this->dataAndView->addData(DataAndView::JSON_DATA, (new LogicAdscripcion())->getAdscripciones());
+      } catch (IntentionalException $ie) {
+         $this->handleJsonException($ie, "default");
       } catch (\Exception $e) {
-         Logger::getLogger()->error($e);
-         $this->dataAndView->addData(DataAndView::JSON_DATA, array());
+         $this->handleJsonException($e, "default", true);
       }
    }
 

@@ -33,4 +33,19 @@ class AdscripcionDAO extends SimpleDAO {
      return $this->findAll();
    }
 
+   public function getById($uuid){
+      return $this->findById((int)$uuid);
+   }
+
+   public function maxOrden(){
+      $sql= "select max(orden) as 'max' from adscripcion";
+      $stmt = Connections::getConnection()->prepare($sql);
+      $stmt->setFetchMode(\PDO::FETCH_ASSOC);
+      $stmt->execute();
+      return $stmt->fetch();
+   }
+   public function guardarAdscripcion($adscripcion){
+       $this->save($adscripcion);
+   }
+
 }

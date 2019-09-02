@@ -7,6 +7,7 @@ editar_perfil.*=true
 ; para todos sin iniciar sesion
 [permissions.free]
 login.*=true
+api.*=true
 
 [permissions.Administrador]
 *.*=true

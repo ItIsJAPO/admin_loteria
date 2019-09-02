@@ -12,7 +12,7 @@ namespace repository;
 
 class Adscripcion {
    const ESTATUS_ACTIVO = 1;
-
+   const ESTATUS_INACTIVO = 0;
    /** db_column */
    private $id;
    /** db_column */

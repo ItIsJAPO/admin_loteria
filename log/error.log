@@ -37,3 +37,41 @@ SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'japo@grup
 #7 {main}
 [URL] /login/login [URL]
 [MESSAGE LOG END]
+2019-09-01 20:05:59 [ /Users/josepino/Documents/GitHub/nipf/plataforma/ControllerBase.php (149) ] [MESSAGE LOG START]
+23
+error
+#0 [internal function]: modulos\adscripciones\Controller->actualizarNombre()
+#1 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\adscripciones\Controller))
+#2 /Users/josepino/Documents/GitHub/nipf/index.php(88): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'adscripciones')
+#3 /Users/josepino/Documents/GitHub/nipf/index.php(114): executeRequest('adscripciones')
+#4 {main}
+[URL] /adscripciones/actualizarNombre [URL]
+[MESSAGE LOG END]
+2019-09-01 22:49:50 [ /Users/josepino/Documents/GitHub/nipf/plataforma/ControllerBase.php (149) ] [MESSAGE LOG START]
+23000
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'adscripcion_orden_uindex'
+#0 /Users/josepino/Documents/GitHub/nipf/database/SimpleDAO.php(137): PDOStatement->execute()
+#1 /Users/josepino/Documents/GitHub/nipf/repository/AdscripcionDAO.php(48): database\SimpleDAO->save(Object(repository\Adscripcion))
+#2 /Users/josepino/Documents/GitHub/nipf/modulos/adscripciones/logic/Logic.php(68): repository\AdscripcionDAO->guardarAdscripcion(Object(repository\Adscripcion))
+#3 /Users/josepino/Documents/GitHub/nipf/modulos/adscripciones/Controller.php(74): modulos\adscripciones\logic\Logic->nuevaAdscripcion('m,')
+#4 [internal function]: modulos\adscripciones\Controller->nuevaAdscripcion()
+#5 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\adscripciones\Controller))
+#6 /Users/josepino/Documents/GitHub/nipf/index.php(88): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'adscripciones')
+#7 /Users/josepino/Documents/GitHub/nipf/index.php(114): executeRequest('adscripciones')
+#8 {main}
+[URL] /adscripciones/nuevaAdscripcion [URL]
+[MESSAGE LOG END]
+2019-09-01 22:51:22 [ /Users/josepino/Documents/GitHub/nipf/plataforma/ControllerBase.php (149) ] [MESSAGE LOG START]
+23000
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'adscripcion_orden_uindex'
+#0 /Users/josepino/Documents/GitHub/nipf/database/SimpleDAO.php(137): PDOStatement->execute()
+#1 /Users/josepino/Documents/GitHub/nipf/repository/AdscripcionDAO.php(48): database\SimpleDAO->save(Object(repository\Adscripcion))
+#2 /Users/josepino/Documents/GitHub/nipf/modulos/adscripciones/logic/Logic.php(68): repository\AdscripcionDAO->guardarAdscripcion(Object(repository\Adscripcion))
+#3 /Users/josepino/Documents/GitHub/nipf/modulos/adscripciones/Controller.php(74): modulos\adscripciones\logic\Logic->nuevaAdscripcion('m,')
+#4 [internal function]: modulos\adscripciones\Controller->nuevaAdscripcion()
+#5 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\adscripciones\Controller))
+#6 /Users/josepino/Documents/GitHub/nipf/index.php(88): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'adscripciones')
+#7 /Users/josepino/Documents/GitHub/nipf/index.php(114): executeRequest('adscripciones')
+#8 {main}
+[URL] /adscripciones/nuevaAdscripcion [URL]
+[MESSAGE LOG END]
