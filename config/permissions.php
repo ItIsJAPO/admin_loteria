@@ -15,5 +15,3 @@ api.*=true
 [permissions.Instructor]
 *.*=true
 
-[permissions.Alumno]
-*.*=true
