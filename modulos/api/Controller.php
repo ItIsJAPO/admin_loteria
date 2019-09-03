@@ -2,6 +2,7 @@
 
 namespace modulos\api;
 
+use database\Connections;
 use modulos\adscripciones\logic\Logic as LogicAdscripcion;
 use plataforma\ControllerBase;
 use plataforma\DataAndView;
@@ -36,6 +37,24 @@ class Controller extends ControllerBase {
          $this->handleJsonException($e, "default", true);
       }
    }
+
+    public function guardarRegistro()
+    {
+        $this->dataAndView->setTemplate('json');
+        try {
+            Connections::getConnection()->beginTransaction();
+
+            $this->dataAndView->addData(DataAndView::JSON_DATA, (new LogicAdscripcion())->getAdscripciones());
+
+            Connections::getConnection()->commit();
+        } catch (IntentionalException $ie) {
+            Connections::getConnection()->rollBack();
+            $this->handleJsonException($ie);
+        } catch (\Exception $e) {
+            Connections::getConnection()->rollBack();
+            $this->handleJsonException($e, "default", true);
+        }
+    }
 
 
 }
