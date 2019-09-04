@@ -3,6 +3,7 @@
 namespace modulos\api;
 
 use modulos\adscripciones\logic\Logic as LogicAdscripcion;
+use modulos\inscripciones\logic\Logic as LogicInscripciones;
 use plataforma\ControllerBase;
 use plataforma\DataAndView;
 use plataforma\exception\IntentionalException;
@@ -37,5 +38,18 @@ class Controller extends ControllerBase {
       }
    }
 
+   public function nuevoRegistro() {
+      $this->dataAndView->setTemplate('json');
+      try {
 
+         $this->dataAndView->addData(DataAndView::JSON_DATA, (new LogicInscripciones())->guardar($this->requestParams));
+//         $this->dataAndView->addData(DataAndView::JSON_DATA, array("sdds" => "dsafs"));
+
+      } catch (IntentionalException $ie) {
+         $this->handleJsonException($ie, "default");
+      } catch (\Exception $e) {
+         $this->handleJsonException($e, "default", true);
+      }
+
+   }
 }

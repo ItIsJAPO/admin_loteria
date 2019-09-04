@@ -17,10 +17,9 @@ class Personal {
 	private $id;
 	/** db_column */
 	private $nombre;
-	/** db_column */
-	private $apellido;
-	/** db_column */
-	private $folio;
+//	/** db_column */
+//	private $apellido;
+
 	/** db_column */
 	private $edad;
 	/** db_column */
@@ -56,40 +55,6 @@ class Personal {
 	*/
 	public function setNombre($nombre){
 		$this->nombre = $nombre;
-	   return $this;
-	}
-
-
-	/**
-	* @return mixed
-	*/
-	public function getApellido(){
-		return $this->apellido;
-	}
-
-	/**
-	* @param mixed $apellido
-	* @return Personal
-	*/
-	public function setApellido($apellido){
-		$this->apellido = $apellido;
-	   return $this;
-	}
-
-
-	/**
-	* @return mixed
-	*/
-	public function getFolio(){
-		return $this->folio;
-	}
-
-	/**
-	* @param mixed $folio
-	* @return Personal
-	*/
-	public function setFolio($folio){
-		$this->folio = $folio;
 	   return $this;
 	}
 
