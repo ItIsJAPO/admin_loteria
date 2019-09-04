@@ -2,6 +2,7 @@
 
 namespace modulos\api;
 
+use database\Connections;
 use modulos\adscripciones\logic\Logic as LogicAdscripcion;
 use modulos\inscripciones\logic\Logic as LogicInscripciones;
 use plataforma\ControllerBase;
@@ -38,6 +39,7 @@ class Controller extends ControllerBase {
       }
    }
 
+
    public function nuevoRegistro() {
       $this->dataAndView->setTemplate('json');
       try {
@@ -50,6 +52,7 @@ class Controller extends ControllerBase {
       } catch (\Exception $e) {
          $this->handleJsonException($e, "default", true);
       }
+
 
    }
 }

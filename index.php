@@ -15,29 +15,22 @@ use plataforma\Loader;
 use util\config\Config;
 
 /* Cuando se requiera que otro dominio o subdominio se conecte por ajax a este proyecto */
+
 $access_headers = Config::get('header_allow_origin_value');
 
-
-header('Access-Control-Allow-Origin: *');
-
-header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method");
-header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
-header("Allow: GET, POST, OPTIONS, PUT, DELETE");
-
-
-//if ( is_array($access_headers) && !empty($access_headers) ) {
-//    header('Access-Control-Allow-Credentials: true');
-//
-//    if ( isset($_SERVER['HTTP_ORIGIN']) && in_array($_SERVER['HTTP_ORIGIN'], $access_headers) ) {
-//        header('Access-Control-Allow-Origin:' . $_SERVER['HTTP_ORIGIN']);
-//    }
-//}
+if ( isset($_SERVER['HTTP_ORIGIN']) && in_array($_SERVER['HTTP_ORIGIN'], $access_headers)){
+    header("Access-Control-Allow-Origin:".$_SERVER['HTTP_ORIGIN']);
+    header("Access-Control-Allow-Headers: X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method");
+    header("Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, DELETE");
+    header("Allow: GET, POST, OPTIONS, PUT, DELETE");
+}
 
 // ********************* init logger *************************
 include 'logger_init.php';
 // ********************* init session *************************
 include 'session_init.php';
 // ************************************************************
+
 
 function findModulo() {
     $modulo = NULL;
