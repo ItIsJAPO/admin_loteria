@@ -45,7 +45,6 @@ class Controller extends ControllerBase {
       try {
          Connections::getConnection()->beginTransaction();
          $this->dataAndView->addData(DataAndView::JSON_DATA, (new LogicInscripciones())->guardar($this->requestParams));
-//         $this->dataAndView->addData(DataAndView::JSON_DATA, array("sdds" => "dsafs"));
          Connections::getConnection()->commit();
       } catch (IntentionalException $ie) {
          Connections::getConnection()->rollBack();

@@ -25,6 +25,7 @@ if ( isset($_SERVER['HTTP_ORIGIN']) && in_array($_SERVER['HTTP_ORIGIN'], $access
     header("Allow: GET, POST, OPTIONS, PUT, DELETE");
 }
 
+ini_set('memory_limit', '512M');
 // ********************* init logger *************************
 include 'logger_init.php';
 // ********************* init session *************************
