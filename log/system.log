@@ -131,3 +131,397 @@
 /Users/josepino/Documents/GitHub/nipf/autoloader.php(18) [2] require_once(modulos/adscripciones/Logic.php): failed to open stream: No such file or directory
 [URL] /api/getAdscripciones [URL]
 [MESSAGE LOG END]
+2019-09-04 16:04:12 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(72) [8] Undefined property: stdClass::$nombre
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 16:04:12 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(73) [8] Undefined property: stdClass::$edad
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 16:04:12 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(72) [8] Undefined property: stdClass::$nombre
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 16:04:12 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(73) [8] Undefined property: stdClass::$edad
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:20:09 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(36) [8] Undefined variable: token
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:20:09 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:20:09 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:20:09 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfCOqsUAAAAAKBBU4NyrkY_AxP_xqLqmfZYPIcN&amp;response=): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:20:09 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(94) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:20:43 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(36) [8] Undefined variable: token
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:20:43 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:20:43 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:20:43 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfCOqsUAAAAAKBBU4NyrkY_AxP_xqLqmfZYPIcN&amp;response=): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:20:43 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(94) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:21:38 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(36) [8] Undefined variable: token
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:21:38 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:21:38 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:21:38 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:21:38 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(94) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:21:54 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(36) [8] Undefined variable: token
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:21:54 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:21:54 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:21:54 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAACXuzHxeIOu-lWX3SBeyP2oocu_P&amp;response=): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:21:54 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(94) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:23:41 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(36) [8] Undefined variable: token
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:23:41 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:23:41 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:23:41 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(91) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:23:41 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:24:56 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(36) [8] Undefined variable: token
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:24:56 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(94) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:24:56 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(94) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:24:56 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(94) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:24:56 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(98) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:26:04 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:26:04 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:26:04 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLT0qUxq6s85LoCiRRezE_PEmEgg5LLKWtyZVwA2s3BttgRQISov4SbYRtkToqvHJlyNE_IIyo2q7yaFR5ehB4tF5mfszbDeyV0CTwHF7W3Pdqq2919mDQCYFanTECnwmrUJ46EtVaVJSX5vtjFcVpootFdUbaumcCDAz3C1OJ4EI1E8dAOXL1NKXF2EM-QG08IscZdpF2zpba_cd-yTproq79iWid5Kp6m1qY_TqxggOb-5490fGUkpnOOAAShV__2g6Q5XSC-Uw9uLXRnxcnyGAWBH63BlN3BarYHRXi-N1oy0N7FryQfRrjWP47SUlpgv34GwQAr0TkOSbefuwQR2cvKIgvYcaiFl-yCalIecGZLZl7Iph0gOx5WjU13GbyDWvPxz): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:26:04 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(99) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:32:20 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:32:20 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:32:20 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLT0qUxq6s85LoCiRRezE_PEmEgg5LLKWtyZVwA2s3BttgRQISov4SbYRtkToqvHJlyNE_IIyo2q7yaFR5ehB4tF5mfszbDeyV0CTwHF7W3Pdqq2919mDQCYFanTECnwmrUJ46EtVaVJSX5vtjFcVpootFdUbaumcCDAz3C1OJ4EI1E8dAOXL1NKXF2EM-QG08IscZdpF2zpba_cd-yTproq79iWid5Kp6m1qY_TqxggOb-5490fGUkpnOOAAShV__2g6Q5XSC-Uw9uLXRnxcnyGAWBH63BlN3BarYHRXi-N1oy0N7FryQfRrjWP47SUlpgv34GwQAr0TkOSbefuwQR2cvKIgvYcaiFl-yCalIecGZLZl7Iph0gOx5WjU13GbyDWvPxz): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:32:20 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(99) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:36:18 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:36:18 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:36:18 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLT0qUxq6s85LoCiRRezE_PEmEgg5LLKWtyZVwA2s3BttgRQISov4SbYRtkToqvHJlyNE_IIyo2q7yaFR5ehB4tF5mfszbDeyV0CTwHF7W3Pdqq2919mDQCYFanTECnwmrUJ46EtVaVJSX5vtjFcVpootFdUbaumcCDAz3C1OJ4EI1E8dAOXL1NKXF2EM-QG08IscZdpF2zpba_cd-yTproq79iWid5Kp6m1qY_TqxggOb-5490fGUkpnOOAAShV__2g6Q5XSC-Uw9uLXRnxcnyGAWBH63BlN3BarYHRXi-N1oy0N7FryQfRrjWP47SUlpgv34GwQAr0TkOSbefuwQR2cvKIgvYcaiFl-yCalIecGZLZl7Iph0gOx5WjU13GbyDWvPxz): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:36:18 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(99) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:37:00 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:37:00 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:37:00 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLT0qUxq6s85LoCiRRezE_PEmEgg5LLKWtyZVwA2s3BttgRQISov4SbYRtkToqvHJlyNE_IIyo2q7yaFR5ehB4tF5mfszbDeyV0CTwHF7W3Pdqq2919mDQCYFanTECnwmrUJ46EtVaVJSX5vtjFcVpootFdUbaumcCDAz3C1OJ4EI1E8dAOXL1NKXF2EM-QG08IscZdpF2zpba_cd-yTproq79iWid5Kp6m1qY_TqxggOb-5490fGUkpnOOAAShV__2g6Q5XSC-Uw9uLXRnxcnyGAWBH63BlN3BarYHRXi-N1oy0N7FryQfRrjWP47SUlpgv34GwQAr0TkOSbefuwQR2cvKIgvYcaiFl-yCalIecGZLZl7Iph0gOx5WjU13GbyDWvPxz): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:37:00 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(99) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:37:04 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:37:04 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:37:04 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLT0qUxq6s85LoCiRRezE_PEmEgg5LLKWtyZVwA2s3BttgRQISov4SbYRtkToqvHJlyNE_IIyo2q7yaFR5ehB4tF5mfszbDeyV0CTwHF7W3Pdqq2919mDQCYFanTECnwmrUJ46EtVaVJSX5vtjFcVpootFdUbaumcCDAz3C1OJ4EI1E8dAOXL1NKXF2EM-QG08IscZdpF2zpba_cd-yTproq79iWid5Kp6m1qY_TqxggOb-5490fGUkpnOOAAShV__2g6Q5XSC-Uw9uLXRnxcnyGAWBH63BlN3BarYHRXi-N1oy0N7FryQfRrjWP47SUlpgv34GwQAr0TkOSbefuwQR2cvKIgvYcaiFl-yCalIecGZLZl7Iph0gOx5WjU13GbyDWvPxz): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:37:04 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(99) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:37:19 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:37:19 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:37:19 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLQVIXP5MTO7y7EUqyT1HN2BcRnO6HFtxO4NY6zQSaSTcx09KSKmFZIZ-OAf7sR1kAJLZOrteIQih7TD8-SYpFxuyz62YuPLXECdKbtz1CNhiB6kFdRIXmu8OsBkHX4ndfYqy-XffJDH82230ORQRZgiq4iDiLssI0SjnZvElo0Bs1P-6loYhzFPqvFZ8wJBfISmcyemdBCbQs0TDdU95AjvAis_yCTkXniKZQKmOMYuIjpnTAcHRF7bKLQKDLLcEAM-_JWozD0E96IZgr5PgFbNDTzJS4h7SuBem4Wp4l5ijTlt_s9kLtwL6cWfcU25c95mVYr4kQpWq_XyH09SYvCVW0bXSDy2H0h6Jv0BfrqiyDbph0YlQk-eXNgtHR-a80KFYCSk): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:37:19 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(99) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:47:13 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:47:13 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:47:13 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLQVIXP5MTO7y7EUqyT1HN2BcRnO6HFtxO4NY6zQSaSTcx09KSKmFZIZ-OAf7sR1kAJLZOrteIQih7TD8-SYpFxuyz62YuPLXECdKbtz1CNhiB6kFdRIXmu8OsBkHX4ndfYqy-XffJDH82230ORQRZgiq4iDiLssI0SjnZvElo0Bs1P-6loYhzFPqvFZ8wJBfISmcyemdBCbQs0TDdU95AjvAis_yCTkXniKZQKmOMYuIjpnTAcHRF7bKLQKDLLcEAM-_JWozD0E96IZgr5PgFbNDTzJS4h7SuBem4Wp4l5ijTlt_s9kLtwL6cWfcU25c95mVYr4kQpWq_XyH09SYvCVW0bXSDy2H0h6Jv0BfrqiyDbph0YlQk-eXNgtHR-a80KFYCSk): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:47:13 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:47:13 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:47:13 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLQVIXP5MTO7y7EUqyT1HN2BcRnO6HFtxO4NY6zQSaSTcx09KSKmFZIZ-OAf7sR1kAJLZOrteIQih7TD8-SYpFxuyz62YuPLXECdKbtz1CNhiB6kFdRIXmu8OsBkHX4ndfYqy-XffJDH82230ORQRZgiq4iDiLssI0SjnZvElo0Bs1P-6loYhzFPqvFZ8wJBfISmcyemdBCbQs0TDdU95AjvAis_yCTkXniKZQKmOMYuIjpnTAcHRF7bKLQKDLLcEAM-_JWozD0E96IZgr5PgFbNDTzJS4h7SuBem4Wp4l5ijTlt_s9kLtwL6cWfcU25c95mVYr4kQpWq_XyH09SYvCVW0bXSDy2H0h6Jv0BfrqiyDbph0YlQk-eXNgtHR-a80KFYCSk): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:47:13 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(100) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:53:46 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:53:46 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:53:46 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=null): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:53:46 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:53:46 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:53:46 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=null): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:53:46 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(100) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:01:39 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:01:39 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:01:39 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(95) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLQjQohBEWZ0FmXh2RB514RLDIWgQLak7UFPG3AhSZ3FYhE5f_Hq2zkckYCaLdewCeKHb7VBN6njsDk93rBdCcnqFRsljdx1fQ8z-7gRwZoqnXAYtRC6ta0LnfDIBT9y7DgaX8vM7GT53zHaXn3rP4_J7-9MnRvbtRDV5TX7vcHC1esG6GILN7OgEj7rw4aX1-6VYsmEepqT7QuM-9zhrC_yu1ZcvUPS8macvZJta8fV1E1cUamdDFJFIldqPyRWYbT5SS6LZoafWajl5jDfTx4CaVLx0nXz5Ma3HDNv77k96ra7KPIgnbx96aW2XbixNzSpmttXGSlglu-cG_Id0nn2u4S4L75ADXM_q--5GcZ2Pa-URRzrjF5cowdCOrthhT63jK-v): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:01:39 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:01:39 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:01:39 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLQjQohBEWZ0FmXh2RB514RLDIWgQLak7UFPG3AhSZ3FYhE5f_Hq2zkckYCaLdewCeKHb7VBN6njsDk93rBdCcnqFRsljdx1fQ8z-7gRwZoqnXAYtRC6ta0LnfDIBT9y7DgaX8vM7GT53zHaXn3rP4_J7-9MnRvbtRDV5TX7vcHC1esG6GILN7OgEj7rw4aX1-6VYsmEepqT7QuM-9zhrC_yu1ZcvUPS8macvZJta8fV1E1cUamdDFJFIldqPyRWYbT5SS6LZoafWajl5jDfTx4CaVLx0nXz5Ma3HDNv77k96ra7KPIgnbx96aW2XbixNzSpmttXGSlglu-cG_Id0nn2u4S4L75ADXM_q--5GcZ2Pa-URRzrjF5cowdCOrthhT63jK-v): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:01:39 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(100) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLQjQohBEWZ0FmXh2RB514RLDIWgQLak7UFPG3AhSZ3FYhE5f_Hq2zkckYCaLdewCeKHb7VBN6njsDk93rBdCcnqFRsljdx1fQ8z-7gRwZoqnXAYtRC6ta0LnfDIBT9y7DgaX8vM7GT53zHaXn3rP4_J7-9MnRvbtRDV5TX7vcHC1esG6GILN7OgEj7rw4aX1-6VYsmEepqT7QuM-9zhrC_yu1ZcvUPS8macvZJta8fV1E1cUamdDFJFIldqPyRWYbT5SS6LZoafWajl5jDfTx4CaVLx0nXz5Ma3HDNv77k96ra7KPIgnbx96aW2XbixNzSpmttXGSlglu-cG_Id0nn2u4S4L75ADXM_q--5GcZ2Pa-URRzrjF5cowdCOrthhT63jK-v): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(97) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(97) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(97) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLQjQohBEWZ0FmXh2RB514RLDIWgQLak7UFPG3AhSZ3FYhE5f_Hq2zkckYCaLdewCeKHb7VBN6njsDk93rBdCcnqFRsljdx1fQ8z-7gRwZoqnXAYtRC6ta0LnfDIBT9y7DgaX8vM7GT53zHaXn3rP4_J7-9MnRvbtRDV5TX7vcHC1esG6GILN7OgEj7rw4aX1-6VYsmEepqT7QuM-9zhrC_yu1ZcvUPS8macvZJta8fV1E1cUamdDFJFIldqPyRWYbT5SS6LZoafWajl5jDfTx4CaVLx0nXz5Ma3HDNv77k96ra7KPIgnbx96aW2XbixNzSpmttXGSlglu-cG_Id0nn2u4S4L75ADXM_q--5GcZ2Pa-URRzrjF5cowdCOrthhT63jK-v): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:10 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(101) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:22 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:22 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:22 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(96) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLRISWP3KM9R8bMy5UY9XwwFUHBqzsmTS8eHKyB6_hG9p07O6rWvmNofYVoWNWGX8DhJ2ww2GMECKRD1TZxPxGrkKOT7fC2703PVqSbLLHPbz7WeHeUgm3yvV5nLnZVnqj4c4FUW1wYVQaKBEBnTUKe6x159QQzmkEjHq6_E_Gev7LtiUi2aWoIJrAf78sKjoX3-0ZMbe_x8BidyPLdPu5rTSeeQLeb9-2ui2aU2Enl6aLESmwYPdQHYXicpPZ3vIugFSN2_C8Hc5O8F_S90Fq4nIsxC7FWAsuF2Svv7R6kWV-mvFmNzuN5jR2wgMqPzMnNWUZHdJ4aKUHlsE-V37G3hCLARdGeX78t_mwkmjoKWPenavkTO0ECZg7geLYLOeByW3LRH): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:22 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(97) [2] file_get_contents(): SSL operation failed with code 1. OpenSSL Error messages:
+error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:22 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(97) [2] file_get_contents(): Failed to enable crypto
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:22 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(97) [2] file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LfyTbYUAAAAAFM3OmM72_Pr6s0Gx7S2x77X-MwT&amp;response=03AOLTBLRISWP3KM9R8bMy5UY9XwwFUHBqzsmTS8eHKyB6_hG9p07O6rWvmNofYVoWNWGX8DhJ2ww2GMECKRD1TZxPxGrkKOT7fC2703PVqSbLLHPbz7WeHeUgm3yvV5nLnZVnqj4c4FUW1wYVQaKBEBnTUKe6x159QQzmkEjHq6_E_Gev7LtiUi2aWoIJrAf78sKjoX3-0ZMbe_x8BidyPLdPu5rTSeeQLeb9-2ui2aU2Enl6aLESmwYPdQHYXicpPZ3vIugFSN2_C8Hc5O8F_S90Fq4nIsxC7FWAsuF2Svv7R6kWV-mvFmNzuN5jR2wgMqPzMnNWUZHdJ4aKUHlsE-V37G3hCLARdGeX78t_mwkmjoKWPenavkTO0ECZg7geLYLOeByW3LRH): failed to open stream: operation failed
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 23:12:22 [ /Users/josepino/Documents/GitHub/nipf/logger_init.php (10) ] [MESSAGE LOG START]
+/Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(101) [8] Trying to get property of non-object
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]

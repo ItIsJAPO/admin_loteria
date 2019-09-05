@@ -10,3 +10,6 @@ modulos/use_template/view/use_togles.php
 config/jasper_server.php
 *.log
 log/error.log
+log/error.log
+log/error.log
+log/system.log

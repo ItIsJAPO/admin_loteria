@@ -17,8 +17,8 @@ class Personal {
 	private $id;
 	/** db_column */
 	private $nombre;
-//	/** db_column */
-//	private $apellido;
+	/** db_column */
+	private $id_lider;
 
 	/** db_column */
 	private $edad;
@@ -41,6 +41,21 @@ class Personal {
 	   return $this;
 	}
 
+   /**
+    * @return mixed
+    */
+   public function getIdLider() {
+      return $this->id_lider;
+   }
+
+   /**
+    * @param mixed $id_lider
+    * @return Personal
+    */
+   public function setIdLider($id_lider) {
+      $this->id_lider = $id_lider;
+      return $this;
+   }
 
 	/**
 	* @return mixed

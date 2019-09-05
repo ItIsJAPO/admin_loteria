@@ -43,13 +43,15 @@ class Controller extends ControllerBase {
    public function nuevoRegistro() {
       $this->dataAndView->setTemplate('json');
       try {
-
+         Connections::getConnection()->beginTransaction();
          $this->dataAndView->addData(DataAndView::JSON_DATA, (new LogicInscripciones())->guardar($this->requestParams));
 //         $this->dataAndView->addData(DataAndView::JSON_DATA, array("sdds" => "dsafs"));
-
+         Connections::getConnection()->commit();
       } catch (IntentionalException $ie) {
-         $this->handleJsonException($ie, "default");
+         Connections::getConnection()->rollBack();
+         $this->handleJsonException($ie, "default",true);
       } catch (\Exception $e) {
+         Connections::getConnection()->rollBack();
          $this->handleJsonException($e, "default", true);
       }
 

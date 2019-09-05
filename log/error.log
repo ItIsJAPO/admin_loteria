@@ -156,3 +156,104 @@ SQLSTATE[42S22]: Column not found: 1054 Unknown column 'folio' in 'field list'
 #7 {main}
 [URL] /api/nuevoRegistro [URL]
 [MESSAGE LOG END]
+2019-09-04 21:20:32 [ /Users/josepino/Documents/GitHub/nipf/plataforma/ControllerBase.php (149) ] [MESSAGE LOG START]
+23000
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`japoonline_loteria`.`participante`, CONSTRAINT `participante_contacto_id_fk` FOREIGN KEY (`id_contacto`) REFERENCES `contacto` (`id`))
+#0 /Users/josepino/Documents/GitHub/nipf/database/SimpleDAO.php(137): PDOStatement->execute()
+#1 /Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(67): database\SimpleDAO->save(Object(repository\Participante))
+#2 /Users/josepino/Documents/GitHub/nipf/modulos/api/Controller.php(47): modulos\inscripciones\logic\Logic->guardar(Object(plataforma\RequestParam))
+#3 [internal function]: modulos\api\Controller->nuevoRegistro()
+#4 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\api\Controller))
+#5 /Users/josepino/Documents/GitHub/nipf/index.php(89): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'api')
+#6 /Users/josepino/Documents/GitHub/nipf/index.php(115): executeRequest('api')
+#7 {main}
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 21:21:30 [ /Users/josepino/Documents/GitHub/nipf/plataforma/ControllerBase.php (149) ] [MESSAGE LOG START]
+23000
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`japoonline_loteria`.`participante`, CONSTRAINT `participante_contacto_id_fk` FOREIGN KEY (`id_contacto`) REFERENCES `contacto` (`id`))
+#0 /Users/josepino/Documents/GitHub/nipf/database/SimpleDAO.php(137): PDOStatement->execute()
+#1 /Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(67): database\SimpleDAO->save(Object(repository\Participante))
+#2 /Users/josepino/Documents/GitHub/nipf/modulos/api/Controller.php(47): modulos\inscripciones\logic\Logic->guardar(Object(plataforma\RequestParam))
+#3 [internal function]: modulos\api\Controller->nuevoRegistro()
+#4 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\api\Controller))
+#5 /Users/josepino/Documents/GitHub/nipf/index.php(89): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'api')
+#6 /Users/josepino/Documents/GitHub/nipf/index.php(115): executeRequest('api')
+#7 {main}
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 21:24:26 [ /Users/josepino/Documents/GitHub/nipf/plataforma/ControllerBase.php (149) ] [MESSAGE LOG START]
+23000
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`japoonline_loteria`.`participante`, CONSTRAINT `participante_contacto_id_fk` FOREIGN KEY (`id_contacto`) REFERENCES `contacto` (`id`))
+#0 /Users/josepino/Documents/GitHub/nipf/database/SimpleDAO.php(137): PDOStatement->execute()
+#1 /Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(67): database\SimpleDAO->save(Object(repository\Participante))
+#2 /Users/josepino/Documents/GitHub/nipf/modulos/api/Controller.php(47): modulos\inscripciones\logic\Logic->guardar(Object(plataforma\RequestParam))
+#3 [internal function]: modulos\api\Controller->nuevoRegistro()
+#4 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\api\Controller))
+#5 /Users/josepino/Documents/GitHub/nipf/index.php(89): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'api')
+#6 /Users/josepino/Documents/GitHub/nipf/index.php(115): executeRequest('api')
+#7 {main}
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 21:34:51 [ /Users/josepino/Documents/GitHub/nipf/plataforma/ControllerBase.php (149) ] [MESSAGE LOG START]
+23000
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`japoonline_loteria`.`participante`, CONSTRAINT `participante_contacto_id_fk` FOREIGN KEY (`id_contacto`) REFERENCES `contacto` (`id`))
+#0 /Users/josepino/Documents/GitHub/nipf/database/SimpleDAO.php(137): PDOStatement->execute()
+#1 /Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(67): database\SimpleDAO->save(Object(repository\Participante))
+#2 /Users/josepino/Documents/GitHub/nipf/modulos/api/Controller.php(47): modulos\inscripciones\logic\Logic->guardar(Object(plataforma\RequestParam))
+#3 [internal function]: modulos\api\Controller->nuevoRegistro()
+#4 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\api\Controller))
+#5 /Users/josepino/Documents/GitHub/nipf/index.php(89): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'api')
+#6 /Users/josepino/Documents/GitHub/nipf/index.php(115): executeRequest('api')
+#7 {main}
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 21:37:29 [ /Users/josepino/Documents/GitHub/nipf/plataforma/ControllerBase.php (149) ] [MESSAGE LOG START]
+23000
+SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`japoonline_loteria`.`participante`, CONSTRAINT `participante_contacto_id_fk` FOREIGN KEY (`id_contacto`) REFERENCES `contacto` (`id`))
+#0 /Users/josepino/Documents/GitHub/nipf/database/SimpleDAO.php(137): PDOStatement->execute()
+#1 /Users/josepino/Documents/GitHub/nipf/modulos/inscripciones/logic/Logic.php(67): database\SimpleDAO->save(Object(repository\Participante))
+#2 /Users/josepino/Documents/GitHub/nipf/modulos/api/Controller.php(47): modulos\inscripciones\logic\Logic->guardar(Object(plataforma\RequestParam))
+#3 [internal function]: modulos\api\Controller->nuevoRegistro()
+#4 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\api\Controller))
+#5 /Users/josepino/Documents/GitHub/nipf/index.php(89): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'api')
+#6 /Users/josepino/Documents/GitHub/nipf/index.php(115): executeRequest('api')
+#7 {main}
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:24:05 [ /Users/josepino/Documents/GitHub/nipf/index.php (110) ] [MESSAGE LOG START]
+0
+There is no active transaction
+#0 /Users/josepino/Documents/GitHub/nipf/modulos/api/Controller.php(54): PDO->rollBack()
+#1 [internal function]: modulos\api\Controller->nuevoRegistro()
+#2 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\api\Controller))
+#3 /Users/josepino/Documents/GitHub/nipf/index.php(89): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'api')
+#4 /Users/josepino/Documents/GitHub/nipf/index.php(115): executeRequest('api')
+#5 {main}
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:36:41 [ /Users/josepino/Documents/GitHub/nipf/index.php (110) ] [MESSAGE LOG START]
+0
+There is no active transaction
+#0 /Users/josepino/Documents/GitHub/nipf/modulos/api/Controller.php(54): PDO->rollBack()
+#1 [internal function]: modulos\api\Controller->nuevoRegistro()
+#2 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\api\Controller))
+#3 /Users/josepino/Documents/GitHub/nipf/index.php(89): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'api')
+#4 /Users/josepino/Documents/GitHub/nipf/index.php(115): executeRequest('api')
+#5 {main}
+[URL] /api/nuevoRegistro [URL]
+[MESSAGE LOG END]
+2019-09-04 22:54:57 [ /Users/josepino/Documents/GitHub/nipf/plataforma/ControllerBase.php (149) ] [MESSAGE LOG START]
+2003
+SQLSTATE[HY000] [2003] Can't connect to MySQL server on '192.99.57.208' (60)
+#0 /Users/josepino/Documents/GitHub/nipf/database/Connections.php(31): PDO->__construct('mysql:host=192....', 'japoonline_lote', 'd50Ldc8cNa', Array)
+#1 /Users/josepino/Documents/GitHub/nipf/repository/AdscripcionDAO.php(26): database\Connections::getConnection()
+#2 /Users/josepino/Documents/GitHub/nipf/modulos/adscripciones/logic/Logic.php(13): repository\AdscripcionDAO->getAdscripcionesActivos()
+#3 /Users/josepino/Documents/GitHub/nipf/modulos/api/Controller.php(34): modulos\adscripciones\logic\Logic->getAdscripciones()
+#4 [internal function]: modulos\api\Controller->getAdscripciones()
+#5 /Users/josepino/Documents/GitHub/nipf/plataforma/MainController.php(78): ReflectionMethod->invoke(Object(modulos\api\Controller))
+#6 /Users/josepino/Documents/GitHub/nipf/index.php(89): plataforma\MainController->performRequest(Array, Array, Array, Array, Array, 'api')
+#7 /Users/josepino/Documents/GitHub/nipf/index.php(115): executeRequest('api')
+#8 {main}
+[URL] /api/getAdscripciones [URL]
+[MESSAGE LOG END]
