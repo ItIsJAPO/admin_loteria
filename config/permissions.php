@@ -12,6 +12,4 @@ api.*=true
 [permissions.Administrador]
 *.*=true
 
-[permissions.Instructor]
-*.*=true
 
