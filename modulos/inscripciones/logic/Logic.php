@@ -83,7 +83,7 @@ class Logic {
          (new \modulos\configuration\logic\Logic())->crearNotificacion($mensaje, $correo);
 
       } else {
-         return array("type" => "danger", "message" => "Su dirección de internet se encuentra comprometida.");
+         return array("type" => "danger", "message" => "Reintente su registro nuevamente, porfavor.");
       }
       return array("type" => "success", "message" => "Se ha registrado correctamente.", "mensaje"=>$mensaje);
    }
