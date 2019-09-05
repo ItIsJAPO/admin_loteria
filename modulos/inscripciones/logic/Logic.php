@@ -18,6 +18,7 @@ use util\token\TokenHelper;
 class Logic {
 
    public function guardar(&$requestParams) {
+      $mensaje="";
       $nombre = filter_var($requestParams->fromPost('nombre'), FILTER_SANITIZE_STRING);
       $edad = (int)filter_var($requestParams->fromPost('edad'), FILTER_SANITIZE_NUMBER_INT);
       $direccion = filter_var($requestParams->fromPost('direccion'), FILTER_SANITIZE_STRING);
@@ -84,7 +85,7 @@ class Logic {
       } else {
          return array("type" => "danger", "message" => "Su dirección de internet se encuentra comprometida.");
       }
-      return array("type" => "success", "message" => "Se ha registrado correctamente.");
+      return array("type" => "success", "message" => "Se ha registrado correctamente.", "mensaje"=>$mensaje);
    }
 
    private function validarFormulario($token) {
