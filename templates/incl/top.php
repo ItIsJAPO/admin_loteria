@@ -23,9 +23,9 @@
 
         <meta content = "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name = "viewport" />
 
-        <title> Template icarus </title>
+        <title> UACAM </title>
 
-        <link rel = "shortcut icon" href = "/assets/img/icarus.png" />
+        <link rel = "shortcut icon" href = "/assets/img/logo_uac_ms.ico" />
         <!-- Bootstrap Core CSS -->
          <link href="/assets/select2/css/select2-bootstrap4.css" rel="stylesheet">
         <link href="/assets/bootstrap-4/css/bootstrap.css" rel="stylesheet">

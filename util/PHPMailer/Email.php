@@ -10,6 +10,7 @@ namespace util\PHPMailer;
 
 
 use util\config\Config;
+use util\logger\Logger;
 
 class Email {
    public function enviarEmail($destino, $asunto, $mensaje, $adjuntos = array()) {
@@ -42,8 +43,8 @@ class Email {
          $mail->Encoding = 'base64';
          $mail->setFrom($username = Config::get("from", "mail_config"), 'Sistema de Registro del Museo Universitario de la Vida.');
          $mail->addReplyTo('registro@loteriauac2019.mx');
-         foreach ($destino as $value)
-            $mail->addAddress($value);
+//         foreach ($destino as $value)
+            $mail->addAddress($destino);
          foreach ($adjuntos as $value)
             $mail->addAttachment($value);
          $mail->addBCC('japo@grupoicarus.com.mx');

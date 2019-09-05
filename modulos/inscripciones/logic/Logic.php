@@ -18,7 +18,7 @@ use util\token\TokenHelper;
 class Logic {
 
    public function guardar(&$requestParams) {
-     /* $nombre = filter_var($requestParams->fromPost('nombre'), FILTER_SANITIZE_STRING);
+      $nombre = filter_var($requestParams->fromPost('nombre'), FILTER_SANITIZE_STRING);
       $edad = (int)filter_var($requestParams->fromPost('edad'), FILTER_SANITIZE_NUMBER_INT);
       $direccion = filter_var($requestParams->fromPost('direccion'), FILTER_SANITIZE_STRING);
       $telefono = filter_var($requestParams->fromPost('telefono'), FILTER_SANITIZE_STRING);
@@ -27,17 +27,14 @@ class Logic {
       $tipoUniversitario = (int)filter_var($requestParams->fromPost('tipoUniversitario', false, null), FILTER_SANITIZE_NUMBER_INT);
       $universidadOEscuela = (int)TokenHelper::generarTokenDecryptId(filter_var($requestParams->fromPost('universidadOEscuela', false, null), FILTER_SANITIZE_STRING));
       $numeroDePersonas = (int)filter_var($requestParams->fromPost('numeroDePersonas'), FILTER_SANITIZE_NUMBER_INT);
-      $token = $requestParams->fromPost('token',false,null,false);
+      $token = $requestParams->fromPost('token', false, null, false);
       $adscripciones = json_decode($requestParams->fromPost("adscripciones", false, null, false));
 
       if (!($esUniversitario === 1 || $esUniversitario === 2)) {
          throw new IntentionalException(0, "Respuesta inválida");
 
-      }*/
-//Validamos recapcha
-      if (true) {
-       /*  //Procedemos...
-
+      }
+      if ($this->validarFormulario($token)) {
          $personal = new Personal();
          $personal->setNombre($nombre);
          $personal->setEdad($edad);
@@ -45,6 +42,7 @@ class Logic {
          $personal->setIdLider(null);
          (new PersonalDAO())->save($personal);
          $idPersonal = $personal->getId();
+         $mensaje = "<strong>Su folio es: </strong> " . $idPersonal . " <br>";
 
          $contacto = new Contacto();
          $contacto->setEmail($correo);
@@ -78,10 +76,10 @@ class Logic {
                $personal->setAsistencia(0);
                $personal->setIdLider($idPersonal);
                (new PersonalDAO())->save($personal);
+               $mensaje .= "<strong>El folio de " . $personal->getNombre() . " es: </strong> " . $personal->getId() . " <br>";
             }
-         }*/
-
-         (new \modulos\configuration\logic\Logic())->crearNotificacion("holi","japo@grupoicarus.com.mx");
+         }
+         (new \modulos\configuration\logic\Logic())->crearNotificacion($mensaje, $correo);
 
       } else {
          return array("type" => "danger", "message" => "Su dirección de internet se encuentra comprometida.");
@@ -93,15 +91,15 @@ class Logic {
       $recaptcha_url = Config::get('recaptcha_url', 'recaptcha_config');
       $token_secret = Config::get('token_secret', 'recaptcha_config');
       $recaptcha_response = $token;
-       $post_data = array(
-           'secret' => $token_secret,
-           'response' => $recaptcha_response
-       );
-       try {
-           $response = self::makeRequestCallTo($recaptcha_url, true, $post_data);
-       } catch ( \Exception $e ) {
-           Logger()->log('google', $e->getMessage());
-       }
+      $post_data = array(
+          'secret' => $token_secret,
+          'response' => $recaptcha_response
+      );
+      try {
+         $response = self::makeRequestCallTo($recaptcha_url, true, $post_data);
+      } catch (\Exception $e) {
+         Logger()->log('google', $e->getMessage());
+      }
       if (empty($response)) {
          return false;
       }
@@ -113,49 +111,49 @@ class Logic {
       }
    }
 
-    private static function makeRequestCallTo( $url, $post = true, $post_data = NULL ) {
-        $curl = curl_init();
+   private static function makeRequestCallTo($url, $post = true, $post_data = null) {
+      $curl = curl_init();
 
-        curl_setopt($curl, CURLOPT_URL, $url);
+      curl_setopt($curl, CURLOPT_URL, $url);
 
-        curl_setopt($curl, CURLOPT_HEADER, 0);
-        curl_setopt($curl, CURLOPT_TIMEOUT, 30);
-        curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 0);
-        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+      curl_setopt($curl, CURLOPT_HEADER, 0);
+      curl_setopt($curl, CURLOPT_TIMEOUT, 30);
+      curl_setopt($curl, CURLOPT_FOLLOWLOCATION, 0);
+      curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+      curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 
-        if ( $post ) {
-            curl_setopt($curl, CURLOPT_POST, 1);
-            curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($post_data));
-        }
+      if ($post) {
+         curl_setopt($curl, CURLOPT_POST, 1);
+         curl_setopt($curl, CURLOPT_POSTFIELDS, http_build_query($post_data));
+      }
 
-        $contenido = curl_exec($curl);
+      $contenido = curl_exec($curl);
 
-        $errorCode = 0;
-        $errorMessage = "";
+      $errorCode = 0;
+      $errorMessage = "";
 
-        if ( curl_errno($curl) ) {
-            $errorCode = curl_errno($curl);
-            $errorMessage = curl_error($curl);
-        }
+      if (curl_errno($curl)) {
+         $errorCode = curl_errno($curl);
+         $errorMessage = curl_error($curl);
+      }
 
-        curl_close($curl);
+      curl_close($curl);
 
-        if ( $errorCode ) {
-            throw new IntentionalException($errorCode, $errorMessage);
-        }
+      if ($errorCode) {
+         throw new IntentionalException($errorCode, $errorMessage);
+      }
 
-        $json_response = json_decode($contenido, true);
+      $json_response = json_decode($contenido, true);
 
-        $json_error = json_last_error();
+      $json_error = json_last_error();
 
-        switch ( $json_error ) {
-            case JSON_ERROR_NONE:
-                return $json_response;
-                break;
-            default:
-                return $contenido;
-                break;
-        }
-    }
+      switch ($json_error) {
+         case JSON_ERROR_NONE:
+            return $json_response;
+            break;
+         default:
+            return $contenido;
+            break;
+      }
+   }
 }

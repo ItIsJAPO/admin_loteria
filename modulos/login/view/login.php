@@ -49,22 +49,14 @@
                                 <div class="form-group">
                                     <input type="password" class="form-control" name = "password" placeholder = "Contraseña">
                                 </div>
-                                <div class="checkbox text-left">
-                                    <label>
-                                        <input type="checkbox" class = "checkbox_item" value="1" name = "rememberme" id = "rememberme">Recuerdame
-                                    </label>
-                                </div>
+<!--                                <div class="checkbox text-left">-->
+<!--                                    <label>-->
+<!--                                        <input type="checkbox" class = "checkbox_item" value="1" name = "rememberme" id = "rememberme">Recuerdame-->
+<!--                                    </label>-->
+<!--                                </div>-->
                                 <button id = "sign_in_tocajazz" class="btn btn-info btn-flat">Iniciar sesión</button>
 
-                                <div class="register-link m-t-15">
-                                    <div class="float-right">
-                                        <a  class="link" href="/login/forgot_password">Recuperar contraseña</a>
-                                    </div>
 
-                                    <div class="float-left">
-                                           <a href="#" class="link"> Regístrate aquí</a>
-                                    </div>
-                                </div>
                         </form>
                     </div>
                 </div>
