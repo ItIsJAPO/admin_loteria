@@ -13,3 +13,4 @@ log/error.log
 log/error.log
 log/error.log
 log/system.log
+*.log

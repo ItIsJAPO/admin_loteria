@@ -17,7 +17,7 @@ use util\token\TokenHelper;
 class Logic {
 
    public function guardar(&$requestParams) {
-      $nombre = filter_var($requestParams->fromPost('nombre'), FILTER_SANITIZE_STRING);
+     /* $nombre = filter_var($requestParams->fromPost('nombre'), FILTER_SANITIZE_STRING);
       $edad = (int)filter_var($requestParams->fromPost('edad'), FILTER_SANITIZE_NUMBER_INT);
       $direccion = filter_var($requestParams->fromPost('direccion'), FILTER_SANITIZE_STRING);
       $telefono = filter_var($requestParams->fromPost('telefono'), FILTER_SANITIZE_STRING);
@@ -32,10 +32,10 @@ class Logic {
 
       if (!($esUniversitario === 1 || $esUniversitario === 2)) {
          throw new IntentionalException(0, "Respuesta inválida");
-      }
+      }*/
 //Validamos recapcha
-      if ($this->validarFormulario($token)) {
-         //Procedemos...
+      if (true) {
+       /*  //Procedemos...
          $personal = new Personal();
          $personal->setNombre($nombre);
          $personal->setEdad($edad);
@@ -77,7 +77,9 @@ class Logic {
                $personal->setIdLider($idPersonal);
                (new PersonalDAO())->save($personal);
             }
-         }
+         }*/
+
+         (new \modulos\configuration\logic\Logic())->crearNotificacion("holi","japo@grupoicarus.com.mx");
 
       } else {
          return array("type" => "danger", "message" => "Su dirección de internet se encuentra comprometida.");

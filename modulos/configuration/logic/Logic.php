@@ -2,10 +2,13 @@
 
 namespace modulos\configuration\logic;
 
+use DateTime;
 use plataforma\exception\IntentionalException;
 
 use plataforma\SysConstants;
 
+use util\file\File;
+use util\PHPMailer\Email;
 use util\roles\RolesPolicy;
 
 use util\config\Config;
@@ -72,4 +75,19 @@ class Logic {
 
 		return false;
 	}
+
+   public function crearNotificacion($mensaje1, $destinatario) {
+      setlocale(LC_ALL, "es_ES");
+      $template = "templates/email/notificacionUAC.html";
+      $data = array();
+      $data["mensaje1"] = $mensaje1;
+      $file = new File();
+      $content = $file->fileGetReplaceContents($template, $data);
+      $subject = "Confirmación de registro para participar en la Loteria 2019";
+      $emailModel = new Email();
+      if (Config::get("is_dev", "sys_config")) {
+         $email = array('japo@grupoicarus.com.mx');
+      }
+      $response = $emailModel->enviarEmail($destinatario,$subject,$content,null);
+   }
 }
