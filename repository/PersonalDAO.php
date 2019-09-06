@@ -21,4 +21,19 @@ class PersonalDAO extends SimpleDAO {
 		parent::__construct(new Personal());
 	}
 
+    public function getLideresDeGrupos()
+    {
+        $sql ='
+        SELECT 
+        *
+        FROM loteria.personal as p
+        left join participante as pr on pr.id_personal = p.id
+        left join institucion as i on i.id = pr.id_institucion 
+        where p.id_lider is null';
+        $stmt = Connections::getConnection()->prepare($sql);
+        $stmt->setFetchMode(\PDO::FETCH_ASSOC);
+        $stmt->execute();
+        return $stmt->fetchAll();
+	}
+
 }

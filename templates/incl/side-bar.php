@@ -47,10 +47,10 @@ $uri = $_SERVER['REQUEST_URI'];
                 <li class="nav-devider"></li>
 
                 <li>
-                    <a href="/" id="dashboard"><i class="fa fa-home"></i> <span class="hide-menu">Inicio </span></a>
+                    <a href="/" id="dashboard"><i class="fas fa-user-edit"></i> <span class="hide-menu">Asistencia </span></a>
                 </li>
                 <li>
-                    <a href="/" id="dashboard"><i class="fa fa-home"></i> <span class="hide-menu">Asistencia </span></a>
+                    <a href="/grupos" id="grupos"> <i class="fas fa-users"></i> <span class="hide-menu"> Grupos </span></a>
                 </li>
                 <li>
                     <a class="has-arrow  " href="#" aria-expanded="false">
