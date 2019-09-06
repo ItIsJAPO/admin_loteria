@@ -41,7 +41,7 @@ class Email {
          );
          $mail->CharSet = 'UTF-8';
          $mail->Encoding = 'base64';
-         $mail->setFrom($username = Config::get("from", "mail_config"), 'Sistema de Registro del Museo Universitario de la Vida.');
+         $mail->setFrom($username = Config::get("from", "mail_config"), 'Sistema de Registro a la Lotería Campechana UAC');
          $mail->addReplyTo('registro@loteriauac2019.mx');
 //         foreach ($destino as $value)
             $mail->addAddress($destino);
