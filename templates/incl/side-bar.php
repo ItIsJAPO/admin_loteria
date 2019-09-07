@@ -52,25 +52,6 @@ $uri = $_SERVER['REQUEST_URI'];
                 <li>
                     <a href="/grupos" id="grupos"> <i class="fas fa-users"></i> <span class="hide-menu"> Grupos </span></a>
                 </li>
-                <li>
-                    <a class="has-arrow  " href="#" aria-expanded="false">
-                        <i class="fas fa-sliders-h"></i>
-                        <span class="hide-menu">Inscritos</span>
-                    </a>
-                    <ul aria-expanded="false" class="collapse">
-                        <li id="bitacora">
-                            <a href="/bitacora">
-                                <i class="fas fa-clipboard"></i> Individual
-                            </a>
-                        </li>
-                        <li id="configuration">
-                            <a href="/configuration">
-                                <i class="fas fa-cogs"></i> Responsables
-                            </a>
-                        </li>
-
-                    </ul>
-                </li>
                 <li class="nav-label">Ajustes</li>
                 <li>
                     <a class="has-arrow  " href="#" aria-expanded="false">
@@ -78,20 +59,11 @@ $uri = $_SERVER['REQUEST_URI'];
                         <span class="hide-menu">Catálogos</span>
                     </a>
                     <ul aria-expanded="false" class="collapse">
-                        <li id="use_template">
+                        <li id="adscripciones">
                             <a href="/adscripciones">
-                                <i class="fab fa-firstdraft"></i> Adscripciones</a>
+                                <i class="fab fa-firstdraft"></i> Adscripciones
+                            </a>
                         </li>
-                        <li id="use_template-widget"><a href="/use_template/widget"><i class="fas fa-cubes"></i> Widget</a>
-                        </li>
-                        <li id="use_template-page_blank"><a href="/use_template/page_blank"><i
-                                        class="far fa-window-restore"></i> Página en blanco</a></li>
-                        <li id="use_template-typo_graphy"><a href="/use_template/typo_graphy"><i
-                                        class="fas fa-font"></i> Tipo grafías</a></li>
-                        <li id="use_template-tabs"><a href="/use_template/tabs"><i class="fas fa-table"></i> Tabs</a>
-                        </li>
-                        <li id="use_template-forms"><a href="/use_template/forms"><i class="fab fa-wpforms"></i>
-                                Formularios</a></li>
                     </ul>
                 </li>
             </ul>

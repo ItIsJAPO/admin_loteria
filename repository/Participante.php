@@ -12,6 +12,8 @@ namespace repository;
 
 class Participante {
 
+    const ASISTENCIA= 1 ;
+    const SIN_ASISTENCIA = 0;
 
 	/** db_column */
 	private $id;
