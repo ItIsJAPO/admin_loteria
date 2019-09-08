@@ -5,12 +5,13 @@ namespace modulos\grupos;
 use database\Connections;
 use modulos\grupos\logic\Logic;
 use plataforma\ControllerBase;
+use repository\AdscripcionDAO;
 
 class Controller extends ControllerBase
 {
      public function perform()
      {
-
+        $this->dataAndView->addData('adscripciones',(new AdscripcionDAO())->getAdscripcionesActivos());
      }
      public function beforeFilter()
      {
@@ -21,7 +22,7 @@ class Controller extends ControllerBase
         try{
             $this->dataAndView->setTemplate('json');
 
-            (new Logic())->todosLosParticipantesPorGrupo($this->dataAndView);
+            (new Logic())->todosLosParticipantesPorGrupo($this->requestParams,$this->dataAndView);
 
         }catch (\Exception $e){
             $this->handleJsonException($e,'default',true);

@@ -26,7 +26,9 @@ class PersonalDAO extends SimpleDAO {
         $sql ="SELECT
             p.id,
             p.nombre, 
-            c.*,
+            c.email,
+            c.direccion,
+            c.telefono,
             p.edad,
             p.asistencia,
             case i.tipo_universitario

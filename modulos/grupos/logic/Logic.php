@@ -12,8 +12,12 @@ use repository\PersonalDAO;
 
 class Logic
 {
-    public function todosLosParticipantesPorGrupo(&$dataAndView)
+    public function todosLosParticipantesPorGrupo(&$requestParams ,&$dataAndView)
     {
+        $requestParams->fromPost('fechaInicio',false,null,false);
+        $requestParams->fromPost('fechaFinal',false,null,false);
+        $requestParams->fromPostInt('tipoAdscripcion',false,null);
+        $requestParams->fromPostInt('numAcompanantes',false,null);
         $data = (new PersonalDAO())->getLideresDeGrupos();
 
         $dataAndView->addData(DataAndView::JSON_DATA,$data);

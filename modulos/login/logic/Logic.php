@@ -59,14 +59,6 @@ class Logic {
 
    public function verifyDataLoginUser(&$requestParams) {
       $daoLogin = new LoginDAO();
-      /*$login = new Login();
-      $login->setRole(1);
-      $login->setStatus(Login::ESTATUS_ACTIVO);
-      $login->setUsername('japo@grupoicarus.com.mx');
-      $login->setPassword(TokenHelper::generatePasswordHash('Dublin.Mayor'));
-      $login->setCreated( date('Y-m-d H:i:s'));
-      $daoLogin->save($login);*/
-
       Validation::validateEmail($requestParams->fromPost('email'));
 
       $password = $requestParams->fromPost('password', true, '', false);

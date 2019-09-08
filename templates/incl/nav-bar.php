@@ -26,7 +26,8 @@ use util\roles\RolesPolicy;
                                                href="javascript:void(0)"><i class="fas fa-bars"></i></a></li>
                 <!-- Messages -->
                 <li>
-                    <h3 class="title-nav">NIPF</h3>
+                    <h3 class="title-nav hidden-sm-down hidden-md-down">Universidad Autónoma de Campeche</h3>
+                    <h3 class="title-nav hidden-lg-up">UAC</h3>
                 </li>
                 <!-- End Messages -->
             </ul>
