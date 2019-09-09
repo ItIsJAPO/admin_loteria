@@ -60,7 +60,7 @@ class Logic {
    public function verifyDataLoginUser(&$requestParams) {
       $daoLogin = new LoginDAO();
       Validation::validateEmail($requestParams->fromPost('email'));
-
+      $email = $requestParams->fromPost('email');
       $password = $requestParams->fromPost('password', true, '', false);
 
       if (empty($password)) {
@@ -73,9 +73,11 @@ class Logic {
          throw new IntentionalException(IntentionalException::INCORRECT_DATA_ACCESS);
       }
 
-      if (!TokenHelper::validPasswordHash($password, $login->getPassword())) {
+      $password = TokenHelper::generatePasswordHash($password);
+      $login = $daoLogin->findByUsernameAndPassword($email, $password);
+
+      if (!$login)
          throw new IntentionalException(IntentionalException::INCORRECT_DATA_ACCESS);
-      }
 
       SessionLoader::creaSesion($login, $requestParams->fromPostInt('rememberme', false, 0));
 
