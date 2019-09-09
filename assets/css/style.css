@@ -6906,9 +6906,6 @@ table > thead > tr > th {
 .btn:focus {
     color: white;
 }
-a:not([href]):not([tabindex]) {
-      color: white !important;
-}
 li .active-side a{
   background: #0B3E6F !important;
   color: white!important;

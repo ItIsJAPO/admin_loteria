@@ -36,6 +36,7 @@
 
         <link rel = "stylesheet" type = "text/css" href = "/assets/DataTables/DataTables-1.10.18/css/dataTables.bootstrap4.css" />
         <link rel = "stylesheet" type = "text/css" href = "/assets/DataTables/Responsive-2.2.2/css/responsive.bootstrap4.min.css" />
+        <link rel = "stylesheet" type = "text/css" href = "/assets/DataTables/Buttons-1.5.2/css/buttons.bootstrap4.min.css" />
         <link rel = "stylesheet" type = "text/css" href = "/assets/datetimepicker/build/css/bootstrap-datetimepicker.css" />
         <link rel = "stylesheet" type = "text/css" href = "/assets/bootstrap-fileinput/themes/explorer-fa/theme.css" />
         <link rel = "stylesheet" type = "text/css" href = "/assets/bootstrap-fileinput/css/fileinput.css" />
@@ -69,6 +70,10 @@
         <script type = "text/javascript" src = "/assets/DataTables/DataTables-1.10.18/js/jquery.dataTables.js"></script>
         <script type = "text/javascript" src = "/assets/DataTables/DataTables-1.10.18/js/dataTables.bootstrap.js"></script>
         <script type = "text/javascript" src = "/assets/DataTables/Responsive-2.2.2/js/dataTables.responsive.min.js"></script>
+        <script type = "text/javascript" src = "/assets/DataTables/Buttons-1.5.2/js/dataTables.buttons.min.js"></script>
+        <script type = "text/javascript" src = "/assets/DataTables/Buttons-1.5.2/js/html5.js"></script>
+        <script type = "text/javascript" src = "/assets/DataTables/Buttons-1.5.2/js/buttons.print.js"></script>
+        <script type = "text/javascript" src = "/assets/DataTables/JSZip-2.5.0/jszip.js"></script>
         <script type = "text/javascript" src = "/assets/select2/js/i18n/<?= $_SESSION[SysConstants::SESS_PARAM_ISO_639_1] ?>.js"></script>
         <script type = "text/javascript" src = "/assets/js/js-custom/lib/moment/moment.js"></script>
         <script type = "text/javascript" src = "/assets/js/js-custom/lib/moment/moment-with-locales.js"></script>

@@ -39,45 +39,6 @@ class SystemLog {
 	}
 
 	public function saveLog($params_post, $params_get, $params_session, $action ) {
-		if ( array_key_exists($action, $this->actions_allowed) ) {
-			try {
-				
-				Connections::getConnection()->beginTransaction();
 
-				$log = new Log();
-				$now = new \DateTime();
-				$daoLog = new LogDAO();
-				$password = TokenHelper::generatePassword();
-
-				if ( isset($_SERVER["HTTP_CF_CONNECTING_IP"]) ) {
-				  	$_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
-				}
-
-				$autenticado = (
-		            isset($params_session[SysConstants::SESS_PARAM_AUTENTICADO]) &&
-		            ($params_session[SysConstants::SESS_PARAM_AUTENTICADO] == 1)
-		        );
-
-				$log->setAction($action);
-				$log->setIp($_SERVER['REMOTE_ADDR']);
-				$log->setUrl($_SERVER['REQUEST_URI']);
-				$log->setParamsGet(json_encode($params_get));
-				$log->setCreated($now->format("Y-m-d H:i:s"));
-				$log->setParamsPost(json_encode($params_post));
-				$log->setIdentifier(TokenHelper::generatePasswordHash($password));
-
-				if ( $autenticado ) {
-					$log->setUserId($params_session[SysConstants::SESS_PARAM_USER_ID]);
-				}
-
-				$daoLog->save($log);
-
-				Connections::getConnection()->commit();
-			} catch ( \Exception $e ) {
-				Connections::getConnection()->rollBack();
-
-				Logger()->error($e);
-			}
-		}
 	}
 }

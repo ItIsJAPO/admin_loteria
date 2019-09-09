@@ -75,6 +75,7 @@ $adscripciones = $dataAndView->getData('adscripciones');
                                     <th class="desktop">Oficio</th>
                                     <th class="desktop">Adscripción</th>
                                     <th class="all">Núm. de acompañantes</th>
+                                    <th class="none">Acompañantes</th>
                                     <th class="desktop">Registro</th>
                                     <th class="desktop">Asistencia</th>
                                     <th class="all">Acciones</th>
@@ -95,7 +96,7 @@ $adscripciones = $dataAndView->getData('adscripciones');
         var services = {
             getTodosLosParticipantesRegistrados:function(fechaInicio, fechaFinal, tipoAdscripcion, numAcompanantes){
                 return $.ajax({
-                    type:'get',
+                    type:'post',
                     url:'/grupos/get_todos_los_participantes_registrados',
                     data:{
                         fechaInicio:fechaInicio,
@@ -107,7 +108,7 @@ $adscripciones = $dataAndView->getData('adscripciones');
             },
             getParticipantesPorLiderId:function (id_lider) {
                 return $.ajax({
-                    type:'Post',
+                    type:'post',
                     url:'/grupos/get_participantes_por_lider_id',
                     data:{
                         id_lider:id_lider
@@ -118,8 +119,25 @@ $adscripciones = $dataAndView->getData('adscripciones');
         };
 
     var  dataTableConfig = {
-         "stateSave": true,
-         data: [],
+        "pageLength": 25,
+        "stateSave": true,
+        "order": [0, 'asc'],
+        aLengthMenu: [
+            [25, 50, 100, 200, -1],
+            [25, 50, 100, 200, "Todos"]
+        ],
+        iDisplayLength: -1,
+        data: [],
+        dom: 'Bifrtpl',
+        buttons: {
+            buttons: [
+                {
+                    extend: 'excel',
+                    className: 'btn btn-success',
+                    text: '<i class="fas fa-file-excel"></i> Descargar en Excel'
+                }
+            ]
+        },
          columns : [
              {data: 'id', sClass:"text-center"},
              {data: 'nombre', sClass:"text-center"},
@@ -130,18 +148,19 @@ $adscripciones = $dataAndView->getData('adscripciones');
              {data: 'tipo_universitario', sClass:"text-center"},
              {data: 'tipo_adscripcion', sClass:"text-center"},
              {data: 'acompanantes', sClass:"text-center"},
+             {data: 'acompanantes_nombres', sClass:"text-center"},
              {data: 'fecha_creacion', sClass:"text-center"},
              {data: null, sClass:"text-center"},
              {data: null, sClass:"text-center"},
          ],
          aoColumnDefs : [
                  {
-                  'aTargets': [10],
+                  'aTargets': [11],
                   'mRender': function (data) {
                    return estatusAsistencia(data)}
 
                  },{
-                  'aTargets': [11],
+                  'aTargets': [12],
                   'mRender': function (data) {
                    return btnParticipantes(data)+' '+btnAsistencia(data)}
 
@@ -268,11 +287,18 @@ $adscripciones = $dataAndView->getData('adscripciones');
 
      $('body').on('click','#aplicarFiltro',function (e) {
          e.preventDefault();
-        var fechaInicio = $('#fechaInicio').val();
-        var fechaFinal = $('#fechaFinal').val();
+
+        if ($('#fechaInicio').val() != ''){
+            if (vacio('#fechaFinal','El campo fecha final')){return false}
+        }
+        if ($('#fechaFinal').val() != ''){
+            if (vacio('#fechaInicio','El campo fecha inicio')){return false}
+        }
+        var fechaInicio = ($('#fechaInicio').val() != '')?$('#fechaInicio').data("DateTimePicker").date().format() : '';
+        var fechaFinal =  ($('#fechaFinal').val() != '' )?$('#fechaFinal').data("DateTimePicker").date().format() : '';
         var tipoAdscripcion = $('#tipoAdscripcion').val();
         var numAcompanantes = $('#numAcompanantes').val();
-
+         tableAll(fechaInicio, fechaFinal, tipoAdscripcion, numAcompanantes)
      })
 
     });

@@ -14,11 +14,11 @@ class Logic
 {
     public function todosLosParticipantesPorGrupo(&$requestParams ,&$dataAndView)
     {
-        $requestParams->fromPost('fechaInicio',false,null,false);
-        $requestParams->fromPost('fechaFinal',false,null,false);
-        $requestParams->fromPostInt('tipoAdscripcion',false,null);
-        $requestParams->fromPostInt('numAcompanantes',false,null);
-        $data = (new PersonalDAO())->getLideresDeGrupos();
+        $fechaInicio = $requestParams->fromPost('fechaInicio',false,null,false);
+        $fechaFinal = $requestParams->fromPost('fechaFinal',false,null,false);
+        $tipoAdscripcion = $requestParams->fromPostInt('tipoAdscripcion',false,null);
+        $numAcompanantes = $requestParams->fromPostInt('numAcompanantes',false,null);
+        $data = (new PersonalDAO())->getLideresDeGrupos($fechaInicio, $fechaFinal, $tipoAdscripcion, $numAcompanantes);
 
         $dataAndView->addData(DataAndView::JSON_DATA,$data);
     }
