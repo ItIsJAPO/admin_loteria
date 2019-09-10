@@ -20,14 +20,12 @@
                     <table class="table table-bordered table-condensed" id="adscripciones_tabla">
                         <thead>
                         <tr>
-                            <th scope="col">#</th>
                             <th scope="col">Nombre</th>
                             <th scope="col">Estado</th>
                             <th scope="col">Acciones</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <th scope="col">Cargando..</th>
                         <th scope="col">Cargando..</th>
                         <th scope="col">Cargando..</th>
                         <th scope="col">Cargando..</th>
@@ -41,7 +39,7 @@
 
 
 <div class="modal fade" id="modal" tabindex="-1" role="dialog">
-    <div class="modal-dialog modal-xl">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <span class="text-center">
@@ -163,7 +161,6 @@
     };
 
     dataTableConf.columns = [
-        {data: 'orden', sClass: "align-middle text-left"},
         {data: 'nombre', sClass: "align-middle text-center"},
         {data: null, sClass: "align-middle text-center"},
         {data: null, sClass: "align-middle text-center"},
@@ -171,13 +168,13 @@
 
     dataTableConf.aoColumnDefs = [
         {
-            'aTargets': [2],
+            'aTargets': [1],
             'mRender': function (data) {
                 return dataTable.estatus(data);
             }
         },
         {
-            'aTargets': [3],
+            'aTargets': [2],
             'mRender': function (data) {
                 return dataTable.acciones(data);
             }

@@ -1,11 +1,11 @@
 <?php
 
 /**
-*Powered by K-Models-Creator
-*Author: 
-*Date: 31/08/2019
-*Time: 12:52:18
-*/
+ *Powered by K-Models-Creator
+ *Author:
+ *Date: 31/08/2019
+ *Time: 12:52:18
+ */
 
 namespace repository;
 
@@ -15,16 +15,15 @@ use modulos\grupos\logic\Logic;
 
 class PersonalDAO extends SimpleDAO {
 
-	/**
-	*PersonalDAO construct
-	*/
-	public function __construct(){
-		parent::__construct(new Personal());
-	}
+   /**
+    *PersonalDAO construct
+    */
+   public function __construct() {
+      parent::__construct(new Personal());
+   }
 
-    public function getLideresDeGrupos($fechaInicio, $fechaFinal, $tipoAdscripcion, $numAcompanantes)
-    {
-        $sql = "SELECT
+   public function getLideresDeGrupos($fechaInicio, $fechaFinal, $tipoAdscripcion, $numAcompanantes) {
+      $sql = "SELECT
             p.id,
             p.nombre, 
             c.email,
@@ -49,44 +48,58 @@ class PersonalDAO extends SimpleDAO {
             left join adscripcion as a on a.id = i.id_adscripcion
             where p.id_lider is null";
 
-        if($fechaInicio != null && $fechaFinal != null) {
-            $fechaInicio = (new \DateTime($fechaInicio))->format('Y-m-d H:i:s');
-            $fechaFinal = (new \DateTime($fechaFinal))->format('Y-m-d H:i:s');
-            $sql .= " and  pr.fecha_creacion >= '".$fechaInicio."' and  pr.fecha_creacion <= '".$fechaFinal."' ";
-        }
-        if($tipoAdscripcion != null) {
-            $sql .= " and a.id = :adscripcion";
-        }
-        $stmt = Connections::getConnection()->prepare($sql);
-        $stmt->setFetchMode(\PDO::FETCH_ASSOC);
-        if($tipoAdscripcion != null) {
-            $stmt->bindParam(':adscripcion',$tipoAdscripcion);
-        }
-        $stmt->execute();
-        $dataRegistros =  $stmt->fetchAll();
-        $data = array();
-        if(!empty($dataRegistros)){
-            foreach ($dataRegistros as $items) {
-                if ($numAcompanantes === $items['acompanantes'] || $numAcompanantes === null) {
-                    $data[] = array(
-                        'id' => $items['id'],
-                        'nombre' => $items['nombre'],
-                        'email' => $items['email'],
-                        'direccion' => $items['direccion'],
-                        'telefono' => $items['telefono'],
-                        'edad' => $items['edad'],
-                        'asistencia' => $items['asistencia'],
-                        'tipo_universitario' => $items['tipo_universitario'],
-                        'tipo_adscripcion' => $items['tipo_adscripcion'],
-                        'acompanantes' => $items['acompanantes'],
-                        'acompanantes_nombres' => $items['acompanantes_nombres'],
-                        'fecha_creacion' => $items['fecha_creacion']
-                    );
-                }
+      if ($fechaInicio != null && $fechaFinal != null) {
+         $fechaInicio = (new \DateTime($fechaInicio))->format('Y-m-d H:i:s');
+         $fechaFinal = (new \DateTime($fechaFinal))->format('Y-m-d H:i:s');
+         $sql .= " and  pr.fecha_creacion >= '" . $fechaInicio . "' and  pr.fecha_creacion <= '" . $fechaFinal . "' ";
+      }
+      if ($tipoAdscripcion != null) {
+         $sql .= " and a.id = :adscripcion";
+      }
+      $stmt = Connections::getConnection()->prepare($sql);
+      $stmt->setFetchMode(\PDO::FETCH_ASSOC);
+      if ($tipoAdscripcion != null) {
+         $stmt->bindParam(':adscripcion', $tipoAdscripcion);
+      }
+      $stmt->execute();
+      $dataRegistros = $stmt->fetchAll();
+      $data = array();
+      if (!empty($dataRegistros)) {
+         foreach ($dataRegistros as $items) {
+            if ($numAcompanantes === $items['acompanantes'] || $numAcompanantes === null) {
+               $data[] = array(
+                   'id' => $items['id'],
+                   'nombre' => $items['nombre'],
+                   'email' => $items['email'],
+                   'direccion' => $items['direccion'],
+                   'telefono' => $items['telefono'],
+                   'edad' => $items['edad'],
+                   'asistencia' => $items['asistencia'],
+                   'tipo_universitario' => $items['tipo_universitario'],
+                   'tipo_adscripcion' => $items['tipo_adscripcion'],
+                   'acompanantes' => $items['acompanantes'],
+                   'acompanantes_nombres' => $items['acompanantes_nombres'],
+                   'fecha_creacion' => $items['fecha_creacion']
+               );
             }
-        }
-        return $data;
-	}
+         }
+      }
+      return $data;
+   }
 
-
+   public function getListaAsistencia() {
+	   $sql='select p.id,
+       p.nombre,
+       p.asistencia,
+       CASE
+           WHEN p.id_lider IS NULL THEN 0
+           ELSE (select count(id) from personal where id_lider = p.id_lider)
+           END AS asistentes,
+       p.id_lider
+       from personal p';
+      $statement = Connections::getConnection()->prepare($sql);
+      $statement->setFetchMode(\PDO::FETCH_ASSOC);
+      $statement->execute();
+      return $statement->fetchAll();
+   }
 }

@@ -2,6 +2,7 @@
 
 namespace modulos\inscripciones\logic;
 
+use plataforma\DataAndView;
 use plataforma\exception\IntentionalException;
 use repository\Contacto;
 use repository\ContactoDAO;
@@ -18,7 +19,7 @@ use util\token\TokenHelper;
 class Logic {
 
    public function guardar(&$requestParams) {
-      $mensaje="";
+      $mensaje = "";
       $nombre = filter_var($requestParams->fromPost('nombre'), FILTER_SANITIZE_STRING);
       $edad = (int)filter_var($requestParams->fromPost('edad'), FILTER_SANITIZE_NUMBER_INT);
       $direccion = filter_var($requestParams->fromPost('direccion'), FILTER_SANITIZE_STRING);
@@ -85,7 +86,7 @@ class Logic {
       } else {
          return array("type" => "danger", "message" => "Reintente su registro nuevamente, porfavor.");
       }
-      return array("type" => "success", "message" => "Se ha registrado correctamente.", "mensaje"=>$mensaje);
+      return array("type" => "success", "message" => "Se ha registrado correctamente.", "mensaje" => $mensaje);
    }
 
    private function validarFormulario($token) {
@@ -156,5 +157,25 @@ class Logic {
             return $contenido;
             break;
       }
+   }
+
+   public function getUsuariosRegistrados(&$dataAndView) {
+      $listaAsistencia=array();
+      $inscritos = (new PersonalDAO())->getListaAsistencia();
+      if(!empty($inscritos)){
+         foreach ($inscritos as $inscrito){
+            $listaAsistencia[]=array(
+                "uuid"=>TokenHelper::generarTokenEncryptId($inscrito['id']),
+                "folio"=>(int)$inscrito['id'],
+                "nombre"=>$inscrito['nombre'],
+                "asistencia"=>(int)$inscrito['asistencia'],
+                "asistentes"=>(int)$inscrito['asistentes'],
+               "id_lider"=>(int)$inscrito['id_lider']
+            );
+         }
+      }
+
+      $dataAndView->addData(DataAndView::JSON_DATA,$listaAsistencia);
+
    }
 }
