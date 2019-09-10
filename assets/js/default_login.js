@@ -35,7 +35,7 @@ function sendData( data ) {
         cache: false,
         success: function( response ) {
             if ( response.success ) {
-                window.location = '/' + response.page;
+                window.location.href = '/' + response.page;
             } else {
                 if (response.message !== undefined) {
                     error_message = response.message;

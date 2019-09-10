@@ -15,101 +15,107 @@ use util\token\TokenHelper;
 
 class Controller extends ControllerBase {
 
-	private $logic;
+   private $logic;
 
-	public function beforeFilter() {
-		$accion = $this->getRequestParams()->fromGet('acciones', false, 'perform');
-		$autenticado = $this->getRequestParams()->fromSession(SysConstants::SESS_PARAM_AUTENTICADO);
+   public function beforeFilter() {
+      $accion = $this->getRequestParams()->fromGet('acciones', false, 'perform');
+      $autenticado = $this->getRequestParams()->fromSession(SysConstants::SESS_PARAM_AUTENTICADO);
 
-		if ( ($autenticado === 1) && ($accion !== 'logout') ) {
-			$this->dataAndView->redirect('/' . Config::get("default_modulo"));
-			return false;
-		}
+      if (($autenticado === 1) && ($accion !== 'logout')) {
+         $this->dataAndView->redirect('/' . Config::get("default_modulo"));
+         return false;
+      }
 
-		$this->dataAndView->setTemplate('login');
+      $this->dataAndView->setTemplate('login');
 
-		$this->dataAndView->addData('title_page_login', 'Iniciar sesion');
+      $this->dataAndView->addData('title_page_login', 'Iniciar sesion');
 
-		$this->logic = new Logic();
-	}
+      $this->logic = new Logic();
+   }
 
-	public function perform() {
-		try {
-			$this->logic->loadViewPrincipal(
-				$this->getRequestParams(),
-				$this->dataAndView
-			);
+   public function perform() {
+      try {
+         $this->logic->loadViewPrincipal(
+             $this->getRequestParams(),
+             $this->dataAndView
+         );
 
-		} catch ( IntentionalException $ie ) {
-			$this->handleException($ie, false, true);
-		} catch ( \Exception $e ) {
-			$this->handleException($e, true, true);
-		}
-	}
+      } catch (IntentionalException $ie) {
+         $this->handleException($ie, false, true);
+      } catch (\Exception $e) {
+         $this->handleException($e, true, true);
+      }
+   }
 
-	public function principal() {
-		try {
+   public function principal() {
+      try {
 
-			$this->logic->loadViewPrincipal(
-				$this->getRequestParams(),
-				$this->dataAndView
-			);
+         $this->logic->loadViewPrincipal(
+             $this->getRequestParams(),
+             $this->dataAndView
+         );
 
-		} catch ( IntentionalException $ie ) {
-			$this->handleException($ie, false, true);
-		} catch ( \Exception $e ) {
-			$this->handleException($e, true, true);
-		}
-	}
+      } catch (IntentionalException $ie) {
+         $this->handleException($ie, false, true);
+      } catch (\Exception $e) {
+         $this->handleException($e, true, true);
+      }
+   }
 
-	public function recover() {
-		try {
+   public function recover() {
+      try {
 
-			$this->logic->loadViewRecover(
-				$this->getRequestParams(),
-				$this->dataAndView
-			);
+         $this->logic->loadViewRecover(
+             $this->getRequestParams(),
+             $this->dataAndView
+         );
 
-		} catch ( IntentionalException $ie ) {
-			$this->handleException($ie, false, true);
-		} catch ( \Exception $e ) {
-			$this->handleException($e, true, true);
-		}
-	}
+      } catch (IntentionalException $ie) {
+         $this->handleException($ie, false, true);
+      } catch (\Exception $e) {
+         $this->handleException($e, true, true);
+      }
+   }
 
-	public function forgotPassword() {
-		$this->dataAndView->addData('title_page_login', 'Recuperar contraseña');
-		$this->dataAndView->show('password');
-	}
+   public function forgotPassword() {
+      $this->dataAndView->addData('title_page_login', 'Recuperar contraseña');
+      $this->dataAndView->show('password');
+   }
 
-	public function logout() {
-		session_unset();
-		session_destroy();
-		unset($_COOKIE['cookie_nipf']);
+   public function logout() {
+      session_unset();
+      session_destroy();
+      unset($_COOKIE['cookie_nipf']);
 
-		$this->redirect('/');
-	}
+      $this->redirect('/');
+   }
 
-	public function login() {
-		$this->dataAndView->setTemplate('json');
+   public function login() {
+      $this->dataAndView->setTemplate('json');
 
-		try {
+      try {
 
-			$logic = new Logic();
+         $logic = new Logic();
 
-			$logic->verifyDataLoginUser($this->getRequestParams());
+         $logic->verifyDataLoginUser($this->getRequestParams());
 
-			$this->dataAndView->addData(DataAndView::JSON_DATA, array(
-				'success' => true,
-				'page' => Config::get('default_modulo')
-			));
+         $this->dataAndView->addData(DataAndView::JSON_DATA, array(
+             'success' => true,
+             'page' => Config::get('default_modulo')
+         ));
 
-		} catch ( IntentionalException $ie ) {
-			$this->handleJsonException($ie, "default");
-		} catch ( \Exception $e ) {
-			$this->handleJsonException($e, "default", true);
-		}
-	}
+      } catch (IntentionalException $ie) {
+         $this->handleJsonException($ie, array(
+             'success' => false,
+             'message' => $ie->getMessage()
+         ));
+      } catch (\Exception $e) {
+         $this->handleJsonException($e, array(
+             'success' => false,
+             'message' => "Error interno del servidor"
+         ), true);
+      }
+   }
 
    public function savePassword() {
       $this->dataAndView->setTemplate('json');
@@ -120,23 +126,22 @@ class Controller extends ControllerBase {
 
          $logic = new Logic();
 
-         $logic->saveNewPassword($this->requestParams,$this->dataAndView);
+         $logic->saveNewPassword($this->requestParams, $this->dataAndView);
 
          Connections::getConnection()->commit();
 
-      } catch ( IntentionalException $ie ) {
+      } catch (IntentionalException $ie) {
          Connections::getConnection()->rollBack();
 
          $this->handleJsonException($ie, "default");
-      } catch ( \Exception $e ) {
+      } catch (\Exception $e) {
          Connections::getConnection()->rollBack();
 
          $this->handleJsonException($e, "default", true);
       }
    }
 
-   public function sendRecover()
-   {
+   public function sendRecover() {
       $this->dataAndView->setTemplate('json');
 
       try {
@@ -156,21 +161,20 @@ class Controller extends ControllerBase {
       }
    }
 
-   public function recoverPassword()
-   {
-      try{
+   public function recoverPassword() {
+      try {
          Connections::getConnection()->beginTransaction();
 
          $logic = new Logic();
-         $logic->loadViewRecover($this->requestParams,$this->dataAndView);
+         $logic->loadViewRecover($this->requestParams, $this->dataAndView);
 
          Connections::getConnection()->commit();
       } catch (IntentionalException $ie) {
          Connections::getConnection()->rollBack();
-         $this->handleException($ie,false,'error_view_login');
+         $this->handleException($ie, false, 'error_view_login');
       } catch (\Exception $e) {
          Connections::getConnection()->rollBack();
-         $this->handleException($e,true,'error_view_login');
+         $this->handleException($e, true, 'error_view_login');
       }
    }
 }
