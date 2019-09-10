@@ -1,4 +1,5 @@
-$.fn.modal.Constructor.prototype._enforceFocus = function() {};
+$.fn.modal.Constructor.prototype._enforceFocus = function () {
+};
 $.fn.select2.defaults.set("theme", "bootstrap4");
 
 /**
@@ -7,7 +8,8 @@ $.fn.select2.defaults.set("theme", "bootstrap4");
  * @param type Este lleva por default 'danger'. Puede ser cambiado sobreecribiendo el párameto.
  * @constructor
  */
-function UserException(aviso, type = 'danger') {
+function UserException(aviso, type) {
+    type = (type === 'danger') ? 'danger' : type;
     this.aviso = aviso;
     this.type = "UserException";
 }
@@ -20,16 +22,16 @@ UserException.prototype.toString = function () {
 };
 
 $.fn.extend({
-    animateCss : function(animationName, complete) {
+    animateCss: function (animationName, complete) {
         var self = $(this);
         var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
         var animateCssClass = ["animated", "bounce", "flash", "pulse", "rubberBand", "shake", "headShake", "swing", "tada", "wobble", "jello", "bounceIn", "bounceInDown", "bounceInLeft", "bounceInRight", "bounceInUp", "bounceOut", "bounceOutDown", "bounceOutLeft", "bounceOutRight", "bounceOutUp", "fadeIn", "fadeInDown", "fadeInDownBig", "fadeInLeft", "fadeInLeftBig", "fadeInRight", "fadeInRightBig", "fadeInUp", "fadeInUpBig", "fadeOut", "fadeOutDown", "fadeOutDownBig", "fadeOutLeft", "fadeOutLeftBig", "fadeOutRight", "fadeOutRightBig", "fadeOutUp", "fadeOutUpBig", "flipInX", "flipInY", "flipOutX", "flipOutY", "lightSpeedIn", "lightSpeedOut", "rotateIn", "rotateInDownLeft", "rotateInDownRight", "rotateInUpLeft", "rotateInUpRight", "rotateOut", "rotateOutDownLeft", "rotateOutDownRight", "rotateOutUpLeft", "rotateOutUpRight", "hinge", "rollIn", "rollOut", "zoomIn", "zoomInDown", "zoomInLeft", "zoomInRight", "zoomInUp", "zoomOut", "zoomOutDown", "zoomOutLeft", "zoomOutRight", "zoomOutUp", "slideInDown", "slideInLeft", "slideInRight", "slideInUp", "slideOutDown", "slideOutLeft", "slideOutRight", "slideOutUp"];
-        $.each(animateCssClass, function(_, c){
-            if(self.hasClass(c)){
+        $.each(animateCssClass, function (_, c) {
+            if (self.hasClass(c)) {
                 self.removeClass(c);
             }
         });
-        self.addClass('animated ' + animationName).one(animationEnd, function() {
+        self.addClass('animated ' + animationName).one(animationEnd, function () {
             self.removeClass('animated ' + animationName);
             if (complete)
                 complete();
@@ -65,11 +67,11 @@ var CustomDateTimePicker = {
         togglePeriod: 'Periodo',
         selectTime: 'Seleccione el tiempo'
     },
-    applyCustomStyleTo : function(selector, customOptions) {
+    applyCustomStyleTo: function (selector, customOptions) {
         var options = {
-            locale:'es',
-            format:'DD/MM/YYYY HH:mm:ss',
-            tooltips:CustomDateTimePicker.translateTooltips,
+            locale: 'es',
+            format: 'DD/MM/YYYY HH:mm:ss',
+            tooltips: CustomDateTimePicker.translateTooltips,
         };
         var mergedOptions = options;
         if (customOptions) {
@@ -80,28 +82,28 @@ var CustomDateTimePicker = {
 }
 
 var CustomDataTable = {
-    language : {
-        "sProcessing" : "Espere...",
-        "sLengthMenu" : "_MENU_ Registros por página",
-        "sZeroRecords" : "No se encontraron resultados",
-        "sEmptyTable" : "Ningún dato disponible en esta tabla",
-        "sInfo" : "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
-        "sInfoEmpty" : "Mostrando registros del 0 al 0 de un total de 0 registros",
-        "sInfoFiltered" : "(filtrado de un total de _MAX_ registros)",
-        "sInfoPostFix" : "",
-        "sSearch" : "Buscar:",
-        "sUrl" : "",
-        "sInfoThousands" : ",",
-        "sLoadingRecords" : "Cargando...",
-        "oPaginate" : {
-            "sFirst" : "Primero",
-            "sLast" : "Último",
-            "sNext" : "Siguiente",
-            "sPrevious" : "Anterior"
+    language: {
+        "sProcessing": "Espere...",
+        "sLengthMenu": "_MENU_ Registros por página",
+        "sZeroRecords": "No se encontraron resultados",
+        "sEmptyTable": "Ningún dato disponible en esta tabla",
+        "sInfo": "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+        "sInfoEmpty": "Mostrando registros del 0 al 0 de un total de 0 registros",
+        "sInfoFiltered": "(filtrado de un total de _MAX_ registros)",
+        "sInfoPostFix": "",
+        "sSearch": "Buscar:",
+        "sUrl": "",
+        "sInfoThousands": ",",
+        "sLoadingRecords": "Cargando...",
+        "oPaginate": {
+            "sFirst": "Primero",
+            "sLast": "Último",
+            "sNext": "Siguiente",
+            "sPrevious": "Anterior"
         },
-        "oAria" : {
-            "sSortAscending" : ": Activar para ordenar la columna de manera ascendente",
-            "sSortDescending" : ": Activar para ordenar la columna de manera descendente"
+        "oAria": {
+            "sSortAscending": ": Activar para ordenar la columna de manera ascendente",
+            "sSortDescending": ": Activar para ordenar la columna de manera descendente"
         },
         buttons: {
             copyTitle: 'El contenido de la tabla ha sido copiado',
@@ -130,15 +132,15 @@ var CustomDataTable = {
         });
         return $(selector).DataTable(mergedOptions);
     },
-    applyCustomStyleToNoSearch : function(selector, customOptions) {
+    applyCustomStyleToNoSearch: function (selector, customOptions) {
         var options = {
-            "bFilter" : false,
-            "bSearchable" : false,
+            "bFilter": false,
+            "bSearchable": false,
             "destroy": true,
             "responsive": true,
-            "language" : CustomDataTable.language,
-            "bPaginate" : false,
-            "bInfo" : false
+            "language": CustomDataTable.language,
+            "bPaginate": false,
+            "bInfo": false
         };
         var mergedOptions = options;
         if (customOptions) {
@@ -146,20 +148,24 @@ var CustomDataTable = {
         }
         return $(selector).DataTable(mergedOptions);
     },
-    applyCustomStyleToExportExcel : function(selector, customOptions) {
+    applyCustomStyleToExportExcel: function (selector, customOptions) {
         var options = {
-            "bFilter" : true,
-            "bSearchable" : true,
+            "bFilter": true,
+            "bSearchable": true,
             "destroy": true,
             "responsive": true,
-            "language" : CustomDataTable.language,
-            "bPaginate" : true,
-            "bInfo" : true,
+            "language": CustomDataTable.language,
+            "bPaginate": true,
+            "bInfo": true,
             "dom": 'Bfrtip',
-            "buttons": [{"extend": 'copy',
-                "text": 'Copiar'},
-                {"extend": 'csv',
-                    "text": 'Exportar a CSV'}
+            "buttons": [{
+                "extend": 'copy',
+                "text": 'Copiar'
+            },
+                {
+                    "extend": 'csv',
+                    "text": 'Exportar a CSV'
+                }
             ]
         };
         var mergedOptions = options;
@@ -170,14 +176,14 @@ var CustomDataTable = {
     }
 };
 
-function initDataTable( table, options ) {
-    if ( options ) {
+function initDataTable(table, options) {
+    if (options) {
         datatable_object = CustomDataTable.applyCustomStyleTo(table, options);
     } else {
         datatable_object = CustomDataTable.applyCustomStyleTo(table);
     }
 
-    $("body").on("click", ".sorting_column", function() {
+    $("body").on("click", ".sorting_column", function () {
         sorting_element = $(this);
         th = $(sorting_element).parent();
 
@@ -185,7 +191,7 @@ function initDataTable( table, options ) {
 
         $(table).find(".sorting_column i").removeAttr("class").addClass('fas fa-sort');
 
-        switch ( sorting ) {
+        switch (sorting) {
             case 'asc':
                 sorting = 'desc';
                 $(sorting_element).find("i").removeClass('fa-sort').addClass('fa-sort-down');
@@ -205,7 +211,7 @@ function initDataTable( table, options ) {
         datatable_object.order([$(table).find("th").index(th), sorting]).draw();
     });
 
-    $('body').on('draw.dt', table, function() {
+    $('body').on('draw.dt', table, function () {
         $('[data-toggle="tooltip"]').tooltip();
         $(".cell_price").autoNumeric('init', {aSign: '$ '});
     });
@@ -213,9 +219,9 @@ function initDataTable( table, options ) {
     return datatable_object;
 }
 
-function initSelect2( selector ) {
-    $(selector).each(function( _, elemento ) {
-        if ( $(elemento).find("option").length > 1 ) {
+function initSelect2(selector) {
+    $(selector).each(function (_, elemento) {
+        if ($(elemento).find("option").length > 1) {
             $(elemento).select2({
                 language: 'iso_639_1'
             });
@@ -224,7 +230,7 @@ function initSelect2( selector ) {
 }
 
 
-function confirmMessage( msg, functionCallback ) {
+function confirmMessage(msg, functionCallback) {
     return bootbox.dialog({
         message: msg,
         title: "Confirmación",
@@ -243,15 +249,15 @@ function confirmMessage( msg, functionCallback ) {
     });
 }
 
-function handleJsonResponse( response, onSuccess, onFailure ) {
-    if ( response.success ) {
+function handleJsonResponse(response, onSuccess, onFailure) {
+    if (response.success) {
         onSuccess();
     } else {
-        if ( onFailure ) {
+        if (onFailure) {
             onFailure();
         }
 
-        if ( response.message !== undefined ) {
+        if (response.message !== undefined) {
             noty.show("danger", response.message);
         } else {
             noty.show("danger", response);
@@ -259,14 +265,14 @@ function handleJsonResponse( response, onSuccess, onFailure ) {
     }
 }
 
-function jsonNotyfication(json){
+function jsonNotyfication(json) {
     try {
         if (json.type == '' || json.type == undefined) {
             noty.show('danger', 'Formato de json no válido');
         } else {
             noty.show(json.type, json.message);
         }
-    }catch (e) {
+    } catch (e) {
         console.log(e.message);
     }
 
@@ -275,7 +281,8 @@ function jsonNotyfication(json){
 function showLoadingModal() {
     $.blockUI({
         overlayCSS: {
-            backgroundColor: 'rgba(211,206,209,0.24)'} ,
+            backgroundColor: 'rgba(211,206,209,0.24)'
+        },
         css: {
             filter: 'blur(3px)',
             border: 'none',
@@ -285,8 +292,8 @@ function showLoadingModal() {
         message: $("<span></span>").html(),
         baseZ: 2000
     });
-    $('.page-wrapper .container-fluid').css({'filter':'blur(0.6px)'});
-    $('.page-wrapper .page-titles').css({'filter':'blur(0.6px)'});
+    $('.page-wrapper .container-fluid').css({'filter': 'blur(0.6px)'});
+    $('.page-wrapper .page-titles').css({'filter': 'blur(0.6px)'});
     NProgress.start();
 }
 
@@ -302,61 +309,61 @@ $(document).ajaxStart(function () {
 });
 
 
-$(document).ajaxError(function( event, jQXHR, setting, throw_error ) {
-    switch( jQXHR.status ) {
+$(document).ajaxError(function (event, jQXHR, setting, throw_error) {
+    switch (jQXHR.status) {
         case 400:
-            noty.show('warning','La solicitud contiene sintaxis errónea');
+            noty.show('warning', 'La solicitud contiene sintaxis errónea');
             break;
         case 404:
-            noty.show('warning','Recurso no encontrado');
+            noty.show('warning', 'Recurso no encontrado');
             break;
         case 405:
-            noty.show('danger','Método de solicitud no soportado');
+            noty.show('danger', 'Método de solicitud no soportado');
             break;
         case 406:
-            noty.show('danger','El servidor no es capaz de devolver los datos');
+            noty.show('danger', 'El servidor no es capaz de devolver los datos');
             break;
         case 407:
-            noty.show('danger','Proxy autenticación requerida');
+            noty.show('danger', 'Proxy autenticación requerida');
             break;
         case 408:
-            noty.show('danger','El cliente falló al continuar la petición');
+            noty.show('danger', 'El cliente falló al continuar la petición');
             break;
         case 409:
-            noty.show('danger','La solicitud no pudo ser procesada debido a un conflicto');
+            noty.show('danger', 'La solicitud no pudo ser procesada debido a un conflicto');
             break;
         case 411:
-            noty.show('danger','El servidor rechazo su petición');
+            noty.show('danger', 'El servidor rechazo su petición');
             break;
         case 413:
-            noty.show('danger','La petición del navegador es demasiado grande');
+            noty.show('danger', 'La petición del navegador es demasiado grande');
             break;
         case 423:
-            noty.show('danger','El recurso está bloqueado');
+            noty.show('danger', 'El recurso está bloqueado');
             break;
         case 429:
-            noty.show('danger','Hay muchas conexiones desde esta dirección de internet');
+            noty.show('danger', 'Hay muchas conexiones desde esta dirección de internet');
             break;
         case 431:
-            noty.show('danger','Las cabeceras de la petición es demasiado grande');
+            noty.show('danger', 'Las cabeceras de la petición es demasiado grande');
             break;
     }
 });
 
-$(document).ajaxStop(function() {
+$(document).ajaxStop(function () {
     hideLoadingModal();
 });
 
-var introDefault={
-    config :{
-        nextLabel:'Siguiente',
-        prevLabel:'Anterior',
-        skipLabel:'Salir',
-        doneLabel:'Finalizar',
-        keyboardNavigation:true,
-        buttonClass:'btn btn-primary btn-xs btn-rounded'
+var introDefault = {
+    config: {
+        nextLabel: 'Siguiente',
+        prevLabel: 'Anterior',
+        skipLabel: 'Salir',
+        doneLabel: 'Finalizar',
+        keyboardNavigation: true,
+        buttonClass: 'btn btn-primary btn-xs btn-rounded'
     },
-    init:function(){
+    init: function () {
         var intro = introJs();
         intro.setOptions(this.config);
         intro.start();
@@ -364,42 +371,41 @@ var introDefault={
 }
 
 
-
 var onlineSystem = {
 
     checkingTime: 1700,
     timeMessage: 2000,
     mostrarMensaje: true,
-    message : "Se ha perdido la conexión con la sesión debido a un error de red desconocido si desea navegar sin conexión dar click en aceptar.",
-    messageStatusOn :'<i class="fa fa-check-circle"></i> Conexión restablecida correctamente.',
-    messageStatusOff :'  <i class="fas fa-circle-notch fa-spin" ></i> Se perdio su conexión a internet..',
+    message: "Se ha perdido la conexión con la sesión debido a un error de red desconocido si desea navegar sin conexión dar click en aceptar.",
+    messageStatusOn: '<i class="fa fa-check-circle"></i> Conexión restablecida correctamente.',
+    messageStatusOff: '  <i class="fas fa-circle-notch fa-spin" ></i> Se perdio su conexión a internet..',
 
-    noClick: function() {
+    noClick: function () {
         if (onlineSystem.mostrarMensaje) {
             alert(onlineSystem.message);
         }
     },
 
-    close:function(){
-        $('body').on('click','#connectionMessageClose',function (e) {
+    close: function () {
+        $('body').on('click', '#connectionMessageClose', function (e) {
             e.preventDefault();
             $('#connectionMessage').removeClass('show');
         })
     },
 
-    goOnline: function() {
+    goOnline: function () {
         $('#connectionMessage').removeClass('toast-danger');
         $('#connectionMessage').addClass('toast-success');
         $('#messageStatus').html(onlineSystem.messageStatusOn);
         setTimeout(function () {
             $('#content-noty').hide('fade');
-        },onlineSystem.timeMessage);
+        }, onlineSystem.timeMessage);
 
         /* Activar click en el sistema */
         document.onmousedown = false;
     },
 
-    goOffline: function() {
+    goOffline: function () {
         $('#connectionMessage').addClass('toast-danger');
         $('#connectionMessage').removeClass('toast-success');
         $('#messageStatus').html(onlineSystem.messageStatusOff);
@@ -409,12 +415,12 @@ var onlineSystem = {
 
     run: function () {
         setInterval(function () {
-            if(navigator.onLine) {
+            if (navigator.onLine) {
                 onlineSystem.goOnline();
             } else {
                 onlineSystem.goOffline();
             }
-        },this.checkingTime );
+        }, this.checkingTime);
 
         onlineSystem.close();
     }
@@ -429,7 +435,7 @@ $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip();
     });
 
-    $('body').on('click', 'div[data-toggle^=toggle]', function(e) {
+    $('body').on('click', 'div[data-toggle^=toggle]', function (e) {
         e.preventDefault();
         var $checkbox = $(this).find('input[type=checkbox]');
         $($checkbox).bootstrapToggle('toggle')
@@ -438,69 +444,78 @@ $(document).ready(function () {
 moment.locale('es');
 
 var NotificationService = {
-    next : 0,
-    notificationsTotal : 0,
-    lastCreatedDate : null,
-    lastNotificationId : 0,
-    stopService : false,
-    requestDelay : 2000,
-    different : 1000,
-    newNotificationListener:function () {
+    next: 0,
+    notificationsTotal: 0,
+    lastCreatedDate: null,
+    lastNotificationId: 0,
+    stopService: false,
+    requestDelay: 2000,
+    different: 1000,
+    newNotificationListener: function () {
 
     },
 
-    checkForUpdates :function(){
+    checkForUpdates: function () {
         return $.ajax({
             global: false,
             url: '/notificaciones/check_for_updates',
             statusCode: {
-                401: function() { console.log('stop service'); self.stopService = true; }
+                401: function () {
+                    console.log('stop service');
+                    self.stopService = true;
+                }
             }
         });
     },
 
-    getNotReadedList:function() {
+    getNotReadedList: function () {
         var next = this.next;
         return $.ajax({
             url: '/notificaciones/get_list?next=' + next,
             statusCode: {
-                401: function() { console.log('stop service'); self.stopService = true; }
+                401: function () {
+                    console.log('stop service');
+                    self.stopService = true;
+                }
             }
         });
     },
 
-    getNews : function() {
+    getNews: function () {
         return $.ajax({
             global: false,
             url: '/notificaciones/get_news',
             statusCode: {
-                401: function() { console.log('stop service'); self.stopService = true; }
+                401: function () {
+                    console.log('stop service');
+                    self.stopService = true;
+                }
             }
         });
     },
 
-    markAsReadedUseList : function(notificationList){
+    markAsReadedUseList: function (notificationList) {
         return $.ajax({
-            type:'get',
+            type: 'get',
             url: '/notificaciones/mark_as_readed',
-            data:{
-                l:JSON.stringify(notificationList)
+            data: {
+                l: JSON.stringify(notificationList)
             }
         });
     },
 
-    markAsReadedUseDate : function(date){
+    markAsReadedUseDate: function (date) {
         return $.ajax({
             url: '/notificaciones/mark_as_readed?d=' + date
         });
     },
 
-    nextNotReadedList :function() {
+    nextNotReadedList: function () {
         var self = this;
-        return $.when(this.getNotReadedList()).then(function(notificationList){
-            if(notificationList) {
+        return $.when(this.getNotReadedList()).then(function (notificationList) {
+            if (notificationList) {
                 var keys = Object.keys(notificationList);
-                if(keys.length > 0) {
+                if (keys.length > 0) {
                     var lastItem = notificationList[keys[keys.length - 1]];
                     var lastNotification = lastItem[lastItem.length - 1];
                     self.next = lastNotification.id;
@@ -510,7 +525,7 @@ var NotificationService = {
         });
     },
 
-    listenForChanges : function () {
+    listenForChanges: function () {
 
         $.when(this.checkForUpdates()).then(function (result) {
 
@@ -531,11 +546,11 @@ var NotificationService = {
             var totalnoty = parseInt(result.total);
 
 
-            setTimeout(function(){
+            setTimeout(function () {
                 $.when(NotificationService.checkForUpdates()).then(function (newNotifications) {
                     var newTotal = parseInt(newNotifications.total);
 
-                    if(newTotal > totalnoty){
+                    if (newTotal > totalnoty) {
                         $('#notyTimbre').animateCss('tada');
                         $('#notifications').animateCss('tada');
                     }
@@ -543,7 +558,7 @@ var NotificationService = {
                         $('#notifications').show('slow');
                         $('#notifications').html(totalnoty);
 
-                    }else{
+                    } else {
                         var tmplNotificationEmpty = $("#notification-empty-template").html();
                         $('#notifications').hide('slow');
                         $('#notifications').html(totalnoty)
@@ -561,13 +576,13 @@ var NotificationService = {
 
     },
 
-    send : function(idNoty) {
+    send: function (idNoty) {
         var data = [];
         data.push(idNoty);
         return $.when(this.markAsReadedUseList(data))
     },
 
-    markAsReadedUseDateList: function(date) {
+    markAsReadedUseDateList: function (date) {
         return $.when(this.markAsReadedUseDate(date));
     },
 
