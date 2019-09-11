@@ -18,7 +18,7 @@
 		<meta name = "viewport" content = "width=device-width, initial-scale=1" />
 		<title> <?= $dataAndView->getData('title_page_login') ?> </title>
 
-		<link rel = "shortcut icon" href = "/assets/img/icarus.png" />
+        <link rel = "shortcut icon" href = "/assets/img/logo_uac_ms.ico" />
 
 		<link rel = "stylesheet" type = "text/css" href = "/assets/font-awesome/css/all.min.css" />
         <link rel = "stylesheet" type = "text/css" href="/assets/bootstrap-4/css/bootstrap.min.css" >

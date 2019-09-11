@@ -33,7 +33,7 @@
 		<link rel = "stylesheet" type = "text/css" href = "/assets/bootstrap-4/css/bootstrap.min.css" />
 		<link rel = "stylesheet" type = "text/css" href = "/assets/css/style.css" />
 
-		<link rel = "shortcut icon" href = "/assets/img/icon.png" />
+        <link rel = "shortcut icon" href = "/assets/img/logo_uac_ms.ico" />
 
 		<script type = "text/javascript" src = "/assets/js/jquery-3.1.1.js"></script>
 	</head>
@@ -58,7 +58,7 @@
                     <?php
                 } ?>
             </div>
-            <footer class="footer text-center">© 2018  <img src="/assets/img/icarus.png" style="vertical-align: baseline;"> Grupo Icarus S.A DE C.V </footer>
+            <footer class="footer text-center"><img src="/assets/img/logo_uac_ms.ico" alt="" width="30px">Universidad Autónoma de Campeche © • <?= date("Y") ?></footer>
         </div>
     </div>
 

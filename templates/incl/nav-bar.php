@@ -36,7 +36,7 @@ use util\roles\RolesPolicy;
                 <!-- Profile -->
                 <li class="nav-item">
                     <a class="nav-link dropdown-toggle text-muted  " href="/editar_perfil" title="Editar perfil">
-                        <i class="fal fa-user"></i> <?= $_SESSION[SysConstants::SESS_PARAM_USER_NAME] ?>
+                    <i class="fal fa-user"></i><span class="hidden-sm-down"> <?= $_SESSION[SysConstants::SESS_PARAM_USER_NAME] ?></span>
                     </a>
                 </li>
                 <li class="nav-item">

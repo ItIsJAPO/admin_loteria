@@ -36,7 +36,7 @@
                             <h4> Lamentamos las molestias.</h4>
                         </div>
                     </div>
-                <footer class="footer text-center">© 2018  <img src="/assets/img/icarus.png" style="vertical-align: baseline;"> Grupo icarus S.A DE C.V </footer>
+                <footer class="footer text-center">• Universidad Autónoma de Campeche © • <?= date("Y") ?></footer>
             </div>
         </div>
     </body>

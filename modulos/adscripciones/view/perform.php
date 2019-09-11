@@ -14,23 +14,25 @@
         <div class="col-12 col-md-12 col-lg-12">
             <div class="card">
                 <div class="card-body">
-                    <div id="nueva_adscripcion" class="btn btn-primary col-md-3">
-                        Agregar
+                    <div class="text-right">
+                        <button id="nueva_adscripcion" class="btn btn-primary"><i class="fa fa-plus"></i> Agregar nuevo</button>
                     </div>
-                    <table class="table table-bordered table-condensed" id="adscripciones_tabla">
-                        <thead>
-                        <tr>
-                            <th scope="col">Nombre</th>
-                            <th scope="col">Estado</th>
-                            <th scope="col">Acciones</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <th scope="col">Cargando..</th>
-                        <th scope="col">Cargando..</th>
-                        <th scope="col">Cargando..</th>
-                        </tbody>
-                    </table>
+                    <div class="table-sm-responsive">
+                        <table class="table table-bordered table-condensed" id="adscripciones_tabla">
+                            <thead>
+                            <tr>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Estado</th>
+                                <th scope="col">Acciones</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <th scope="col">Cargando..</th>
+                            <th scope="col">Cargando..</th>
+                            <th scope="col">Cargando..</th>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
