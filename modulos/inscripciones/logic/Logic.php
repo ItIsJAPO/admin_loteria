@@ -20,6 +20,7 @@ class Logic {
 
    public function guardar(&$requestParams) {
       $mensaje = "";
+      Logger::getLogger()->info($_POST);
       $nombre = filter_var($requestParams->fromPost('nombre'), FILTER_SANITIZE_STRING);
       $edad = filter_var($requestParams->fromPostInt('edad'), FILTER_SANITIZE_NUMBER_INT);
       $direccion = filter_var($requestParams->fromPost('direccion'), FILTER_SANITIZE_STRING);
