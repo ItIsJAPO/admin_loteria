@@ -22,14 +22,14 @@ class Logic {
       $mensaje = "";
       Logger::getLogger()->info($_POST);
       $nombre = filter_var($requestParams->fromPost('nombre'), FILTER_SANITIZE_STRING);
-      $edad = filter_var($requestParams->fromPostInt('edad'), FILTER_SANITIZE_NUMBER_INT);
+      $edad = (int)filter_var($requestParams->fromPost('edad'), FILTER_SANITIZE_NUMBER_INT);
       $direccion = filter_var($requestParams->fromPost('direccion'), FILTER_SANITIZE_STRING);
       $telefono = filter_var($requestParams->fromPost('telefono'), FILTER_SANITIZE_STRING);
       $correo = filter_var($requestParams->fromPost('correo'), FILTER_SANITIZE_EMAIL);
-      $esUniversitario = filter_var($requestParams->fromPostInt('esUniversitario'), FILTER_SANITIZE_NUMBER_INT);
-      $tipoUniversitario = filter_var($requestParams->fromPostInt('tipoUniversitario', false, null), FILTER_SANITIZE_NUMBER_INT);
+      $esUniversitario = (int)filter_var($requestParams->fromPost('esUniversitario'), FILTER_SANITIZE_NUMBER_INT);
+      $tipoUniversitario = (int)filter_var($requestParams->fromPost('tipoUniversitario', false, null), FILTER_SANITIZE_NUMBER_INT);
       $universidadOEscuela = TokenHelper::generarTokenDecryptId(filter_var($requestParams->fromPost('universidadOEscuela', false, null), FILTER_SANITIZE_STRING));
-      $numeroDePersonas = filter_var($requestParams->fromPostInt('numeroDePersonas'), FILTER_SANITIZE_NUMBER_INT);
+      $numeroDePersonas = (int)filter_var($requestParams->fromPost('numeroDePersonas'), FILTER_SANITIZE_NUMBER_INT);
       $token = $requestParams->fromPost('token', false, null, false);
       $adscripciones = json_decode($requestParams->fromPost("adscripciones", false, null, false));
 
