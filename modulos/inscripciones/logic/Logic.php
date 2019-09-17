@@ -20,7 +20,6 @@ class Logic {
 
    public function guardar(&$requestParams) {
       $mensaje = "";
-      Logger::getLogger()->info($_POST);
       $nombre = filter_var($requestParams->fromPost('nombre'), FILTER_SANITIZE_STRING);
       $edad = (int)filter_var($requestParams->fromPost('edad'), FILTER_SANITIZE_NUMBER_INT);
       $direccion = filter_var($requestParams->fromPost('direccion'), FILTER_SANITIZE_STRING);
@@ -35,9 +34,7 @@ class Logic {
 
       if (!($esUniversitario === 1 || $esUniversitario === 2)) {
          throw new IntentionalException(0, "Respuesta inválida");
-
       }
-      Logger::getLogger()->info($correo);
 
       if ($this->validarFormulario($token)) {
          $personal = new Personal();
@@ -74,9 +71,7 @@ class Logic {
          (new ParticipanteDAO())->save($participante);
 
          if (!(empty($adscripciones))) {
-            Logger::getLogger()->info($adscripciones);
             foreach ($adscripciones as $adscripcion) {
-               Logger::getLogger()->info($adscripcion);
                $personal = new Personal();
                $personal->setNombre(filter_var($adscripcion->{'nombre'}, FILTER_SANITIZE_STRING));
                $personal->setEdad((int)filter_var($adscripcion->{'edad'}, FILTER_SANITIZE_NUMBER_INT));
