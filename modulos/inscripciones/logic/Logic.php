@@ -36,6 +36,8 @@ class Logic {
          throw new IntentionalException(0, "Respuesta inválida");
 
       }
+      Logger::getLogger()->info($correo);
+
       if ($this->validarFormulario($token)) {
          $personal = new Personal();
          $personal->setNombre($nombre);
@@ -71,7 +73,9 @@ class Logic {
          (new ParticipanteDAO())->save($participante);
 
          if (!(empty($adscripciones))) {
+            Logger::getLogger()->info($adscripciones);
             foreach ($adscripciones as $adscripcion) {
+               Logger::getLogger()->info($adscripcion);
                $personal = new Personal();
                $personal->setNombre(filter_var($adscripcion->{'nombre'}, FILTER_SANITIZE_STRING));
                $personal->setEdad((int)filter_var($adscripcion->{'edad'}, FILTER_SANITIZE_NUMBER_INT));
