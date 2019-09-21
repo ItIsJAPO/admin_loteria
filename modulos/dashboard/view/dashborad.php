@@ -14,19 +14,28 @@
         <div class="col-12 col-md-12 col-lg-12">
             <div class="card">
                 <div class="card-body">
-                    <table class="table table-bordered table-condensed" id="table">
-                        <thead>
-                        <tr>
-                            <th scope="col">Folio</th>
-                            <th scope="col">Nombre</th>
-                            <th scope="col">Asistencia</th>
-                            <th scope="col"># de acompañastes</th>
-                            <th scope="col">Acciones</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        </tbody>
-                    </table>
+                    <div class="table-sm-responsive">
+                        <table class="table table-bordered table-condensed" id="table">
+                            <thead>
+                            <tr>
+                                <th scope="col"  class="all">Folio</th>
+                                <th scope="col" class="all">Nombre</th>
+                                <th scope="col" class="all">Asistencia</th>
+                                <th scope="col"># de acompañastes</th>
+                                <th scope="col" class="all">Acciones</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

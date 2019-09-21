@@ -53,7 +53,7 @@ $adscripciones = $dataAndView->getData('adscripciones');
                             </select>
                         </div>
                         <div class="col-12 col-md-12 col-lg-12 text-right">
-                            <button class="btn btn-primary" id="aplicarFiltro">Aplicar filtro</button>
+                            <button class="btn btn-primary m-t-5" id="aplicarFiltro">Aplicar filtro</button>
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ $adscripciones = $dataAndView->getData('adscripciones');
                                 <tr>
                                     <th class="all">Folio</th>
                                     <th class="all">Nombre</th>
-                                    <th class="all">Teléfono</th>
+                                    <th class="desktop">Teléfono</th>
                                     <th class="none">Edad</th>
                                     <th class="none">Dirección</th>
                                     <th class="none">Correo</th>
@@ -81,6 +81,21 @@ $adscripciones = $dataAndView->getData('adscripciones');
                                     <th class="all">Acciones</th>
                                 </tr>
                             </thead>
+                            <tr>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                                <td>Cargando...</td>
+                            </tr>
                         </table>
                     </div>
                 </div>
