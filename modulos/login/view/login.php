@@ -25,7 +25,7 @@ use plataforma\SysConstants;
                                 </div>
                             <?php } ?>
                                 <div class="form-group">
-                                    <input class = "form-control" type = "email" name = "email" placeholder = "Correo" required>
+                                    <input class = "form-control" type = "email" name = "email" placeholder = "Correo" required onkeyup="saveLocal()">
                                 </div>
                                 <div class="form-group">
                                     <input type="password" class="form-control" name = "password" placeholder = "Contraseña" required>
@@ -38,3 +38,4 @@ use plataforma\SysConstants;
         </div>
     </div>
 </div>
+<script type="application/javascript" src="/assets/js/default_login.js"></script>
