@@ -56,6 +56,7 @@
             }
             unset($_SESSION['success']);
             unset($_SESSION['message']);
+            unset($_SESSION[SysConstants::SESSION_MESSAGE_ERROR]);
              ?>
             $(".select2").each(function( _, elemento ) {
                 if ( $(elemento).find("option").length > 1 ) {

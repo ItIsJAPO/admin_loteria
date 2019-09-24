@@ -29,6 +29,7 @@
         <link rel = "stylesheet" type = "text/css" href="/assets/css/default.css"/>
 
         <script type = "text/javascript" src = "/assets/js/jquery-3.1.1.js"></script>
+        <script type = "text/javascript" src = "/assets/bootstrap-4/js/bootstrap.min.js"></script>
         <script type = "text/javascript" src = "/assets/js/jquery.blockUI.js"></script>
         <script type = "text/javascript" src = "/assets/nprogress/nprogress.js"></script>
         <script type = "text/javascript" src = "/assets/bootstrap-4/js/popper.min.js"></script>

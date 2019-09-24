@@ -91,30 +91,18 @@ class Controller extends ControllerBase {
    }
 
    public function login() {
-      $this->dataAndView->setTemplate('json');
-
       try {
 
-         $logic = new Logic();
-
-         $logic->verifyDataLoginUser($this->getRequestParams());
-
-         $this->dataAndView->addData(DataAndView::JSON_DATA, array(
-             'success' => true,
-             'page' => Config::get('default_modulo')
-         ));
+          (new Logic())->verifyDataLoginUser($this->getRequestParams());
 
       } catch (IntentionalException $ie) {
-         $this->handleJsonException($ie, array(
-             'success' => false,
-             'message' => $ie->getMessage()
-         ));
+          $_SESSION[SysConstants::SESSION_MESSAGE_ERROR]= $ie->getMessage();
       } catch (\Exception $e) {
-         $this->handleJsonException($e, array(
-             'success' => false,
-             'message' => "Error interno del servidor"
-         ), true);
+          $_SESSION[SysConstants::SESSION_MESSAGE_ERROR]= $e->getMessage();
+          Logger()->error($e->getMessage());
+          Logger()->error($e->getTraceAsString());
       }
+      $this->redirect('/');
    }
 
    public function savePassword() {

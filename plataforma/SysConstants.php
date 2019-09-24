@@ -37,4 +37,7 @@ final class SysConstants {
     const DATA_AND_VIEW_PARAM_NOTIFICATION = 'notification';
 
     const SESS_PARAM_USER_THEME = 'user_theme';
+
+    const SESSION_MESSAGE_ERROR = 'session_message_error';
+
 }
