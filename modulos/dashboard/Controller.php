@@ -14,4 +14,9 @@ class Controller extends ControllerBase {
     public function beforeFilter() {
 
     }
+
+    public function nuevoUsuario()
+    {
+        $this->dataAndView->show('guardar_usuarios_nuevos');
+    }
 }

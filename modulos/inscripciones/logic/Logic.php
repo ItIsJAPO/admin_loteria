@@ -19,6 +19,11 @@ use util\token\TokenHelper;
 class Logic {
 
    public function guardar(&$requestParams) {
+       $fecha1 = new DateTime('2019-09-24 00:00:00'); $fecha2 = new DateTime("now");
+       if ($fecha2 > $fecha1) {
+        throw new IntentionalException(0, 'lo sentimos la fecha de registro expiro el día 23 de septiembre');
+       }
+       
       $mensaje = "";
       $nombre = filter_var($requestParams->fromPost('nombre'), FILTER_SANITIZE_STRING);
       $edad = (int)filter_var($requestParams->fromPost('edad'), FILTER_SANITIZE_NUMBER_INT);
